@@ -17,7 +17,7 @@ Recreating the Netmatters homepage in HTML and Sass.
 
 
 ## General Information
-For my first project on the Netmatters Scion Coalition Scheme, I will be building the Netmatters homepage.
+For my first project on the Netmatters Scion Coalition Scheme I will be building the Netmatters homepage.
 
 
 ## Technologies Used
