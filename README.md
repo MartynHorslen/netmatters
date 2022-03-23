@@ -1,5 +1,5 @@
 # Creating the Netmatters homepage.
-Recreating the net matters homepage in HTML and Sass.
+Recreating the Netmatters homepage in HTML and Sass.
 <!-- - Live demo [_here_](http://mch123.x10host.com). -->
 
 ## Table of Contents
