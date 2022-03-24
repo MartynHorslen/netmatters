@@ -3,6 +3,17 @@
 * {
   font-family: 'Poppins', sans-serif;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-size: 16px; }
+
+/* line 10, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+h1 {
+  font-size: 3rem; }
+
+/* line 14, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+button {
+  text-transform: uppercase;
+  padding: 5px 15px;
+  line-height: 35px; }
 
 /*# sourceMappingURL=style.css.map */
