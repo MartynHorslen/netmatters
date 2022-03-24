@@ -17,10 +17,10 @@
 	],
 	"sourcesContent": [
 		"@import \"_variables.scss\",\r\n        \"_general.scss\",\r\n        \"_header.scss\",\r\n        \"_jumbotron.scss\",\r\n        \"_services.scss\",\r\n        \"_culture.scss\",\r\n        \"_about.scss\",\r\n        \"_news.scss\",\r\n        \"_email.scss\",\r\n        \"_footer.scss\",\r\n        \"_breakpoints.scss\";\r\n",
-		"",
-		"@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');\r\n\r\n* {\r\n    font-family: 'Poppins', sans-serif; \r\n    padding: 0;\r\n    margin: 0;\r\n    font-size: 16px;\r\n}\r\n\r\nh1 {\r\n    font-size: 3rem;\r\n}\r\n\r\nbutton {\r\n    text-transform: uppercase;\r\n    padding: 5px 15px;\r\n    line-height: 35px;\r\n}",
-		"",
-		"",
+		"$header-height: 168px;",
+		"@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');\r\n\r\n* {\r\n    font-family: 'Poppins', sans-serif; \r\n    padding: 0;\r\n    margin: 0;\r\n    font-size: 16px;\r\n}\r\n\r\nh1 {\r\n    font-size: 3rem;\r\n}\r\n\r\nbutton {\r\n    text-transform: uppercase;\r\n    padding: 5px 15px;\r\n    line-height: 35px;\r\n}\r\n\r\n.img-fluid {\r\n    width: 100%;\r\n}",
+		"header {\r\n    max-height: $header-height;\r\n    position: relative;\r\n    z-index: 2;\r\n    background-color: #fff;\r\n}",
+		"#carousel img {\r\n    object-fit: cover;\r\n    height: 100vh;\r\n    bottom: 0;\r\n    z-index: 1;\r\n}",
 		"",
 		"",
 		"",
@@ -30,5 +30,5 @@
 		""
 	],
 	"names": [],
-	"mappings": "AEAA,OAAO,CAAC,iFAAI;;AAEZ,AAAA,CAAC,CAAC;EACE,WAAW,EAAE,qBAAqB;EAClC,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,SAAS,EAAE,IAAI,GAClB;;;AAED,AAAA,EAAE,CAAC;EACC,SAAS,EAAE,IAAI,GAClB;;;AAED,AAAA,MAAM,CAAC;EACH,cAAc,EAAE,SAAS;EACzB,OAAO,EAAE,QAAQ;EACjB,WAAW,EAAE,IAAI,GACpB"
+	"mappings": "AEAA,OAAO,CAAC,iFAAI;;AAEZ,AAAA,CAAC,CAAC;EACE,WAAW,EAAE,qBAAqB;EAClC,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,SAAS,EAAE,IAAI,GAClB;;;AAED,AAAA,EAAE,CAAC;EACC,SAAS,EAAE,IAAI,GAClB;;;AAED,AAAA,MAAM,CAAC;EACH,cAAc,EAAE,SAAS;EACzB,OAAO,EAAE,QAAQ;EACjB,WAAW,EAAE,IAAI,GACpB;;;AAED,AAAA,UAAU,CAAC;EACP,KAAK,EAAE,IAAI,GACd;;;ACrBD,AAAA,MAAM,CAAC;EACH,UAAU,EFDE,KAAK;EEEjB,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,CAAC;EACV,gBAAgB,EAAE,IAAI,GACzB;;;ACLD,AAAA,SAAS,CAAC,GAAG,CAAC;EACV,UAAU,EAAE,KAAK;EACjB,MAAM,EAAE,KAAK;EACb,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC,GACb"
 }
