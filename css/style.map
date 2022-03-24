@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../scss/style.scss"
+	],
+	"sourcesContent": [
+		".container {\r\n    padding: 0 15px;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,UAAU,CAAC;EACP,OAAO,EAAE,MAAM,GAClB"
+}
