@@ -2,11 +2,33 @@
 	"version": 3,
 	"file": "style.css",
 	"sources": [
-		"../scss/style.scss"
+		"../scss/style.scss",
+		"../scss/_variables.scss",
+		"../scss/_general.scss",
+		"../scss/_header.scss",
+		"../scss/_jumbotron.scss",
+		"../scss/_services.scss",
+		"../scss/_culture.scss",
+		"../scss/_about.scss",
+		"../scss/_news.scss",
+		"../scss/_email.scss",
+		"../scss/_footer.scss",
+		"../scss/_breakpoints.scss"
 	],
 	"sourcesContent": [
-		".container {\r\n    padding: 0 15px;\r\n}"
+		"@import \"_variables.scss\",\r\n        \"_general.scss\",\r\n        \"_header.scss\",\r\n        \"_jumbotron.scss\",\r\n        \"_services.scss\",\r\n        \"_culture.scss\",\r\n        \"_about.scss\",\r\n        \"_news.scss\",\r\n        \"_email.scss\",\r\n        \"_footer.scss\",\r\n        \"_breakpoints.scss\";\r\n",
+		"",
+		"@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');\r\n\r\n* {\r\n    font-family: 'Poppins', sans-serif; \r\n    padding: 0;\r\n    margin: 0;\r\n}",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		"",
+		""
 	],
 	"names": [],
-	"mappings": ";AAAA,AAAA,UAAU,CAAC;EACP,OAAO,EAAE,MAAM,GAClB"
+	"mappings": "AEAA,OAAO,CAAC,iFAAI;;AAEZ,AAAA,CAAC,CAAC;EACE,WAAW,EAAE,qBAAqB;EAClC,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC,GACZ"
 }

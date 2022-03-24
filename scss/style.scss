@@ -1,3 +1,11 @@
-.container {
-    padding: 0 15px;
-}
+@import "_variables.scss",
+        "_general.scss",
+        "_header.scss",
+        "_jumbotron.scss",
+        "_services.scss",
+        "_culture.scss",
+        "_about.scss",
+        "_news.scss",
+        "_email.scss",
+        "_footer.scss",
+        "_breakpoints.scss";
