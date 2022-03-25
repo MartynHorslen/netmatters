@@ -17,7 +17,11 @@
         <link rel="stylesheet" href="css/style.css">
 
         <!-- Icons -->
-        <script src="https://code.iconify.design/2/2.2.0/iconify.min.js"></script>
+            <!-- Font Awesome Icons -->
+            <script src="https://kit.fontawesome.com/f0067c17da.js" crossorigin="anonymous"></script>
+
+            <!-- iconify -->
+            <script src="https://code.iconify.design/2/2.2.0/iconify.min.js"></script>
 
     </head>
     <body>
@@ -28,9 +32,27 @@
         <!-- Header & jumbotron wrapper-->
         <div class="wrapper">
             <div class="flex-container">
-                <header class="flex-item">One</header>
+                <header class="flex-item">
+                    <div class="flex-row">
+                        <div class="flex-item"><img src="img/logo.png"></div>
+                        <div class="flex-item phone"><span class="iconify" data-icon="carbon:phone-voice-filled" style="color: #333645;" data-width="32" data-height="32"></span></div>
+                        <div class="flex-item menu"><button class="btn"></button></div>
+                    </div>
+                    <div class="flex-row">
+                        <form class="flex-item">
+                            <input type="search" id="search" name="search" placeholder="Search...">
+                        </form>
+                    </div>
+                </header>
                 <div id="jumbo" class="flex-item">
                     <img src="img/jumbotron.jpg" >
+                    <div class="overlay">
+                        <div class="jumbo-content">
+                            <h1>Bespoke Software</h1>
+                            <p>Bring your business together<br> with solutions that grow with you.</p>
+                            <div class="button">Find out more<i class="fa-solid fa-arrow-right"></i></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -37,15 +37,93 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    img {
+        width: 100%;
+    }
+    .phone {
+        max-width: 47px;
+        max-height: 70px;
+        align-items: self-end;
+    }
+    .menu {
+        max-width: 83px;
+        max-height: 70px;
+        align-items: self-end;
+        .btn {
+            width: 63px;
+            height: 56px;
+            background-color: #333645;
+            border-color: #333645;
+            border-radius: 3px;
+        }
+    }
 }
 
-header {
-    
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    padding: 5px 15px;
 }
 
-#jumbo {
+#search {
+    background-color: rgba(0,0,0,.1);
+    border: 2px solid rgba(0,0,0,.1);
+    height: 47px;
+    border-radius: 2px;
+    padding: 5px 15px;
+    font-size: 1rem;
+    input {
+        width: 100%;
+        color: #666;
+    }
+}
+
+#jumbo { 
+    position: relative;
     img {
         object-fit: cover;
         height: 100%;
+    }
+    .overlay {
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: 
+        linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0.2) 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .jumbo-content {
+            color: white;
+            padding: 10px;
+            h1 {
+                font-weight: 400;
+                text-transform: uppercase;
+                line-height: 1.1;
+                margin-bottom: 25px;
+            }
+            p {
+                font-size: 1.25rem;
+                line-height: 2.25rem;
+                margin-bottom: 35px;
+                letter-spacing: .4px;
+            }
+            .button {
+                background-color: #67809f;
+                border-radius: 3px;
+                color: white;
+                display: inline-block;
+                line-height: 50px;
+                text-transform:uppercase;
+                height: auto;
+                padding: 5px 20px;
+                font-size: 1.25rem;
+                .fa-solid {
+                    margin-left: 12px;
+                    font-size: 1.25rem;
+                }
+            }
+        }
     }
 }
