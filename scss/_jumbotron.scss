@@ -1,0 +1,66 @@
+#jumbo { 
+    position: relative;
+    img {
+        object-fit: cover;
+        height: 100%;
+    }
+    .overlay {
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: 
+        linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0.2) 100%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .jumbo-content {
+            color: white;
+            padding: 15px;
+            margin: auto;
+            h1 {
+                font-weight: 400;
+                text-transform: uppercase;
+                line-height: 3.3rem;
+                margin-bottom: 25px;
+            }
+            p {
+                font-size: 1.20rem;
+                line-height: 2.24rem;
+                margin-bottom: 35px;
+                letter-spacing: 0.4px;
+            }
+            .button {
+                background-color: #67809f;
+                border-radius: 3px;
+                color: white;
+                display: inline-block;
+                line-height: 50px;
+                text-transform:uppercase;
+                height: auto;
+                padding: 6px 20px;
+                font-size: 1.25rem;
+                .fa-solid {
+                    margin-left: 12px;
+                    font-size: 1.25rem;
+                }
+            }
+        }
+        .dots {
+            position: absolute;
+            bottom: 44px;
+            li {
+                width: 11px;
+                height: 11px;
+                background-color: #869791;
+                border-radius: 30px;
+                margin: 0 10px;
+            }
+            li.active {
+                outline: 2px solid white;
+                outline-offset: 5px;
+                background-color: white;
+            }
+        }
+    }
+}

@@ -32,28 +32,41 @@
         <!-- Header & jumbotron wrapper-->
         <div class="wrapper">
             <div class="flex-container">
-                <header class="flex-item">
-                    <div class="flex-row">
+                <header class="flex-container">
+                    <div class="flex-row top-row">
                         <div class="flex-item"><img src="img/logo.png"></div>
                         <div class="flex-item phone"><span class="iconify" data-icon="carbon:phone-voice-filled" style="color: #333645;" data-width="32" data-height="32"></span></div>
                         <div class="flex-item menu"><button class="btn"></button></div>
                     </div>
-                    <div class="flex-row">
-                        <form class="flex-item">
-                            <input type="search" id="search" name="search" placeholder="Search...">
+                    <div>
+                        <form class="flex-row">
+                            <input type="search" id="search" class="flex-item" name="search" placeholder="Search...">
+                            <button class="flex-item search-btn"><i class="fa fa-solid fa-magnifying-glass"></i></button>
                         </form>
                     </div>
                 </header>
                 <div id="jumbo" class="flex-item">
                     <img src="img/jumbotron.jpg" >
-                    <div class="overlay">
+                    <div class="overlay flex-container">
                         <div class="jumbo-content">
                             <h1>Bespoke Software</h1>
                             <p>Bring your business together<br> with solutions that grow with you.</p>
                             <div class="button">Find out more<i class="fa-solid fa-arrow-right"></i></div>
                         </div>
+                        <ul class="dots flex-row">
+                            <li class="active flex-item"></li>
+                            <li class="flex-item"></li>
+                            <li class="flex-item"></li>
+                            <li class="flex-item"></li>
+                            <li class="flex-item"></li>
+                            <li class="flex-item"></li>
+                        </ul>
+                        
                     </div>
                 </div>
+            </div>
+            <div class="flex-container">
+                test
             </div>
         </div>
         <!-- Scripts -->
