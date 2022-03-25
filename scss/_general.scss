@@ -17,6 +17,35 @@ button {
     line-height: 35px;
 }
 
-.img-fluid {
+.hidden {
+    display: none;
+}
+
+.wrapper {
     width: 100%;
+    background-color: red;
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100vh;
+}
+
+.flex-item {
+    flex: 1;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    
+}
+
+#jumbo {
+    img {
+        object-fit: cover;
+        height: 100%;
+    }
 }

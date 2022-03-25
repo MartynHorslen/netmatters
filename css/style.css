@@ -17,21 +17,36 @@ button {
   line-height: 35px; }
 
 /* line 20, ../../../Desktop/Projects/netmatters/scss/_general.scss */
-.img-fluid {
-  width: 100%; }
+.hidden {
+  display: none; }
+
+/* line 24, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+.wrapper {
+  width: 100%;
+  background-color: red; }
+
+/* line 28, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 100vh; }
+
+/* line 35, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+.flex-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+/* line 47, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+#jumbo img {
+  object-fit: cover;
+  height: 100%; }
 
 /* line 1, ../../../Desktop/Projects/netmatters/scss/_header.scss */
 header {
   max-height: 168px;
-  position: relative;
-  z-index: 2;
   background-color: #fff; }
-
-/* line 1, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
-#carousel img {
-  object-fit: cover;
-  height: 100vh;
-  bottom: 0;
-  z-index: 1; }
 
 /*# sourceMappingURL=style.css.map */
