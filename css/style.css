@@ -224,6 +224,7 @@ header {
       #jumbo .overlay .dots li.active {
         outline: 2px solid white;
         outline-offset: 5px;
-        background-color: white; }
+        background-color: white;
+        opacity: 1; }
 
 /*# sourceMappingURL=style.css.map */
