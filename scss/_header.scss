@@ -4,18 +4,29 @@ header {
 }
 
 .top-row {
+    .flex-item {
+        flex: 0;
+        &:first-child {
+            flex: 1;
+        }
+    }
     img {
         max-width: 402px;
+        width: 100%;
     }
     .phone {
         max-width: auto;
         max-height: auto;
         align-items: self-end;
+        margin-left: 15px;
     }
     .menu {
         max-width: 83px;
         max-height: 70px;
-        align-items: self-end;
+        align-items: self-end;        
+        margin-left: 20px;
+        padding: 7px 0;
+
         .btn {
             width: 63px;
             height: 56px;
@@ -34,6 +45,10 @@ header {
     height: 47px;
     border-radius: 3px 0 0 3px;
     font-size: 0.875rem;
+    form {
+       margin-top: 11px; 
+    }
+    
     input {
         width: 100%;
         color: #666;
@@ -48,7 +63,7 @@ header {
     height: 47px;
     .fa-regular {
         font-size: 1.29rem;
-        line-height: 1.85rem;
+        line-height: 2rem;
         color: #333645;
         font-weight:600;
     }
