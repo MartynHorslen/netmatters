@@ -96,9 +96,27 @@ header {
     height: 56px;
     background-color: #333645;
     border-color: #333645;
-    border-radius: 3px; }
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; }
+    /* line 42, ../../../Desktop/Projects/netmatters/scss/_header.scss */
+    .top-row .menu .btn .menu-line {
+      height: 3px;
+      width: 33px;
+      background-color: white; }
+    /* line 48, ../../../Desktop/Projects/netmatters/scss/_header.scss */
+    .top-row .menu .btn .menu-text {
+      color: white;
+      font-size: 0.75rem;
+      line-height: 1;
+      top: 3px;
+      position: relative; }
 
-/* line 40, ../../../Desktop/Projects/netmatters/scss/_header.scss */
+/* line 59, ../../../Desktop/Projects/netmatters/scss/_header.scss */
 #search {
   background-color: rgba(0, 0, 0, 0.1);
   border: 2px solid rgba(0, 0, 0, 0.1);
@@ -107,15 +125,15 @@ header {
   height: 47px;
   border-radius: 3px 0 0 3px;
   font-size: 0.875rem; }
-  /* line 48, ../../../Desktop/Projects/netmatters/scss/_header.scss */
+  /* line 67, ../../../Desktop/Projects/netmatters/scss/_header.scss */
   #search form {
     margin-top: 11px; }
-  /* line 52, ../../../Desktop/Projects/netmatters/scss/_header.scss */
+  /* line 71, ../../../Desktop/Projects/netmatters/scss/_header.scss */
   #search input {
     width: 100%;
     color: #666; }
 
-/* line 57, ../../../Desktop/Projects/netmatters/scss/_header.scss */
+/* line 76, ../../../Desktop/Projects/netmatters/scss/_header.scss */
 .search-btn {
   max-width: 46px;
   background-color: rgba(0, 0, 0, 0.1);
@@ -123,7 +141,7 @@ header {
   border-left: none;
   box-shadow: inset 0 0.875px rgba(0, 0, 0, 0.1);
   height: 47px; }
-  /* line 64, ../../../Desktop/Projects/netmatters/scss/_header.scss */
+  /* line 83, ../../../Desktop/Projects/netmatters/scss/_header.scss */
   .search-btn .fa-regular {
     font-size: 1.29rem;
     line-height: 2rem;
