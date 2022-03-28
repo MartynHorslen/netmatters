@@ -22,36 +22,49 @@
                 text-transform: uppercase;
                 line-height: 3.3rem;
                 margin-bottom: 25px;
+                letter-spacing: 0.4px;
             }
             p {
-                font-size: 1.20rem;
-                line-height: 2.24rem;
+                font-size: 1.25rem;
+                line-height: 2.25rem;
                 margin-bottom: 35px;
                 letter-spacing: 0.4px;
             }
             .button {
                 background-color: #67809f;
                 border-radius: 3px;
+                border: 1px solid transparent;
                 color: white;
                 display: inline-block;
                 line-height: 50px;
                 text-transform:uppercase;
                 height: auto;
-                padding: 6px 20px;
+                padding: 5px 20px;
+                font-size: 1.26rem;
+                font-weight: 400;
+                letter-spacing: 0.4px;
+                text-align: center;
+                vertical-align: middle;
+                height:auto;
                 font-size: 1.25rem;
-                .fa-solid {
+                text-size-adjust: 100%;
+                .fa-regular {
                     margin-left: 12px;
+                    margin-right: -4px;
                     font-size: 1.25rem;
+                    font-weight: 600;
+                    line-height: 50px;
                 }
             }
         }
         .dots {
             position: absolute;
-            bottom: 44px;
+            bottom: 51px;
             li {
                 width: 11px;
                 height: 11px;
-                background-color: #869791;
+                background-color: #ffffff;
+                opacity: 0.5;
                 border-radius: 30px;
                 margin: 0 10px;
             }
