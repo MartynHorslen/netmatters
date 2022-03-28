@@ -8,6 +8,7 @@
     padding: 0;
     margin: 0;
     font-size: 16px;
+    box-sizing: border-box;
 }
 
 
@@ -21,7 +22,7 @@ h1 {
 
 button {
     text-transform: uppercase;
-    padding: $base-padding;
+    padding: 5px 15px;
     line-height: 35px;
 }
 
@@ -37,7 +38,13 @@ button {
     border: 2px solid red;
 }
 
+.pad {
+    padding: 20px 15px;
+}
 
+.vh {
+    height: 100vh;
+}
 // ===========================================
 // ============== Site Structure =============
 // ===========================================
@@ -45,12 +52,15 @@ button {
 .wrapper {
     width: 100%;
 }
-.flex-container {
+.flex-col {
     display: flex;
     flex-direction: column;
-    background-color: map-get($colors, "primary");
-    height: 100vh;
-    justify-content: center;
+    justify-content: space-between;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .flex-item {
@@ -59,12 +69,7 @@ button {
     flex-direction: column;
 }
 
-.flex-row {
-    display: flex;
-    flex-direction: row;
-    padding: $base-padding;
-    align-items: center;
-}
+
 
 
 

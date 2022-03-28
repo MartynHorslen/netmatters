@@ -30,24 +30,22 @@
         <![endif]-->
         
         <!-- Header & jumbotron wrapper-->
-        <div class="wrapper">
-            <div class="flex-container">
-                <header class="flex-container">
-                    <div class="flex-row top-row">
+        <div class="wrapper"><!-- 100% width -->
+            <div class="flex-col vh"> <!-- Column for header and carousel, 100 vh -->
+                <header class="flex-col pad"> <!-- column for logo row and search bar row -->
+                    <div class="flex-row top-row"><!-- row for logo, phone & menu --> 
                         <div class="flex-item"><img src="img/logo.png"></div>
                         <div class="flex-item phone"><span class="iconify" data-icon="carbon:phone-voice-filled" style="color: #333645;" data-width="32" data-height="32"></span></div>
                         <div class="flex-item menu"><button class="btn"></button></div>
                     </div>
-                    <div>
-                        <form class="flex-row">
-                            <input type="search" id="search" class="flex-item" name="search" placeholder="Search...">
-                            <button class="flex-item search-btn"><i class="fa fa-solid fa-magnifying-glass"></i></button>
-                        </form>
-                    </div>
+                    <form class="flex-row"> <!-- Row for search bar -->
+                        <input type="search" id="search" class="flex-item pad" name="search" placeholder="Search...">
+                        <button class="flex-item search-btn"><i class="fa fa-regular fa-magnifying-glass"></i></button>
+                    </form>
                 </header>
                 <div id="jumbo" class="flex-item">
                     <img src="img/jumbotron.jpg" >
-                    <div class="overlay flex-container">
+                    <div class="overlay flex-col">
                         <div class="jumbo-content">
                             <h1>Bespoke Software</h1>
                             <p>Bring your business together<br> with solutions that grow with you.</p>
@@ -65,7 +63,7 @@
                     </div>
                 </div>
             </div>
-            <div class="flex-container">
+            <div class="flex-col">
                 test
             </div>
         </div>
