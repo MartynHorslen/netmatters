@@ -16,7 +16,7 @@
 // ======== Commmon Elements & Classes =======
 // ===========================================
 
-h1 {
+h2 {
     font-size: 3rem;
 }
 
@@ -38,8 +38,13 @@ button {
     border: 2px solid red;
 }
 
-.pad {
+.col-pad, .search-pad {
     padding: 20px 15px;
+}
+
+.section-pad {
+    padding: 50px 15px;
+    margin: 0 auto;
 }
 
 .vh {

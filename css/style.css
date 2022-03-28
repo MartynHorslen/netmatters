@@ -8,7 +8,7 @@
   box-sizing: border-box; }
 
 /* line 19, ../../../Desktop/Projects/netmatters/scss/_general.scss */
-h1 {
+h2 {
   font-size: 3rem; }
 
 /* line 23, ../../../Desktop/Projects/netmatters/scss/_general.scss */
@@ -30,30 +30,35 @@ button {
   border: 2px solid red; }
 
 /* line 41, ../../../Desktop/Projects/netmatters/scss/_general.scss */
-.pad {
+.col-pad, .search-pad {
   padding: 20px 15px; }
 
 /* line 45, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+.section-pad {
+  padding: 50px 15px;
+  margin: 0 auto; }
+
+/* line 50, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .vh {
   height: 100vh; }
 
-/* line 52, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 57, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .wrapper {
   width: 100%; }
 
-/* line 55, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 60, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .flex-col {
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
 
-/* line 60, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 65, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .flex-row {
   display: flex;
   flex-direction: row;
   align-items: center; }
 
-/* line 66, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 71, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .flex-item {
   flex: 1;
   display: flex;
@@ -170,7 +175,7 @@ header {
       padding: 0 15px;
       margin: auto; }
       /* line 20, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
-      #jumbo .overlay .jumbo-content h1 {
+      #jumbo .overlay .jumbo-content h2 {
         font-weight: 400;
         text-transform: uppercase;
         line-height: 3.3rem;
