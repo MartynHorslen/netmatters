@@ -4,18 +4,60 @@
     align-items: center;
     border: 1px solid lightgrey;
     border-radius: 3px;
+    margin-top: 30px;
+    &:first-child {
+        margin-top: 0;
+    }
+    a.card-link {
+        text-decoration: none;
+        color: #333645;
+        font-weight: 400;
+        text-align: center;
+        padding: 30px;
+        letter-spacing: .4px;
+        .service-icon {
+            color: white;
+            font-weight: 400;
+            background-color: #67809f;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 17px;
+            svg {
+                width: 24px;
+                height: 24px;
+            }
+        }
+        h3 {
+            font-size: 1.125rem;            
+            padding-bottom: 10px;
+            font-weight: 400;
+            color: #333645;
+        }
+        hr {
+            width: 28px;
+            height: 3px;
+            margin: 0 auto 11px;
+            background-color: #333645;
+        }
+        p {
+            font-size: .8125rem;
+            line-height: 1.375rem;
+            margin-bottom: 13px;
+            font-weight: 400;
+        }
+        button {
+            background-color: #67809f;
+            color: white;
+            border: 1px solid #67809f;
+            border-radius: 3px;
+            font-weight: 500;
+            font-size: 1rem;
+            letter-spacing: .4px;
+        }
+    }
 }
 
-.service-icon {
-    color: white;
-    font-weight: 400;
-    font-size: 1rem;
-    background-color: #67809f;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5rem;
-}

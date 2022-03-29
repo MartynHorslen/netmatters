@@ -238,20 +238,61 @@ header {
   flex-direction: column;
   align-items: center;
   border: 1px solid lightgrey;
-  border-radius: 3px; }
-
-/* line 9, ../../../Desktop/Projects/netmatters/scss/_services.scss */
-.service-icon {
-  color: white;
-  font-weight: 400;
-  font-size: 1rem;
-  background-color: #67809f;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.5rem; }
+  border-radius: 3px;
+  margin-top: 30px; }
+  /* line 8, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  .card:first-child {
+    margin-top: 0; }
+  /* line 11, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  .card a.card-link {
+    text-decoration: none;
+    color: #333645;
+    font-weight: 400;
+    text-align: center;
+    padding: 30px;
+    letter-spacing: .4px; }
+    /* line 18, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    .card a.card-link .service-icon {
+      color: white;
+      font-weight: 400;
+      background-color: #67809f;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto 17px; }
+      /* line 29, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+      .card a.card-link .service-icon svg {
+        width: 24px;
+        height: 24px; }
+    /* line 34, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    .card a.card-link h3 {
+      font-size: 1.125rem;
+      padding-bottom: 10px;
+      font-weight: 400;
+      color: #333645; }
+    /* line 40, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    .card a.card-link hr {
+      width: 28px;
+      height: 3px;
+      margin: 0 auto 11px;
+      background-color: #333645; }
+    /* line 46, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    .card a.card-link p {
+      font-size: .8125rem;
+      line-height: 1.375rem;
+      margin-bottom: 13px;
+      font-weight: 400; }
+    /* line 52, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    .card a.card-link button {
+      background-color: #67809f;
+      color: white;
+      border: 1px solid #67809f;
+      border-radius: 3px;
+      font-weight: 500;
+      font-size: 1rem;
+      letter-spacing: .4px; }
 
 /*# sourceMappingURL=style.css.map */
