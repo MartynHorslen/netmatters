@@ -942,4 +942,9 @@ header {
 #news .card:nth-of-type(3) h4 {
   color: #926fb1; }
 
+/* line 1, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+#email {
+  padding-left: 40px;
+  padding-right: 40px; }
+
 /*# sourceMappingURL=style.css.map */
