@@ -1,34 +1,37 @@
-.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid lightgrey;
-    border-radius: 3px;
-    margin-top: 30px;
-    &:first-child {
-        margin-top: 0;
-    }
-    a.card-link {
-        text-decoration: none;
-        color: #333645;
-        font-weight: 400;
-        text-align: center;
-        padding: 30px;
-        letter-spacing: .4px;
-        .service-icon {
-            color: white;
+// ===========================================
+// == Service card element and hover colors ==
+// ===========================================
+@each $service, $name in $services{
+    $i: index($services, $service $name);
+    .card-#{$i}{ 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid lightgrey;
+        border-radius: 3px;
+        margin-top: 30px;
+        a.card-link {
+            text-decoration: none;
+            color: #333645;
             font-weight: 400;
-            background-color: #67809f;
-            border-radius: 50%;
-            width: 60px;
-            height: 60px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 0 auto 17px;
-            svg {
-                width: 24px;
-                height: 24px;
+            text-align: center;
+            padding: 30px;
+            letter-spacing: .4px;
+            .service-icon {
+                background-color:$name; 
+                color: white;
+                font-weight: 400;
+                border-radius: 50%;
+                width: 60px;
+                height: 60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto 17px;
+                svg {
+                    width: 24px;
+                    height: 24px;
+                }
             }
         }
         h3 {
@@ -50,14 +53,31 @@
             font-weight: 400;
         }
         button {
-            background-color: #67809f;
+            background-color: $name;
             color: white;
-            border: 1px solid #67809f;
+            border: 1px solid $name;
             border-radius: 3px;
             font-weight: 500;
             font-size: 1rem;
             letter-spacing: .4px;
         }
     }
+    .card-#{$i}:hover {
+        background-color: $name;
+        h3, p {
+            color: white;
+        }
+        hr {
+            border-color: white;
+            background-color: white;
+        }
+        button, a.card-link .service-icon {
+            background-color: white;
+            color: $name;
+        }
+    }
 }
 
+.card-1 {
+    margin-top: 0;
+}
