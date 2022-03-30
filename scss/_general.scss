@@ -9,50 +9,88 @@
     margin: 0;
     font-size: 16px;
     box-sizing: border-box;
+    letter-spacing: .4px;
+    line-height: 1.1;
 }
 
+//***** Debugging Class *****//
+.debug {
+    border: 2px solid red;
+}
 
 // ===========================================
-// ======== Commmon Elements & Classes =======
+// ============= Commmon Elements ============
 // ===========================================
 
+//***** Headers *****//
+h1, h2, h3, h4 {
+    font-weight: 400;
+}
+h2, h3, h4 {
+    margin: 0 0 15px;
+}
+h1, h2, h4 {
+    text-transform: uppercase;
+}
+h3 {
+    text-transform: capitalize;
+}
+h1 {
+    font-size: 2.25rem;
+}
 h2 {
-    font-size: 3rem;
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.25rem;
+}
+h4 {
+    font-size: 1rem;
 }
 
-button {
+//***** Text *****//
+p {
+    margin: 0 0 25px;
+}
+
+//***** Lists *****//
+ul {
+    list-style: none;
+    margin-bottom: 10px;
+    li {
+        display: list-item;
+    }
+}
+
+//***** Links *****//
+a {
+    text-decoration: none;
+}
+
+//***** Buttons *****//
+.btn {
     text-transform: uppercase;
     padding: 5px 15px;
     line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-size: 1.063rem;
+}
+
+//***** Images *****//
+
+
+// ===========================================
+// ============== Site Structure =============
+// ===========================================
+.vh {
+    height: 100vh;
 }
 
 .hidden {
     display: none;
 }
-
-.br {
-    border-radius: 3px;
-}
-
-.debug {
-    border: 2px solid red;
-}
-
-.col-pad, .search-pad {
-    padding: 20px 15px;
-}
-
-.section-pad {
-    padding: 50px 15px;
-    margin: 0 auto;
-}
-
-.vh {
-    height: 100vh;
-}
-// ===========================================
-// ============== Site Structure =============
-// ===========================================
 
 .wrapper {
     width: 100%;
@@ -72,6 +110,15 @@ button {
     flex: 1;  
     display: flex;
     flex-direction: column;
+}
+
+.col-pad, .search-pad {
+    padding: 20px 15px;
+}
+
+.section-pad {
+    padding: 50px 15px;
+    margin: 0 auto;
 }
 
 
