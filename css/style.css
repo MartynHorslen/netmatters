@@ -845,13 +845,14 @@ header {
   #news .card .card-image {
     position: relative;
     border-bottom: 1px;
-    height: 100%; }
-    /* line 43, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+    height: 100%;
+    width: 100%; }
+    /* line 44, ../../../Desktop/Projects/netmatters/scss/_news.scss */
     #news .card .card-image img {
       width: 100%;
       border-radius: 3px 3px 0 0;
       display: block; }
-    /* line 48, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+    /* line 49, ../../../Desktop/Projects/netmatters/scss/_news.scss */
     #news .card .card-image .tag {
       background-color: #4183d7;
       position: absolute;
@@ -864,42 +865,44 @@ header {
       padding: 0 10px;
       line-height: 1.438rem;
       font-weight: 900; }
-  /* line 62, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+  /* line 63, ../../../Desktop/Projects/netmatters/scss/_news.scss */
   #news .card .card-body {
     padding: 20px 30px;
     border: 1px solid lightgrey;
     border-top: 0;
     border-bottom: 0;
     border-radius: 0 0 3px 3px; }
-    /* line 68, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+    /* line 69, ../../../Desktop/Projects/netmatters/scss/_news.scss */
     #news .card .card-body hr {
       border-top: 1px solid #ccc; }
-  /* line 72, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+  /* line 73, ../../../Desktop/Projects/netmatters/scss/_news.scss */
   #news .card .card-footer {
     border: 1px solid lightgrey;
     border-top: 0;
     border-radius: 3px;
-    padding: 10px 30px 25px; }
-    /* line 77, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+    padding: 10px 30px 30px;
+    width: 100%; }
+    /* line 79, ../../../Desktop/Projects/netmatters/scss/_news.scss */
     #news .card .card-footer img {
       border-radius: 50%;
       float: left; }
-    /* line 81, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+    /* line 83, ../../../Desktop/Projects/netmatters/scss/_news.scss */
     #news .card .card-footer span {
       padding-left: 20px;
-      font-size: .875rem; }
-      /* line 84, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+      font-size: .875rem;
+      display: block; }
+      /* line 87, ../../../Desktop/Projects/netmatters/scss/_news.scss */
       #news .card .card-footer span:first-of-type {
         font-weight: 600;
         color: #333645; }
-  /* line 91, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+  /* line 94, ../../../Desktop/Projects/netmatters/scss/_news.scss */
   #news .card h4 {
     font-size: 1rem;
     line-height: 1.5rem;
     padding: 10px 0;
     font-weight: 600;
     color: #4183d7; }
-  /* line 98, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+  /* line 101, ../../../Desktop/Projects/netmatters/scss/_news.scss */
   #news .card p {
     font-size: .8125rem;
     line-height: 1.375rem;
@@ -907,7 +910,7 @@ header {
     margin-top: 5px;
     margin-bottom: 25px;
     color: #666; }
-  /* line 106, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+  /* line 109, ../../../Desktop/Projects/netmatters/scss/_news.scss */
   #news .card .button {
     background-color: #4183d7;
     color: white;
@@ -924,21 +927,21 @@ header {
     display: inline-block;
     margin-bottom: 30px; }
 
-/* line 125, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+/* line 128, ../../../Desktop/Projects/netmatters/scss/_news.scss */
 #news .card:nth-of-type(2) .card-image .tag, #news .card:nth-of-type(2) .button {
   background-color: #d64541;
   border: #d64541; }
 
-/* line 129, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+/* line 132, ../../../Desktop/Projects/netmatters/scss/_news.scss */
 #news .card:nth-of-type(2) h4 {
   color: #d64541; }
 
-/* line 134, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+/* line 137, ../../../Desktop/Projects/netmatters/scss/_news.scss */
 #news .card:nth-of-type(3) .card-image .tag, #news .card:nth-of-type(3) .button {
   background-color: #926fb1;
   border: #926fb1; }
 
-/* line 138, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+/* line 141, ../../../Desktop/Projects/netmatters/scss/_news.scss */
 #news .card:nth-of-type(3) h4 {
   color: #926fb1; }
 

@@ -40,6 +40,7 @@
         position: relative;
         border-bottom: 1px;
         height: 100%;
+        width: 100%;
         img {
             width: 100%;
             border-radius: 3px 3px 0 0;
@@ -73,14 +74,16 @@
         border: 1px solid lightgrey;
         border-top: 0;
         border-radius: 3px;
-        padding: 10px 30px 25px;
+        padding: 10px 30px 30px;
+        width: 100%;
         img {
             border-radius: 50%;
             float: left;
         }
         span { 
             padding-left: 20px;
-            font-size: .875rem;       
+            font-size: .875rem;  
+            display: block; 
             &:first-of-type {
                 font-weight: 600;
                 color: #333645;
