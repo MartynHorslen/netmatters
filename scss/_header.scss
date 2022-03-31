@@ -230,6 +230,7 @@ header {
             margin: 0 auto;
             align-items: flex-start;
             height: auto;
+            position: relative;
             > .flex-item {
                 padding: 19px 0 18px;
                 border-right: 1px solid hsla(0,0%,100%,.1);
@@ -241,9 +242,74 @@ header {
                     min-height: 23px;
                     margin-bottom: 10px;
                 }
+                
                 small {
                     display: block;
                     font-size: .625rem;
+                }
+                .mini-bar {
+                    display: none;
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    color: white;
+                    z-index: 1;
+                    &::before {
+                        content: "";
+                        right: 0;
+                        width: 2000px;
+                        display: block;
+                        position: absolute;
+                        height: 40px;
+                        top: 0;
+                        bottom: 0;
+                        z-index: -1;
+                    }
+                    &::after {
+                        content: "";
+                        left: 0;
+                        width: 2000px;
+                        height: 40px;
+                        display: block;
+                        position: absolute;
+                        top: 0;
+                        bottom: 0;
+                        z-index: -1;
+                    }
+                    
+                    ul {
+                        margin-left: 20px;
+                        li {
+                            display: inline-block;
+                            font-size: .8125rem;
+                            line-height: 2.5rem;
+                        }
+                        li + li::before {
+                            content: "-";
+                            padding-right: 20px;
+                            padding-left: 20px;
+                        }
+                    }
+                }
+                &:hover .mini-bar, ul {
+                    display: block;
+                }
+            }
+            @each $service, $name in $services{
+                $i: index($services, $service $name);
+                .flex-item:nth-of-type(#{$i}){
+                    svg{
+                        color:$name;
+                    }
+                    &:hover {
+                        background-color: $name;
+                        svg {
+                            color: white;
+                        }
+                    }
+                    .mini-bar::before, .mini-bar::after {
+                        background-color: darken($name, 10%);
+                    }
                 }
             }
         }
@@ -270,6 +336,11 @@ header {
             > .flex-row {
                 flex: 8;
             }
+        }
+    }
+    #nav-bar {
+        .flex-row {
+            width: 1200px;
         }
     }
 }
