@@ -36,10 +36,15 @@
                         <div class="flex-item">
                             <img src="img/logo.png">
                         </div>
+                        <div class="phone">
+                            <span class="iconify" data-icon="carbon:phone-voice-filled" style="color: #333645;" data-width="32" data-height="32"></span>
+                        </div>
                         <div class="flex-row">
-                            <div class="top-search">Search</div>
-                            <div class="flex-item phone">
-                                <span class="iconify" data-icon="carbon:phone-voice-filled" style="color: #333645;" data-width="32" data-height="32"></span>
+                            <div class="top-search">
+                                <form class="flex-row"> <!-- Row for search bar -->
+                                    <input type="search" class="flex-item" name="search" placeholder="Search...">
+                                    <button class="flex-item btn"><i class="fa fa-regular fa-magnifying-glass"></i></button>
+                                </form>
                             </div>
                             <div class="flex-item menu">
                                 <button class="btn">
@@ -53,9 +58,9 @@
                             </div>
                         </div>
                     </div>
-                    <form class="flex-row"> <!-- Row for search bar -->
+                    <form class="flex-row btm-search"> <!-- Row for search bar -->
                         <input type="search" id="search" class="flex-item search-pad" name="search" placeholder="Search...">
-                        <button class="flex-item search-btn btn"><i class="fa fa-regular fa-magnifying-glass"></i></button>
+                        <button class="flex-item search-btn btn"><i class="fa fa-solid fa-magnifying-glass"></i></button>
                     </form>
                 </header>
                 <div id="jumbo" class="flex-item">

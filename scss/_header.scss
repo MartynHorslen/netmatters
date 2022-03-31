@@ -1,7 +1,7 @@
 header {
     height: 168px;
     background-color: #fff;
-    form {
+    form.btm-search {
         margin-top: 11px; 
      }
 }
@@ -11,6 +11,9 @@ header {
         &:first-child {
             flex: 1;
         }
+    }
+    .flex-row{
+        //margin-left: 20px;
     }
     img {
         max-width: 402px;
@@ -25,8 +28,7 @@ header {
     .menu {
         max-width: 83px;
         max-height: 70px;
-        align-items: self-end;        
-        margin-left: 20px;
+        align-items: self-end;
         padding: 7px 0;
 
         .btn {
@@ -55,6 +57,9 @@ header {
                 position: relative;
             }
         }
+    }
+    form.top-search {
+        display: none;
     }
 }
 
@@ -115,9 +120,43 @@ header {
             flex: 1;
             margin-left: 20px;
             justify-content: end;
+            align-items: center;
+            input {
+                width: 174px;
+                height: 56px;
+                padding: 5px 15px;
+                border: 1px solid #ccc;
+                box-shadow: inset 0 0.875px rgba(0,0,0,.1);
+                font-size: 14px;
+                line-height: 1.42857143;
+                letter-spacing: 0;
+            }
+            
+            .btn {
+                padding: 0px 20px 0px;
+                height: 56px;
+                font-size: 0.825rem;
+                border-radius: 0 3px 3px 0;
+                border: none;
+                vertical-align: bottom;
+                background-color: #999aa2;
+                color: #fff;
+                .fa-regular {
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    color: #fff;
+                    width: 23px;
+                    height: 23px;
+                    margin: auto;
+                }
+            }
         }
     }
-    form.flex-row {
+    form.btm-search {
         display: none;
     }
+}
+
+@media (min-width: 768px) {
+    
 }
