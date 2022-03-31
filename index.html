@@ -30,24 +30,27 @@
         <![endif]-->
         <!-- Header & jumbotron wrapper-->
         <div class="wrapper"><!-- 100% width -->
-            <div class="flex-col vh"> <!-- Column for header and carousel, 100 vh -->
+            <section id="front-page" class="flex-col vh"> <!-- Column for header and carousel, 100 vh -->
                 <header class="flex-col col-pad"> <!-- column for logo row and search bar row -->
                     <div class="flex-row top-row"><!-- row for logo, phone & menu --> 
                         <div class="flex-item">
                             <img src="img/logo.png">
                         </div>
-                        <div class="flex-item phone">
-                            <span class="iconify" data-icon="carbon:phone-voice-filled" style="color: #333645;" data-width="32" data-height="32"></span>
-                        </div>
-                        <div class="flex-item menu">
-                            <button class="btn">
-                                <!-- 3 lines -->
-                                <div class="menu-line"></div>
-                                <div class="menu-line"></div>
-                                <div class="menu-line"></div>
-                                <!-- Menu text -->
-                                <div class="menu-text">Menu</div>
-                            </button>
+                        <div class="flex-row">
+                            <div class="top-search">Search</div>
+                            <div class="flex-item phone">
+                                <span class="iconify" data-icon="carbon:phone-voice-filled" style="color: #333645;" data-width="32" data-height="32"></span>
+                            </div>
+                            <div class="flex-item menu">
+                                <button class="btn">
+                                    <!-- 3 lines -->
+                                    <div class="menu-line"></div>
+                                    <div class="menu-line"></div>
+                                    <div class="menu-line"></div>
+                                    <!-- Menu text -->
+                                    <div class="menu-text">Menu</div>
+                                </button>
+                            </div>
                         </div>
                     </div>
                     <form class="flex-row"> <!-- Row for search bar -->
@@ -55,7 +58,7 @@
                         <button class="flex-item search-btn btn"><i class="fa fa-regular fa-magnifying-glass"></i></button>
                     </form>
                 </header>
-                <section id="jumbo" class="flex-item">
+                <div id="jumbo" class="flex-item">
                     <img src="img/jumbotron.jpg" >
                     <div class="overlay flex-col">
                         <div class="jumbo-content">
@@ -73,8 +76,8 @@
                         </ul>
                         
                     </div>
-                </section>
-            </div>
+                </div>
+            </section>
             <section id="services" class="flex-col section-pad">
                 <div class="card-1">
                     <!-- Link the whole card -->
