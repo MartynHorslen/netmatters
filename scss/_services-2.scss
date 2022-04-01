@@ -1,0 +1,40 @@
+#services-2 {
+    flex-wrap: wrap;
+    align-items: stretch;
+    .box {
+        flex: 100%;
+        flex: 1;
+        border: 1px solid;
+        display: flex;
+        justify-content: center;
+        .card {
+            margin: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            flex: 100%;
+        }
+    }
+
+    @media (min-width: 768px) {
+        #services-2 {
+            width: 750px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        @each $service, $name in $services{
+            $i: index($services, $service $name);    
+            @if ($i < 4) {
+                .box:nth-child(1n - 3) {
+                    flex-basis: 100%;
+                }
+            } @else {
+                .box:nth-child(1n + 4) {
+                    flex-basis: 50%;
+                }
+            }
+
+        }
+    }
+}

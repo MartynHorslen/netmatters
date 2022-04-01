@@ -1,6 +1,10 @@
 // ===========================================
 // == Service card element and hover colors ==
 // ===========================================
+#services {
+    padding-top: 10px;
+}
+
 @each $service, $name in $services{
     $i: index($services, $service $name);
     .card-#{$i}{ 
@@ -18,6 +22,11 @@
             padding: 30px;
             letter-spacing: .4px;
             height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            flex: 100%;
             .service-icon {
                 background-color:$name; 
                 color: white;
@@ -103,11 +112,27 @@
             }
         }
     }
-    
-}
-    
 
-.card-1 {
-    margin-top: 0;
+    @media (min-width: 992px) {
+        #services {
+            width: 970px;
+            @if ($i < 4) {
+                .card-#{$i} {
+                    flex-basis: calc(33% - 15px);
+                }
+            }
+        }
+    }
+    @media (min-width: 1260px) {
+        #services {
+            width: 1200px;
+            @if ($i > 3) {
+                .card-#{$i} {
+                    flex-basis: calc(25% - 15px);
+                }
+            }
+        }
+    }
+    
 }
 
