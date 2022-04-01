@@ -1442,6 +1442,24 @@ header {
       font-weight: 600;
       line-height: 35px; }
 
+@media (min-width: 768px) {
+  /* line 46, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
+  .width {
+    width: 750px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px; } }
+
+@media (min-width: 992px) {
+  /* line 54, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
+  .width {
+    width: 970px; } }
+
+@media (min-width: 1260px) {
+  /* line 59, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
+  .width {
+    width: 1200px; } }
+
 /* line 1, ../../../Desktop/Projects/netmatters/scss/_about.scss */
 #about {
   background-color: #333645;

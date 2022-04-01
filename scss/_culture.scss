@@ -41,3 +41,22 @@
         }
     }
 }
+
+@media (min-width: 768px) {
+    .width {
+        width: 750px;
+        margin: 0 auto;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media (min-width: 992px) {
+    .width {
+        width: 970px;
+    }
+}
+@media (min-width: 1260px) {
+    .width {
+        width: 1200px;
+    }
+}
