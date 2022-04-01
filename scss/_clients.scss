@@ -1,0 +1,50 @@
+#clients {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    #clients {
+        width: 750px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .client-img {
+            position: relative;
+            flex-grow: 1;
+            padding: 0 20px;
+            img {
+                max-width: 100%;
+            }
+            &:hover {
+                .overlay {
+                    display: flex;
+                }
+                .base {
+                    display: none;
+                }
+            }
+            .overlay {
+                top: 0;
+                left: 20px;
+                right: 20px;
+                bottom: 0;
+                display: none;
+                width: 100%;
+            }
+        }
+    }
+}
+@media (min-width: 992px) {
+    #clients {
+        width: 970px;
+    }
+}
+@media (min-width: 1260px) {
+    #clients {
+        width: 1200px;
+    }
+}

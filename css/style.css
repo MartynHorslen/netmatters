@@ -1531,8 +1531,8 @@ header {
       width: 72px; }
 
 /* line 26, ../../../Desktop/Projects/netmatters/scss/_news.scss */
-#news .card:first-of-type {
-  margin-top: 0; }
+#news {
+  padding-top: 10px; }
 
 /* line 29, ../../../Desktop/Projects/netmatters/scss/_news.scss */
 #news .card {
@@ -1647,6 +1647,90 @@ header {
 /* line 142, ../../../Desktop/Projects/netmatters/scss/_news.scss */
 #news .card:nth-of-type(3) h4 {
   color: #926fb1; }
+
+@media (min-width: 768px) {
+  /* line 148, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+  #news {
+    width: 750px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: stretch;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.1); }
+    /* line 159, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+    #news .card {
+      flex-basis: calc(50% - 15px); }
+    /* line 162, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+    #news > :last-child {
+      display: none; } }
+
+@media (min-width: 992px) {
+  /* line 168, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+  #news {
+    width: 970px; } }
+
+@media (min-width: 1260px) {
+  /* line 173, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+  #news {
+    width: 1200px; }
+    /* line 175, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+    #news .card {
+      flex-basis: calc(33% - 15px); }
+    /* line 178, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+    #news > :last-child {
+      display: flex; } }
+
+/* line 1, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
+#clients {
+  display: none; }
+
+@media (min-width: 768px) {
+  /* line 6, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
+  #clients {
+    width: 750px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    /* line 15, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
+    #clients .client-img {
+      position: relative;
+      flex-grow: 1;
+      padding: 0 20px; }
+      /* line 19, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
+      #clients .client-img img {
+        max-width: 100%; }
+      /* line 23, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
+      #clients .client-img:hover .overlay {
+        display: flex; }
+      /* line 26, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
+      #clients .client-img:hover .base {
+        display: none; }
+      /* line 30, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
+      #clients .client-img .overlay {
+        top: 0;
+        left: 20px;
+        right: 20px;
+        bottom: 0;
+        display: none;
+        width: 100%; } }
+
+@media (min-width: 992px) {
+  /* line 42, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
+  #clients {
+    width: 970px; } }
+
+@media (min-width: 1260px) {
+  /* line 47, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
+  #clients {
+    width: 1200px; } }
 
 /* line 1, ../../../Desktop/Projects/netmatters/scss/_email.scss */
 #email {
