@@ -545,17 +545,18 @@ header {
       /* line 21, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
       #jumbo .overlay .jumbo-content h2 {
         font-weight: 400;
+        font-size: 3rem;
         text-transform: uppercase;
         line-height: 3.3rem;
         margin-bottom: 25px;
         letter-spacing: 0.4px; }
-      /* line 28, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
+      /* line 29, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
       #jumbo .overlay .jumbo-content p {
         font-size: 1.25rem;
         line-height: 2.25rem;
         margin-bottom: 35px;
         letter-spacing: 0.4px; }
-      /* line 34, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
+      /* line 35, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
       #jumbo .overlay .jumbo-content .button {
         background-color: #67809f;
         border-radius: 3px;
@@ -572,18 +573,18 @@ header {
         vertical-align: middle;
         height: auto;
         font-size: 1.25rem; }
-        /* line 50, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
+        /* line 51, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
         #jumbo .overlay .jumbo-content .button .fa-regular {
           margin-left: 12px;
           margin-right: -4px;
           font-size: 1.25rem;
           font-weight: 600;
           line-height: 50px; }
-    /* line 59, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
+    /* line 60, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
     #jumbo .overlay .dots {
       position: absolute;
       bottom: 51px; }
-      /* line 62, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
+      /* line 63, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
       #jumbo .overlay .dots li {
         width: 11px;
         height: 11px;
@@ -591,12 +592,30 @@ header {
         opacity: 0.5;
         border-radius: 30px;
         margin: 0 10px; }
-      /* line 70, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
+      /* line 71, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
       #jumbo .overlay .dots li.active {
         outline: 2px solid white;
         outline-offset: 5px;
         background-color: white;
         opacity: 1; }
+
+@media (min-width: 992px) {
+  /* line 83, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
+  #jumbo .overlay {
+    text-align: left;
+    align-items: start;
+    background: linear-gradient(270deg, transparent 25%, #000); }
+    /* line 87, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
+    #jumbo .overlay .jumbo-content {
+      width: 970px; }
+    /* line 90, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
+    #jumbo .overlay .dots {
+      align-self: center; } }
+
+@media (min-width: 1260px) {
+  /* line 99, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
+  #jumbo .overlay .jumbo-content {
+    width: 1200px; } }
 
 /* line 6, ../../../Desktop/Projects/netmatters/scss/_services.scss */
 .card-1 {

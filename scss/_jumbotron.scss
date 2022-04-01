@@ -20,6 +20,7 @@
             margin: auto;
             h2 {
                 font-weight: 400;
+                font-size: 3rem;
                 text-transform: uppercase;
                 line-height: 3.3rem;
                 margin-bottom: 25px;
@@ -72,6 +73,31 @@
                 outline-offset: 5px;
                 background-color: white;
                 opacity: 1;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    #jumbo {
+        .overlay {
+            text-align: left;
+            align-items: start;
+            background: linear-gradient(270deg,transparent 25%,#000);
+            .jumbo-content {
+                width: 970px;
+            }
+            .dots {
+                align-self: center;
+            }
+        }
+    }
+}
+@media (min-width: 1260px) {
+    #jumbo {
+        .overlay {
+            .jumbo-content {
+                width: 1200px;
             }
         }
     }
