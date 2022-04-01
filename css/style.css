@@ -1812,4 +1812,17 @@ header {
         #email .form-group input[type="checkbox"]:checked:before {
           content: url("https://api.iconify.design/charm/tick.svg?color=white&width=25&height=25"); }
 
+@media (min-width: 992px) {
+  /* line 87, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+  .form-left {
+    width: calc(50% - 15px);
+    display: block;
+    float: left;
+    margin-right: auto; }
+  /* line 93, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+  .form-right {
+    width: calc(50% - 15px);
+    display: block;
+    margin-left: auto; } }
+
 /*# sourceMappingURL=style.css.map */

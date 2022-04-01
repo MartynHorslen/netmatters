@@ -79,3 +79,24 @@
         }
     }
 }
+
+@media (min-width: 768px) {
+    
+}
+@media (min-width: 992px) {
+    .form-left {
+        width: calc(50% - 15px);
+        display: block;
+        float: left;
+        margin-right: auto;
+    }
+    .form-right {
+        width: calc(50% - 15px);
+        display: block;
+        
+        margin-left: auto;
+    }
+}
+@media (min-width: 1260px) {
+
+}
