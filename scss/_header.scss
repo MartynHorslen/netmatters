@@ -32,8 +32,8 @@ header {
         .btn {
             width: 63px;
             height: 56px;
-            background-color: #333645;
-            border-color: #333645;
+            background-color: $secondary;
+            border-color: $secondary;
             border-radius: 3px;
             padding-top: 5px;
             padding-bottom: 5px;
@@ -87,7 +87,7 @@ header {
     .fa-solid {
         font-size: 1.29rem;
         line-height: 2rem;
-        color: #333645;
+        color: $secondary;
         font-weight:600;
         margin: auto;
     }
@@ -221,7 +221,7 @@ header {
     }
     #nav-bar {
         display: flex;
-        background-color: #333645;
+        background-color: $secondary;
         color: white;
         text-align: center;
         text-transform: uppercase;

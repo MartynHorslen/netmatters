@@ -27,7 +27,7 @@
                     margin: 0 auto;
                     text-align: center;
                     color: white;
-                    background-color: #333645;
+                    background-color: $secondary;
                     padding: 20px;
                     display: block;
                     h3 {
@@ -58,7 +58,7 @@
                         left: calc(50% - 36px);
                         margin: auto;
                         display: inline-block;
-                        border-color: #333645 transparent transparent;
+                        border-color: $secondary transparent transparent;
                         border-style: solid;
                         border-width: 35px 36px 0;
                         position: absolute;

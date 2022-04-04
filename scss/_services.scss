@@ -16,7 +16,7 @@
         margin-top: 30px;
         a.card-link {
             text-decoration: none;
-            color: #333645;
+            color: $secondary;
             font-weight: 400;
             text-align: center;
             padding: 30px;
@@ -48,13 +48,13 @@
             font-size: 1.125rem;            
             padding-bottom: 10px;
             font-weight: 400;
-            color: #333645;
+            color: $secondary;
         }
         hr {
             width: 28px;
             height: 3px;
             margin: 0 auto 11px;
-            background-color: #333645;
+            background-color: $secondary;
         }
         p {
             font-size: .8125rem;

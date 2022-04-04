@@ -1,6 +1,6 @@
 #culture {
     color: white;
-    background: #333645;
+    background: $secondary;
     letter-spacing: .4px;
     h2 {
         font-size: 2.25rem;
@@ -22,7 +22,7 @@
         background-color: white;
         border-radius: 3px;
         border: 1px solid transparent;
-        color: #333645;
+        color: $secondary;
         display: inline-block;
         font-weight: 400;
         letter-spacing: 0.4px;
