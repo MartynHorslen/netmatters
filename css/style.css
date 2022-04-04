@@ -1505,6 +1505,41 @@ header {
       display: flex;
       justify-content: space-between; }
 
+@media (min-width: 768px) {
+  /* line 48, ../../../Desktop/Projects/netmatters/scss/_about.scss */
+  .footer-links {
+    width: 750px;
+    margin: 0 auto; }
+    /* line 51, ../../../Desktop/Projects/netmatters/scss/_about.scss */
+    .footer-links .flex-col {
+      width: 100%; }
+    /* line 54, ../../../Desktop/Projects/netmatters/scss/_about.scss */
+    .footer-links .flex-item {
+      width: 225px;
+      flex: none; }
+    /* line 58, ../../../Desktop/Projects/netmatters/scss/_about.scss */
+    .footer-links .services, .footer-links .offices {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-evenly; } }
+
+@media (min-width: 992px) {
+  /* line 68, ../../../Desktop/Projects/netmatters/scss/_about.scss */
+  .footer-links {
+    width: 970px; } }
+
+@media (min-width: 1260px) {
+  /* line 73, ../../../Desktop/Projects/netmatters/scss/_about.scss */
+  .footer-links {
+    width: 1200px; }
+    /* line 75, ../../../Desktop/Projects/netmatters/scss/_about.scss */
+    .footer-links .flex-col {
+      flex-direction: row; }
+      /* line 77, ../../../Desktop/Projects/netmatters/scss/_about.scss */
+      .footer-links .flex-col .services {
+        justify-content: flex-start; } }
+
 /* line 1, ../../../Desktop/Projects/netmatters/scss/_news.scss */
 .latest {
   padding: 0px 15px;
@@ -1848,40 +1883,5 @@ header {
   /* line 107, ../../../Desktop/Projects/netmatters/scss/_email.scss */
   #email .section-pad {
     width: 1200px; } }
-
-@media (min-width: 768px) {
-  /* line 2, ../../../Desktop/Projects/netmatters/scss/_footer.scss */
-  .footer-links {
-    width: 750px;
-    margin: 0 auto; }
-    /* line 5, ../../../Desktop/Projects/netmatters/scss/_footer.scss */
-    .footer-links .flex-col {
-      width: 100%; }
-    /* line 8, ../../../Desktop/Projects/netmatters/scss/_footer.scss */
-    .footer-links .flex-item {
-      width: 225px;
-      flex: none; }
-    /* line 12, ../../../Desktop/Projects/netmatters/scss/_footer.scss */
-    .footer-links .services, .footer-links .offices {
-      display: flex;
-      flex-direction: row;
-      width: 100%;
-      justify-content: space-evenly; } }
-
-@media (min-width: 992px) {
-  /* line 22, ../../../Desktop/Projects/netmatters/scss/_footer.scss */
-  .footer-links {
-    width: 970px; } }
-
-@media (min-width: 1260px) {
-  /* line 27, ../../../Desktop/Projects/netmatters/scss/_footer.scss */
-  .footer-links {
-    width: 1200px; }
-    /* line 29, ../../../Desktop/Projects/netmatters/scss/_footer.scss */
-    .footer-links .flex-col {
-      flex-direction: row; }
-      /* line 31, ../../../Desktop/Projects/netmatters/scss/_footer.scss */
-      .footer-links .flex-col .services {
-        justify-content: flex-start; } }
 
 /*# sourceMappingURL=style.css.map */
