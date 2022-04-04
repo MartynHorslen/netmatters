@@ -81,7 +81,7 @@ a {
 
 /* line 93, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .vh {
-  height: 100vh; }
+  min-height: 100vh; }
 
 /* line 97, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .hidden {
