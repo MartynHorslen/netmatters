@@ -1812,17 +1812,31 @@ header {
         #email .form-group input[type="checkbox"]:checked:before {
           content: url("https://api.iconify.design/charm/tick.svg?color=white&width=25&height=25"); }
 
+@media (min-width: 768px) {
+  /* line 84, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+  #email .section-pad {
+    width: 750px;
+    margin: 0 auto; } }
+
 @media (min-width: 992px) {
-  /* line 87, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+  /* line 90, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+  #email .section-pad {
+    width: 970px; }
+  /* line 93, ../../../Desktop/Projects/netmatters/scss/_email.scss */
   .form-left {
     width: calc(50% - 15px);
     display: block;
     float: left;
     margin-right: auto; }
-  /* line 93, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+  /* line 99, ../../../Desktop/Projects/netmatters/scss/_email.scss */
   .form-right {
     width: calc(50% - 15px);
     display: block;
     margin-left: auto; } }
+
+@media (min-width: 1260px) {
+  /* line 107, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+  #email .section-pad {
+    width: 1200px; } }
 
 /*# sourceMappingURL=style.css.map */

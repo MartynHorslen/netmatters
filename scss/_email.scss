@@ -81,9 +81,15 @@
 }
 
 @media (min-width: 768px) {
-    
+    #email .section-pad {
+        width: 750px;
+        margin: 0 auto;
+    }
 }
 @media (min-width: 992px) {
+    #email .section-pad {
+        width: 970px;
+    }
     .form-left {
         width: calc(50% - 15px);
         display: block;
@@ -98,5 +104,7 @@
     }
 }
 @media (min-width: 1260px) {
-
+    #email .section-pad {
+        width: 1200px;
+    }
 }
