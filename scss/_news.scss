@@ -145,6 +145,10 @@
 }
 
 @media (min-width: 768px) {
+    .latest {
+        width: 750px;
+        margin: 0 auto;
+    }
     #news {
         width: 750px;
         margin: 0 auto;
@@ -168,6 +172,9 @@
     #news {
         width: 970px;
     }
+    .latest {
+        width: 970px;
+    }
 }
 @media (min-width: 1260px) {
     #news {
@@ -178,5 +185,8 @@
         > :last-child {
             display: flex;
         }
+    }
+    .latest {
+        width: 1200px;
     }
 }
