@@ -3,7 +3,7 @@
     border-top: 1px solid rgba(51,54,69,.5);
     img {
         object-fit: cover;
-        height: 100%;
+        height: calc(100vh - 168px);
     }
     .overlay {
         text-align: center;
@@ -78,8 +78,17 @@
     }
 }
 
+@media (min-width: 768px) {
+    #jumbo img {
+        height: calc(100vh - 100px);
+    }
+}
+
 @media (min-width: 992px) {
     #jumbo {
+        img {
+            height: calc(100vh - 210px);
+        }
         .overlay {
             text-align: left;
             align-items: start;
