@@ -16,6 +16,55 @@
             position: relative;
             flex-grow: 1;
             padding: 0 20px;
+            .pop-up {
+                position: absolute;
+                bottom: 200%;
+                left: -200px;
+                right: -200px;
+                display: none;
+                .contents {
+                    max-width: 260px;
+                    margin: 0 auto;
+                    text-align: center;
+                    color: white;
+                    background-color: #333645;
+                    padding: 20px;
+                    display: block;
+                    h3 {
+                        font-size: 1.125rem;
+                        position: relative;
+                        padding-bottom: 17px;
+                        &::after {
+                            content: "";
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            right: 0;
+                            margin: auto;
+                            width: 28px;
+                            height: 3px;
+                            display: block;
+                            background-color: #fff;
+                        }
+                    }
+                    p {
+                        font-size: .8125rem;
+                        line-height: 1.375rem;
+                        margin-bottom: 0;
+                    }
+                    &::after {
+                        content: "";
+                        top: 100%;
+                        left: calc(50% - 36px);
+                        margin: auto;
+                        display: inline-block;
+                        border-color: #333645 transparent transparent;
+                        border-style: solid;
+                        border-width: 35px 36px 0;
+                        position: absolute;
+                    }
+                }
+            }
             img {
                 max-width: 100%;
             }
@@ -25,6 +74,9 @@
                 }
                 .base {
                     display: none;
+                }
+                .pop-up {
+                    display: block;
                 }
             }
             .overlay {

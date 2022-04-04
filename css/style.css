@@ -1800,15 +1800,67 @@ header {
       flex-grow: 1;
       padding: 0 20px; }
       /* line 19, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
+      #clients .client-img .pop-up {
+        position: absolute;
+        bottom: 200%;
+        left: -200px;
+        right: -200px;
+        display: none; }
+        /* line 25, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
+        #clients .client-img .pop-up .contents {
+          max-width: 260px;
+          margin: 0 auto;
+          text-align: center;
+          color: white;
+          background-color: #333645;
+          padding: 20px;
+          display: block; }
+          /* line 33, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
+          #clients .client-img .pop-up .contents h3 {
+            font-size: 1.125rem;
+            position: relative;
+            padding-bottom: 17px; }
+            /* line 37, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
+            #clients .client-img .pop-up .contents h3::after {
+              content: "";
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              right: 0;
+              margin: auto;
+              width: 28px;
+              height: 3px;
+              display: block;
+              background-color: #fff; }
+          /* line 50, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
+          #clients .client-img .pop-up .contents p {
+            font-size: .8125rem;
+            line-height: 1.375rem;
+            margin-bottom: 0; }
+          /* line 55, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
+          #clients .client-img .pop-up .contents::after {
+            content: "";
+            top: 100%;
+            left: calc(50% - 36px);
+            margin: auto;
+            display: inline-block;
+            border-color: #333645 transparent transparent;
+            border-style: solid;
+            border-width: 35px 36px 0;
+            position: absolute; }
+      /* line 68, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
       #clients .client-img img {
         max-width: 100%; }
-      /* line 23, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
+      /* line 72, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
       #clients .client-img:hover .overlay {
         display: inline; }
-      /* line 26, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
+      /* line 75, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
       #clients .client-img:hover .base {
         display: none; }
-      /* line 30, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
+      /* line 78, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
+      #clients .client-img:hover .pop-up {
+        display: block; }
+      /* line 82, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
       #clients .client-img .overlay {
         top: 0;
         left: 20px;
@@ -1818,12 +1870,12 @@ header {
         max-width: 100%; } }
 
 @media (min-width: 992px) {
-  /* line 42, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
+  /* line 94, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
   #clients {
     width: 970px; } }
 
 @media (min-width: 1260px) {
-  /* line 47, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
+  /* line 99, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
   #clients {
     width: 1200px; } }
 
