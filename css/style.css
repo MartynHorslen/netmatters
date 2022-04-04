@@ -1709,7 +1709,7 @@ header {
         max-width: 100%; }
       /* line 23, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
       #clients .client-img:hover .overlay {
-        display: flex; }
+        display: inline; }
       /* line 26, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
       #clients .client-img:hover .base {
         display: none; }
@@ -1720,7 +1720,7 @@ header {
         right: 20px;
         bottom: 0;
         display: none;
-        width: 100%; } }
+        max-width: 100%; } }
 
 @media (min-width: 992px) {
   /* line 42, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
