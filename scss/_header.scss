@@ -179,6 +179,9 @@ header {
             input {
                 display: none;
             }
+            .btn {
+                border-radius: 3px;
+            }
         }
         .top-row {
             img {
@@ -340,7 +343,8 @@ header {
                 width: 240px;
             }
             .btn {
-                flex:0; 
+                flex:0;
+                border-radius: 0 3px 3px 0; 
             }
         }
         .top-row {
