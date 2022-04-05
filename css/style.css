@@ -17,14 +17,6 @@
 body {
   overflow: auto; }
 
-/* line 26, ../../../Desktop/Projects/netmatters/scss/_general.scss */
-body {
-  background-color: red; }
-
-/* line 30, ../../../Desktop/Projects/netmatters/scss/_general.scss */
-#services, #news, .latest, #clients, #accreditations {
-  background-color: #fff; }
-
 /* line 34, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .wrapper {
   overflow: auto; }
