@@ -244,10 +244,12 @@ header {
             height: auto;
             position: relative;
             > .flex-item {
-                padding: 19px 0 18px;
                 border-right: 1px solid hsla(0,0%,100%,.1);
                 border-left: 1px solid rgba(0,0,0,.25);
                 font-size: 1.125rem;
+                a {
+                    padding: 19px 0 18px;
+                }
                 svg {
                     margin: 0 auto;
                     min-width: 23px;
