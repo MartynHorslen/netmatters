@@ -32,7 +32,7 @@
         padding-left: 5px;
         padding-right: 5px;
         margin-top: 10px;
-        .socials, .copyright {
+        .socials, .copyright, .copyright a {
             display: flex;
             font-size: .8125rem;
             align-items: flex-start;
@@ -40,6 +40,9 @@
         }
         .copyright {
             padding-top: 11px;
+            a:hover {
+                text-decoration: underline;
+            }
         }
         .socials {
             justify-content: flex-end;
