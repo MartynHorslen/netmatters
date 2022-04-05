@@ -51,12 +51,33 @@
     }
 }
 @media (min-width: 992px) {
+    #culture {
+        background-image: url(../img/branded.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        h2 {
+            font-size: 2.25rem;
+        }
+        p {
+            font-size: 0.77rem;
+            line-height: 1.875rem;
+            margin-bottom: 25px;
+        }
+    }
     .width {
         width: 970px;
+        
     }
 }
 @media (min-width: 1260px) {
+    #culture p {
+        font-size: 1rem;
+    }
     .width {
-        width: 1200px;
+        width: 50%;
+        margin: 0;
+        padding-left: 30px;
+        
     }
 }
