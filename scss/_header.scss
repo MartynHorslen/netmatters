@@ -354,5 +354,17 @@ header {
         .flex-row {
             width: 1200px;
         }
+        .flex-row {
+            > .flex-item {
+                .mini-bar {
+                    ul {
+                        li {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+                
+            }
+        }
     }
 }
