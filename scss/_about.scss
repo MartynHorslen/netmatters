@@ -5,9 +5,12 @@
     ul {
         list-style: none;
         padding-bottom: 20px;
-        li {
+        li, li a {
             font-size: .8125rem;
             line-height: 1.375rem;
+        }
+        li a:hover {
+            text-decoration: underline;
         }
     }
     h4 {
