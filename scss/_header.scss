@@ -22,6 +22,9 @@ header {
         align-items: self-end;
         margin-left: 15px;
         margin-right: 20px;
+        &:hover {
+            border-bottom: 3px solid $secondary;
+        }
     }
     .menu {
         max-width: 83px;
