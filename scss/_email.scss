@@ -1,7 +1,9 @@
-#email {
-    padding-left: 30px;
-    padding-right: 30px; 
+#email { 
     background-color: #ddd;
+    .section-pad {
+        padding-left:45px;
+        padding-right:45px;
+    }
     h2 {
         font-size: 2rem;
         font-weight: 400;
@@ -9,6 +11,7 @@
         margin-bottom: 15px;
         line-height: 1.1;
         letter-spacing: 0.4px;
+        text-transform: capitalize;
     }
     input[type="text"], input[type="email"] {
         width: 100%;

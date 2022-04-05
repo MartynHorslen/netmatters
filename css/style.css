@@ -1945,18 +1945,21 @@ header {
 
 /* line 1, ../../../Desktop/Projects/netmatters/scss/_email.scss */
 #email {
-  padding-left: 30px;
-  padding-right: 30px;
   background-color: #ddd; }
-  /* line 5, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+  /* line 3, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+  #email .section-pad {
+    padding-left: 45px;
+    padding-right: 45px; }
+  /* line 7, ../../../Desktop/Projects/netmatters/scss/_email.scss */
   #email h2 {
     font-size: 2rem;
     font-weight: 400;
     color: #333645;
     margin-bottom: 15px;
     line-height: 1.1;
-    letter-spacing: 0.4px; }
-  /* line 13, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+    letter-spacing: 0.4px;
+    text-transform: capitalize; }
+  /* line 16, ../../../Desktop/Projects/netmatters/scss/_email.scss */
   #email input[type="text"], #email input[type="email"] {
     width: 100%;
     display: block;
@@ -1970,10 +1973,10 @@ header {
     line-height: 1.42857143;
     color: #555;
     margin: 5px 0 15px; }
-  /* line 27, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+  /* line 30, ../../../Desktop/Projects/netmatters/scss/_email.scss */
   #email input[type="submit"] {
     display: block; }
-  /* line 31, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+  /* line 34, ../../../Desktop/Projects/netmatters/scss/_email.scss */
   #email input[type="submit"] {
     line-height: 35px;
     padding: 5px 15px;
@@ -1984,26 +1987,26 @@ header {
     border: 1px solid #333645;
     background-color: #333645;
     margin-top: 30px; }
-  /* line 42, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+  /* line 45, ../../../Desktop/Projects/netmatters/scss/_email.scss */
   #email label {
     font-weight: 600;
     color: #333645;
     letter-spacing: 0.4px; }
-    /* line 46, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+    /* line 49, ../../../Desktop/Projects/netmatters/scss/_email.scss */
     #email label:after {
       content: " *";
       color: #d24d57; }
-  /* line 52, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+  /* line 55, ../../../Desktop/Projects/netmatters/scss/_email.scss */
   #email .form-group {
     display: flex; }
-    /* line 54, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+    /* line 57, ../../../Desktop/Projects/netmatters/scss/_email.scss */
     #email .form-group label:nth-of-type(1) {
       line-height: 32px;
       cursor: pointer; }
-      /* line 57, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+      /* line 60, ../../../Desktop/Projects/netmatters/scss/_email.scss */
       #email .form-group label:nth-of-type(1):after {
         content: ""; }
-    /* line 61, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+    /* line 64, ../../../Desktop/Projects/netmatters/scss/_email.scss */
     #email .form-group input[type="checkbox"] {
       flex: 1 0 auto;
       -moz-appearance: none;
@@ -2016,37 +2019,37 @@ header {
       position: relative;
       float: left;
       margin-right: 20px; }
-      /* line 73, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+      /* line 76, ../../../Desktop/Projects/netmatters/scss/_email.scss */
       #email .form-group input[type="checkbox"]:checked {
         background-color: #333645; }
-        /* line 75, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+        /* line 78, ../../../Desktop/Projects/netmatters/scss/_email.scss */
         #email .form-group input[type="checkbox"]:checked:before {
           content: url("https://api.iconify.design/charm/tick.svg?color=white&width=25&height=25"); }
 
 @media (min-width: 768px) {
-  /* line 84, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+  /* line 87, ../../../Desktop/Projects/netmatters/scss/_email.scss */
   #email .section-pad {
     width: 750px;
     margin: 0 auto; } }
 
 @media (min-width: 992px) {
-  /* line 90, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+  /* line 93, ../../../Desktop/Projects/netmatters/scss/_email.scss */
   #email .section-pad {
     width: 970px; }
-  /* line 93, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+  /* line 96, ../../../Desktop/Projects/netmatters/scss/_email.scss */
   .form-left {
     width: calc(50% - 15px);
     display: block;
     float: left;
     margin-right: auto; }
-  /* line 99, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+  /* line 102, ../../../Desktop/Projects/netmatters/scss/_email.scss */
   .form-right {
     width: calc(50% - 15px);
     display: block;
     margin-left: auto; } }
 
 @media (min-width: 1260px) {
-  /* line 107, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+  /* line 110, ../../../Desktop/Projects/netmatters/scss/_email.scss */
   #email .section-pad {
     width: 1200px; } }
 
