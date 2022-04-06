@@ -1492,8 +1492,8 @@ header {
   #culture {
     background-image: url(../img/branded.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center; }
+    background-position: 100%;
+    background-size: auto 100%; }
     /* line 59, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
     #culture h2 {
       font-size: 2.25rem; }
@@ -1507,14 +1507,17 @@ header {
     width: 970px; } }
 
 @media (min-width: 1260px) {
-  /* line 74, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
+  /* line 75, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
   #culture p {
     font-size: 1rem; }
-  /* line 77, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
+  /* line 79, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
   .width {
-    width: 50%;
-    margin: 0;
-    padding-left: 30px; } }
+    width: 1200px;
+    margin: 0 auto; }
+    /* line 82, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
+    .width h2, .width p {
+      width: 50%;
+      margin: 0; } }
 
 /* line 1, ../../../Desktop/Projects/netmatters/scss/_about.scss */
 #about {
