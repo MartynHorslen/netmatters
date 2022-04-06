@@ -177,6 +177,9 @@
     .latest {
         width: 750px;
         margin: 0 auto;
+        h3 {
+            margin: 0px 0 10px
+        }
     }
     #news {
         width: 750px;
@@ -211,7 +214,7 @@
 }
 @media (min-width: 992px) {
     .latest h3 {
-        font-size: 0.95rem;
+        font-size: 0.965rem;
     } 
     #news {
         width: 970px;

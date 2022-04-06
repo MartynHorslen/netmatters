@@ -1883,7 +1883,10 @@ header {
   .latest {
     width: 750px;
     margin: 0 auto; }
-  /* line 181, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+    /* line 180, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+    .latest h3 {
+      margin: 0px 0 10px; }
+  /* line 184, ../../../Desktop/Projects/netmatters/scss/_news.scss */
   #news {
     width: 750px;
     margin: 0 auto;
@@ -1894,64 +1897,64 @@ header {
     padding-left: 15px;
     padding-right: 15px;
     align-items: stretch; }
-    /* line 191, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+    /* line 194, ../../../Desktop/Projects/netmatters/scss/_news.scss */
     #news .card {
       flex-basis: calc(50% - 15px); }
-      /* line 193, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+      /* line 196, ../../../Desktop/Projects/netmatters/scss/_news.scss */
       #news .card .card-image {
         flex-basis: 199px;
         overflow: hidden; }
-      /* line 198, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+      /* line 201, ../../../Desktop/Projects/netmatters/scss/_news.scss */
       #news .card .card-body h3 {
         min-height: 3rem; }
-      /* line 201, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+      /* line 204, ../../../Desktop/Projects/netmatters/scss/_news.scss */
       #news .card .card-body p {
         min-height: 66px;
         margin-bottom: 25px; }
-    /* line 207, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+    /* line 210, ../../../Desktop/Projects/netmatters/scss/_news.scss */
     #news > :last-child {
       display: none; } }
 
 @media (min-width: 992px) {
-  /* line 213, ../../../Desktop/Projects/netmatters/scss/_news.scss */
-  .latest h3 {
-    font-size: 0.95rem; }
   /* line 216, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+  .latest h3 {
+    font-size: 0.965rem; }
+  /* line 219, ../../../Desktop/Projects/netmatters/scss/_news.scss */
   #news {
     width: 970px; }
-    /* line 219, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+    /* line 222, ../../../Desktop/Projects/netmatters/scss/_news.scss */
     #news .card .card-image {
       overflow: hidden;
       object-fit: cover;
       flex-basis: 263px; }
-      /* line 223, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+      /* line 226, ../../../Desktop/Projects/netmatters/scss/_news.scss */
       #news .card .card-image img:hover {
         opacity: .75;
         transform: scale(1.1); }
-      /* line 227, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+      /* line 230, ../../../Desktop/Projects/netmatters/scss/_news.scss */
       #news .card .card-image img {
         transition: all .25s; }
-  /* line 232, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+  /* line 235, ../../../Desktop/Projects/netmatters/scss/_news.scss */
   .latest {
     width: 970px; } }
 
 @media (min-width: 1260px) {
-  /* line 237, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+  /* line 240, ../../../Desktop/Projects/netmatters/scss/_news.scss */
   .latest h3 {
     font-size: 1rem; }
-  /* line 240, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+  /* line 243, ../../../Desktop/Projects/netmatters/scss/_news.scss */
   #news {
     width: 1200px; }
-    /* line 242, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+    /* line 245, ../../../Desktop/Projects/netmatters/scss/_news.scss */
     #news .card {
       flex-basis: calc(33% - 15px); }
-      /* line 244, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+      /* line 247, ../../../Desktop/Projects/netmatters/scss/_news.scss */
       #news .card .card-image {
         flex-basis: 214px; }
-    /* line 248, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+    /* line 251, ../../../Desktop/Projects/netmatters/scss/_news.scss */
     #news > :last-child {
       display: flex; }
-  /* line 252, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+  /* line 255, ../../../Desktop/Projects/netmatters/scss/_news.scss */
   .latest {
     width: 1200px; } }
 
