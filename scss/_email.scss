@@ -29,6 +29,7 @@
         line-height: 1.42857143;
         color: #555;
         margin: 5px 0 15px;
+        font-size: 14px;
     }
     input[type="submit"]{
         display: block;
@@ -52,6 +53,7 @@
         font-weight: 600;
         color: $secondary;
         letter-spacing: 0.4px;
+        margin-bottom: 5px;
         &:after {
             content: " *";
             color: #d24d57;

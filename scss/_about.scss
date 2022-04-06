@@ -45,7 +45,7 @@
         .socials {
             justify-content: flex-end;
             a {
-                width: 37px;
+                width: 29px;
                 height: 37px;
                 text-decoration: none;
                 color: white;
@@ -70,6 +70,14 @@
     .socials a:nth-of-type(#{$i}) {
         &:hover {
             background-color: $color;
+        }
+    }
+}
+@media (min-width: 400px) {
+    #about .small-print .socials {
+        a {
+            width: 37px;
+            height: 37px; 
         }
     }
 }
