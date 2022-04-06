@@ -80,50 +80,56 @@ a {
   border-radius: 3px;
   font-size: 1.063rem; }
 
-/* line 102, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 103, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+#email input[type="text"]:focus, #email input[type="email"]:focus, #email input[type="search"]:focus, .top-search input[type="text"]:focus, .top-search input[type="email"]:focus, .top-search input[type="search"]:focus {
+  border-color: #5bc0de;
+  outline: 0;
+  box-shadow: 0 0 8px #5bc0de; }
+
+/* line 113, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .btn {
   cursor: pointer; }
 
-/* line 110, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 121, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .vh {
   min-height: 100vh; }
 
-/* line 114, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 125, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .hidden {
   display: none; }
 
-/* line 118, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 129, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .wrapper {
   width: 100%; }
 
-/* line 121, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 132, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .flex-col {
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
 
-/* line 126, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 137, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .flex-row {
   display: flex;
   flex-direction: row;
   align-items: center; }
 
-/* line 132, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 143, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .flex-item {
   flex: 1;
   display: flex;
   flex-direction: column; }
 
-/* line 138, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 149, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .col-pad, .search-pad {
   padding: 20px 15px; }
 
-/* line 142, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 153, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .section-pad {
   padding: 50px 15px;
   margin: 0 auto; }
 
-/* line 147, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 158, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .x-pad {
   padding-left: 20px;
   padding-right: 20px; }
