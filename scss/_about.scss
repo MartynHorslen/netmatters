@@ -103,6 +103,13 @@
         }
     }
 }
+@media (min-width: 705px) {
+    .footer-links {
+        .offices {
+            flex-wrap: nowrap;
+        }
+    }
+}
 @media (min-width: 768px) {
     #about {
         padding: 40px 30px;
