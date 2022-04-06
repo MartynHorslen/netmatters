@@ -178,6 +178,15 @@
                 flex-basis: 199px;
                 overflow: hidden;
             }
+            .card-body {
+                h3 {
+                    min-height: 3rem;
+                }
+                p {
+                    min-height: 66px;
+                    margin-bottom: 25px;
+                }
+            }
         }
         > :last-child {
             display: none;
@@ -185,6 +194,9 @@
     }
 }
 @media (min-width: 992px) {
+    .latest h3 {
+        font-size: 0.95rem;
+    } 
     #news {
         width: 970px;
 
@@ -206,6 +218,9 @@
     }
 }
 @media (min-width: 1260px) {
+    .latest h3 {
+        font-size: 1rem;
+    } 
     #news {
         width: 1200px;
         .card {
