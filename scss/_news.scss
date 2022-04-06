@@ -1,8 +1,9 @@
 .full-width {
-    box-shadow: 0 5px 35px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 35px 0px rgba(0, 0, 0, 0.1);
 }
 .latest {
     padding: 0px 15px;
+    z-index: 1;
     h3 {
         padding: 40px 0;
         color: $secondary;
@@ -93,6 +94,7 @@
         }
         span { 
             padding-left: 20px;
+            padding-top: 6px;
             font-size: .875rem;  
             display: block; 
             &:first-of-type {
