@@ -1,6 +1,7 @@
 #jumbo { 
     position: relative;
     border-top: 1px solid rgba(51,54,69,.5);
+    min-height: 422px;
     img {
         object-fit: cover;
         height: calc(100vh - 168px);
