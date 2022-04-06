@@ -743,7 +743,7 @@ header {
     border-color: white;
     background-color: white; }
   /* line 84, ../../../Desktop/Projects/netmatters/scss/_services.scss */
-  .card-1:hover button, .card-1:hover a.card-link .service-icon {
+  .card-1:hover span, .card-1:hover a.card-link .service-icon {
     background-color: white;
     color: #67809f; }
 
@@ -854,7 +854,7 @@ header {
     border-color: white;
     background-color: white; }
   /* line 84, ../../../Desktop/Projects/netmatters/scss/_services.scss */
-  .card-2:hover button, .card-2:hover a.card-link .service-icon {
+  .card-2:hover span, .card-2:hover a.card-link .service-icon {
     background-color: white;
     color: #4183d7; }
 
@@ -965,7 +965,7 @@ header {
     border-color: white;
     background-color: white; }
   /* line 84, ../../../Desktop/Projects/netmatters/scss/_services.scss */
-  .card-3:hover button, .card-3:hover a.card-link .service-icon {
+  .card-3:hover span, .card-3:hover a.card-link .service-icon {
     background-color: white;
     color: #2ecc71; }
 
@@ -1076,7 +1076,7 @@ header {
     border-color: white;
     background-color: white; }
   /* line 84, ../../../Desktop/Projects/netmatters/scss/_services.scss */
-  .card-4:hover button, .card-4:hover a.card-link .service-icon {
+  .card-4:hover span, .card-4:hover a.card-link .service-icon {
     background-color: white;
     color: #d64541; }
 
@@ -1187,7 +1187,7 @@ header {
     border-color: white;
     background-color: white; }
   /* line 84, ../../../Desktop/Projects/netmatters/scss/_services.scss */
-  .card-5:hover button, .card-5:hover a.card-link .service-icon {
+  .card-5:hover span, .card-5:hover a.card-link .service-icon {
     background-color: white;
     color: #926fb1; }
 
@@ -1298,7 +1298,7 @@ header {
     border-color: white;
     background-color: white; }
   /* line 84, ../../../Desktop/Projects/netmatters/scss/_services.scss */
-  .card-6:hover button, .card-6:hover a.card-link .service-icon {
+  .card-6:hover span, .card-6:hover a.card-link .service-icon {
     background-color: white;
     color: #f62459; }
 
@@ -1409,7 +1409,7 @@ header {
     border-color: white;
     background-color: white; }
   /* line 84, ../../../Desktop/Projects/netmatters/scss/_services.scss */
-  .card-7:hover button, .card-7:hover a.card-link .service-icon {
+  .card-7:hover span, .card-7:hover a.card-link .service-icon {
     background-color: white;
     color: #926fb1; }
 
