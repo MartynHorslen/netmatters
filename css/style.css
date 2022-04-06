@@ -1782,7 +1782,7 @@ header {
     flex-grow: 1; }
     /* line 79, ../../../Desktop/Projects/netmatters/scss/_news.scss */
     #news .card .card-body hr {
-      border-top: 1px solid #ccc; }
+      border: 1px solid #ccc; }
   /* line 83, ../../../Desktop/Projects/netmatters/scss/_news.scss */
   #news .card .card-footer {
     border: 1px solid lightgrey;
@@ -1849,7 +1849,7 @@ header {
   border: #d64541; }
 
 /* line 151, ../../../Desktop/Projects/netmatters/scss/_news.scss */
-#news .card:nth-of-type(2) .card-image .button:hover {
+#news .card:nth-of-type(2) .button:hover {
   background-color: #bc2c28; }
 
 /* line 155, ../../../Desktop/Projects/netmatters/scss/_news.scss */
@@ -1862,8 +1862,8 @@ header {
   border: #926fb1; }
 
 /* line 165, ../../../Desktop/Projects/netmatters/scss/_news.scss */
-#news .card:nth-of-type(3) .card-image .button:hover {
-  background-color: #bc2c28; }
+#news .card:nth-of-type(3) .button:hover {
+  background-color: #79539a; }
 
 /* line 169, ../../../Desktop/Projects/netmatters/scss/_news.scss */
 #news .card:nth-of-type(3) h4 {
