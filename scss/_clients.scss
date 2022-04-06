@@ -18,8 +18,8 @@
             padding: 0 20px;
             .pop-up {
                 position: absolute;
-                bottom: 200%;
-                left: -200px;
+                bottom: calc(100% + 50px);
+                left: -228px;
                 right: -200px;
                 display: none;
                 .contents {
@@ -63,6 +63,12 @@
                         border-width: 35px 36px 0;
                         position: absolute;
                     }
+                }
+                .spacer {
+                    height: 50px;
+                    position: absolute;
+                    top: 100%;
+                    width: 100%;
                 }
             }
             img {
