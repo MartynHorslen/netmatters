@@ -41,6 +41,7 @@
         border-bottom: 1px;
         height: 100%;
         width: 100%;
+        flex-basis: content;
         img {
             width: 100%;
             border-radius: 3px 3px 0 0;
@@ -63,12 +64,16 @@
             }
         }
     }
+    .flex-col {
+        justify-content: space-between;
+    }
     .card-body { 
         padding: 20px 30px;
         border: 1px solid lightgrey;
         border-top: 0;
         border-bottom: 0;
         border-radius: 0 0 3px 3px;
+        flex-grow: 1;
         hr {
             border-top:1px solid #ccc;
         }
@@ -165,6 +170,10 @@
         box-shadow: 0 5px 35px rgba(0, 0, 0, 0.1);
         .card {
             flex-basis: calc(50% - 15px);
+            .card-image {
+                flex-basis: 199px;
+                overflow: hidden;
+            }
         }
         > :last-child {
             display: none;
@@ -178,6 +187,7 @@
         .card .card-image {
             overflow: hidden;
             object-fit: cover;
+            flex-basis: 263px;
             img:hover {
                 opacity: .75;
                 transform: scale(1.1);
@@ -196,6 +206,9 @@
         width: 1200px;
         .card {
             flex-basis: calc(33% - 15px);
+            .card-image {
+                flex-basis: 214px;
+            }
         }
         > :last-child {
             display: flex;
