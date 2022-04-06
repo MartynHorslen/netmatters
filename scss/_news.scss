@@ -145,8 +145,10 @@
     .card-image .tag, .button { 
         background-color: #d64541;
         border:#d64541;
+    }
+    .card-image .button {
         &:hover {
-            background-color: darken(#d64541, 10%);
+        background-color: darken(#d64541, 10%);
         }
     }
     h4 {
@@ -157,8 +159,10 @@
     .card-image .tag, .button {
         background-color: #926fb1;
         border:#926fb1;
+    }
+    .card-image .button {
         &:hover {
-            background-color: #7e57a0;
+        background-color: darken(#d64541, 10%);
         }
     }
     h4 {
