@@ -29,8 +29,6 @@
         display: flex;
         justify-content: space-between;
         padding-top: 5px;
-        padding-left: 5px;
-        padding-right: 5px;
         margin-top: 10px;
         .socials, .copyright, .copyright a {
             display: flex;
@@ -76,8 +74,11 @@
     }
 }
 @media (min-width: 768px) {
+    #about {
+        padding: 40px 30px;
+    }
     .footer-links {
-        width: 750px;
+        max-width: 750px;
         margin: 0 auto;
         .flex-col {
             width: 100%;
@@ -102,21 +103,24 @@
         display: none;   
     }
     .small-print {
-        width: 750px;
+        max-width: 750px;
         margin: 0 auto;
     }
 }
 @media (min-width: 992px) {
     .footer-links {
-        width: 970px;
+        max-width: 970px;
     }
     .small-print {
-        width: 970px;
+        max-width: 970px;
     }
 }
 @media (min-width: 1260px) {
+    #about {
+        padding: 40px 45px;
+    }
     .footer-links {
-        width: 1200px;
+        max-width: 1200px;
         .flex-col {
             flex-direction: row;
             .services {
@@ -125,6 +129,6 @@
         }
     }
     .small-print {
-        width: 1200px;
+        max-width: 1200px;
     }
 }
