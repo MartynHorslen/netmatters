@@ -617,17 +617,20 @@ header {
         height: auto;
         font-size: 1.25rem; }
         /* line 51, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
+        #jumbo .overlay .jumbo-content .btn:hover {
+          background-color: #566c88; }
+        /* line 54, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
         #jumbo .overlay .jumbo-content .btn .fa-regular {
           margin-left: 12px;
           margin-right: -4px;
           font-size: 1.25rem;
           font-weight: 600;
           line-height: 50px; }
-    /* line 60, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
+    /* line 63, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
     #jumbo .overlay .dots {
       position: absolute;
       bottom: 51px; }
-      /* line 63, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
+      /* line 66, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
       #jumbo .overlay .dots li {
         width: 11px;
         height: 11px;
@@ -635,7 +638,7 @@ header {
         opacity: 0.5;
         border-radius: 30px;
         margin: 0 10px; }
-      /* line 71, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
+      /* line 74, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
       #jumbo .overlay .dots li.active {
         outline: 2px solid white;
         outline-offset: 5px;
@@ -643,28 +646,28 @@ header {
         opacity: 1; }
 
 @media (min-width: 768px) {
-  /* line 82, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
+  /* line 85, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
   #jumbo img {
     height: calc(100vh - 100px); } }
 
 @media (min-width: 992px) {
-  /* line 89, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
+  /* line 92, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
   #jumbo img {
     height: calc(100vh - 210px); }
-  /* line 92, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
+  /* line 95, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
   #jumbo .overlay {
     text-align: left;
     align-items: start;
     background: linear-gradient(270deg, transparent 25%, #000); }
-    /* line 96, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
+    /* line 99, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
     #jumbo .overlay .jumbo-content {
       width: 970px; }
-    /* line 99, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
+    /* line 102, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
     #jumbo .overlay .dots {
       align-self: center; } }
 
 @media (min-width: 1260px) {
-  /* line 108, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
+  /* line 111, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
   #jumbo .overlay .jumbo-content {
     width: 1200px; } }
 
@@ -1486,6 +1489,9 @@ header {
     text-transform: uppercase;
     font-size: 1.063rem; }
     /* line 35, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
+    #culture .btn:hover {
+      background-color: #ebebeb; }
+    /* line 38, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
     #culture .btn .fa-regular {
       margin-left: 12px;
       margin-right: -4px;
@@ -1494,7 +1500,7 @@ header {
       line-height: 35px; }
 
 @media (min-width: 768px) {
-  /* line 46, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
+  /* line 49, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
   .width {
     width: 750px;
     margin: 0 auto;
@@ -1502,34 +1508,34 @@ header {
     padding-right: 10px; } }
 
 @media (min-width: 992px) {
-  /* line 54, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
+  /* line 57, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
   #culture {
     background-image: url(../img/branded.png);
     background-repeat: no-repeat;
     background-position: 100%;
     background-size: auto 100%; }
-    /* line 59, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
+    /* line 62, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
     #culture h2 {
       font-size: 2.25rem; }
-    /* line 62, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
+    /* line 65, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
     #culture p {
       font-size: 0.77rem;
       line-height: 1.875rem;
       margin-bottom: 25px; }
-  /* line 68, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
+  /* line 71, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
   .width {
     width: 970px; } }
 
 @media (min-width: 1260px) {
-  /* line 75, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
+  /* line 78, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
   #culture p {
     font-size: 1rem; }
-  /* line 79, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
+  /* line 82, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
   .width {
     width: 1200px;
     margin: 0 auto;
     padding-left: 15px; }
-    /* line 83, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
+    /* line 86, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
     .width h2, .width p {
       width: 49%;
       margin: 0; } }
@@ -1812,31 +1818,40 @@ header {
     text-align: center;
     display: inline-block;
     margin-bottom: 30px; }
+    /* line 138, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+    #news .card .button:hover {
+      background-color: #2a6ec6; }
 
-/* line 142, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+/* line 145, ../../../Desktop/Projects/netmatters/scss/_news.scss */
 #news .card:nth-of-type(2) .card-image .tag, #news .card:nth-of-type(2) .button {
   background-color: #d64541;
   border: #d64541; }
+  /* line 148, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+  #news .card:nth-of-type(2) .card-image .tag:hover, #news .card:nth-of-type(2) .button:hover {
+    background-color: #bc2c28; }
 
-/* line 146, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+/* line 152, ../../../Desktop/Projects/netmatters/scss/_news.scss */
 #news .card:nth-of-type(2) h4 {
   color: #d64541; }
 
-/* line 151, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+/* line 157, ../../../Desktop/Projects/netmatters/scss/_news.scss */
 #news .card:nth-of-type(3) .card-image .tag, #news .card:nth-of-type(3) .button {
   background-color: #926fb1;
   border: #926fb1; }
+  /* line 160, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+  #news .card:nth-of-type(3) .card-image .tag:hover, #news .card:nth-of-type(3) .button:hover {
+    background-color: #7e57a0; }
 
-/* line 155, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+/* line 164, ../../../Desktop/Projects/netmatters/scss/_news.scss */
 #news .card:nth-of-type(3) h4 {
   color: #926fb1; }
 
 @media (min-width: 768px) {
-  /* line 161, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+  /* line 170, ../../../Desktop/Projects/netmatters/scss/_news.scss */
   .latest {
     width: 750px;
     margin: 0 auto; }
-  /* line 165, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+  /* line 174, ../../../Desktop/Projects/netmatters/scss/_news.scss */
   #news {
     width: 750px;
     margin: 0 auto;
@@ -1847,64 +1862,64 @@ header {
     padding-left: 15px;
     padding-right: 15px;
     align-items: stretch; }
-    /* line 175, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+    /* line 184, ../../../Desktop/Projects/netmatters/scss/_news.scss */
     #news .card {
       flex-basis: calc(50% - 15px); }
-      /* line 177, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+      /* line 186, ../../../Desktop/Projects/netmatters/scss/_news.scss */
       #news .card .card-image {
         flex-basis: 199px;
         overflow: hidden; }
-      /* line 182, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+      /* line 191, ../../../Desktop/Projects/netmatters/scss/_news.scss */
       #news .card .card-body h3 {
         min-height: 3rem; }
-      /* line 185, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+      /* line 194, ../../../Desktop/Projects/netmatters/scss/_news.scss */
       #news .card .card-body p {
         min-height: 66px;
         margin-bottom: 25px; }
-    /* line 191, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+    /* line 200, ../../../Desktop/Projects/netmatters/scss/_news.scss */
     #news > :last-child {
       display: none; } }
 
 @media (min-width: 992px) {
-  /* line 197, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+  /* line 206, ../../../Desktop/Projects/netmatters/scss/_news.scss */
   .latest h3 {
     font-size: 0.95rem; }
-  /* line 200, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+  /* line 209, ../../../Desktop/Projects/netmatters/scss/_news.scss */
   #news {
     width: 970px; }
-    /* line 203, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+    /* line 212, ../../../Desktop/Projects/netmatters/scss/_news.scss */
     #news .card .card-image {
       overflow: hidden;
       object-fit: cover;
       flex-basis: 263px; }
-      /* line 207, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+      /* line 216, ../../../Desktop/Projects/netmatters/scss/_news.scss */
       #news .card .card-image img:hover {
         opacity: .75;
         transform: scale(1.1); }
-      /* line 211, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+      /* line 220, ../../../Desktop/Projects/netmatters/scss/_news.scss */
       #news .card .card-image img {
         transition: all .25s; }
-  /* line 216, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+  /* line 225, ../../../Desktop/Projects/netmatters/scss/_news.scss */
   .latest {
     width: 970px; } }
 
 @media (min-width: 1260px) {
-  /* line 221, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+  /* line 230, ../../../Desktop/Projects/netmatters/scss/_news.scss */
   .latest h3 {
     font-size: 1rem; }
-  /* line 224, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+  /* line 233, ../../../Desktop/Projects/netmatters/scss/_news.scss */
   #news {
     width: 1200px; }
-    /* line 226, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+    /* line 235, ../../../Desktop/Projects/netmatters/scss/_news.scss */
     #news .card {
       flex-basis: calc(33% - 15px); }
-      /* line 228, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+      /* line 237, ../../../Desktop/Projects/netmatters/scss/_news.scss */
       #news .card .card-image {
         flex-basis: 214px; }
-    /* line 232, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+    /* line 241, ../../../Desktop/Projects/netmatters/scss/_news.scss */
     #news > :last-child {
       display: flex; }
-  /* line 236, ../../../Desktop/Projects/netmatters/scss/_news.scss */
+  /* line 245, ../../../Desktop/Projects/netmatters/scss/_news.scss */
   .latest {
     width: 1200px; } }
 
@@ -2062,26 +2077,29 @@ header {
     border: 1px solid #333645;
     background-color: #333645;
     margin-top: 30px; }
-  /* line 48, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+    /* line 47, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+    #email input[type="submit"]:hover {
+      background-color: #1d1f28; }
+  /* line 51, ../../../Desktop/Projects/netmatters/scss/_email.scss */
   #email label {
     font-weight: 600;
     color: #333645;
     letter-spacing: 0.4px; }
-    /* line 52, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+    /* line 55, ../../../Desktop/Projects/netmatters/scss/_email.scss */
     #email label:after {
       content: " *";
       color: #d24d57; }
-  /* line 58, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+  /* line 61, ../../../Desktop/Projects/netmatters/scss/_email.scss */
   #email .form-group {
     display: flex; }
-    /* line 60, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+    /* line 63, ../../../Desktop/Projects/netmatters/scss/_email.scss */
     #email .form-group label:nth-of-type(1) {
       line-height: 32px;
       cursor: pointer; }
-      /* line 63, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+      /* line 66, ../../../Desktop/Projects/netmatters/scss/_email.scss */
       #email .form-group label:nth-of-type(1):after {
         content: ""; }
-    /* line 67, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+    /* line 70, ../../../Desktop/Projects/netmatters/scss/_email.scss */
     #email .form-group input[type="checkbox"] {
       flex: 1 0 auto;
       -moz-appearance: none;
@@ -2094,37 +2112,37 @@ header {
       position: relative;
       float: left;
       margin-right: 20px; }
-      /* line 79, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+      /* line 82, ../../../Desktop/Projects/netmatters/scss/_email.scss */
       #email .form-group input[type="checkbox"]:checked {
         background-color: #333645; }
-        /* line 81, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+        /* line 84, ../../../Desktop/Projects/netmatters/scss/_email.scss */
         #email .form-group input[type="checkbox"]:checked:before {
           content: url("https://api.iconify.design/charm/tick.svg?color=white&width=25&height=25"); }
 
 @media (min-width: 768px) {
-  /* line 90, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+  /* line 93, ../../../Desktop/Projects/netmatters/scss/_email.scss */
   #email .section-pad {
     width: 750px;
     margin: 0 auto; } }
 
 @media (min-width: 992px) {
-  /* line 96, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+  /* line 99, ../../../Desktop/Projects/netmatters/scss/_email.scss */
   #email .section-pad {
     width: 970px; }
-  /* line 99, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+  /* line 102, ../../../Desktop/Projects/netmatters/scss/_email.scss */
   .form-left {
     width: calc(50% - 15px);
     display: block;
     float: left;
     margin-right: auto; }
-  /* line 105, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+  /* line 108, ../../../Desktop/Projects/netmatters/scss/_email.scss */
   .form-right {
     width: calc(50% - 15px);
     display: block;
     margin-left: auto; } }
 
 @media (min-width: 1260px) {
-  /* line 113, ../../../Desktop/Projects/netmatters/scss/_email.scss */
+  /* line 116, ../../../Desktop/Projects/netmatters/scss/_email.scss */
   #email .section-pad {
     width: 1200px; } }
 

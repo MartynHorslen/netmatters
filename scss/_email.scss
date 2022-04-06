@@ -43,7 +43,10 @@
         color: #fff;
         border: 1px solid $secondary;
         background-color: $secondary;  
-        margin-top: 30px;    
+        margin-top: 30px; 
+        &:hover {
+            background-color: darken($secondary, 10%);  
+        }   
     }
     label {
         font-weight: 600;
