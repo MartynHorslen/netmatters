@@ -385,11 +385,11 @@ header {
       /* line 253, ../../../Desktop/Projects/netmatters/scss/_header.scss */
       #nav-bar .flex-row > .flex-item {
         border-right: 1px solid rgba(255, 255, 255, 0.1);
-        border-left: 1px solid rgba(0, 0, 0, 0.25);
-        font-size: 1.125rem; }
-        /* line 257, ../../../Desktop/Projects/netmatters/scss/_header.scss */
+        border-left: 1px solid rgba(0, 0, 0, 0.25); }
+        /* line 256, ../../../Desktop/Projects/netmatters/scss/_header.scss */
         #nav-bar .flex-row > .flex-item a {
-          padding: 19px 0 18px; }
+          font-size: 1.125rem;
+          padding: 16px 0 16px; }
         /* line 260, ../../../Desktop/Projects/netmatters/scss/_header.scss */
         #nav-bar .flex-row > .flex-item svg {
           margin: 0 auto;
