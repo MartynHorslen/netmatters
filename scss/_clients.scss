@@ -19,7 +19,7 @@
             .pop-up {
                 position: absolute;
                 bottom: calc(100% + 50px);
-                left: -228px;
+                left: -200px;
                 right: -200px;
                 display: none;
                 .contents {
@@ -105,5 +105,10 @@
     #clients {
         width: 1200px;
         padding-left: 30px;
+        .client-img {
+            .pop-up {
+                left: -228px;
+            }
+        }
     }
 }

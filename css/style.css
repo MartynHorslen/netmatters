@@ -1965,7 +1965,7 @@ header {
       #clients .client-img .pop-up {
         position: absolute;
         bottom: calc(100% + 50px);
-        left: -228px;
+        left: -200px;
         right: -200px;
         display: none; }
         /* line 25, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
@@ -2046,7 +2046,10 @@ header {
   /* line 105, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
   #clients {
     width: 1200px;
-    padding-left: 30px; } }
+    padding-left: 30px; }
+    /* line 109, ../../../Desktop/Projects/netmatters/scss/_clients.scss */
+    #clients .client-img .pop-up {
+      left: -228px; } }
 
 /* line 1, ../../../Desktop/Projects/netmatters/scss/_email.scss */
 #email {
