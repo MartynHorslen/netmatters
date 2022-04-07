@@ -568,7 +568,7 @@ header {
 #jumbo {
   position: relative;
   border-top: 1px solid rgba(51, 54, 69, 0.5);
-  min-height: 422px; }
+  min-height: 560px; }
   /* line 5, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
   #jumbo img {
     object-fit: cover;
