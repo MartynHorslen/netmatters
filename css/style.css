@@ -555,7 +555,7 @@ header {
   #nav-bar .flex-row {
     width: 1170px; }
   /* line 378, ../../../Desktop/Projects/netmatters/scss/_header.scss */
-  #nav-bar .flex-row > .flex-item .mini-bar ul li {
+  #nav-bar .flex-row > .flex-item .mini-bar ul li a {
     font-size: 1rem; }
   /* line 382, ../../../Desktop/Projects/netmatters/scss/_header.scss */
   #nav-bar .flex-row > .flex-item .mini-bar::after {
