@@ -2,7 +2,7 @@
 // == Service card element and hover colors ==
 // ===========================================
 #services {
-    padding-top: 10px;
+    gap: 15px;
 }
 
 @each $service, $name in $services{
@@ -13,7 +13,6 @@
         align-items: center;
         border: 1px solid lightgrey;
         border-radius: 3px;
-        margin-top: 30px;
         box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1);
         a.card-link {
             text-decoration: none;
@@ -93,8 +92,7 @@
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-between;
-            padding-left: 15px;
-            padding-right: 15px;
+            gap: 30px 15px;
             align-items: stretch;
             @if ($i < 4) {
                 .card-#{$i} {
@@ -129,7 +127,7 @@
             width: 1200px;
             @if ($i > 3) {
                 .card-#{$i} {
-                    flex-basis: calc(25% - 15px);
+                    flex-basis: calc(25% - 22.5px);
                 }
             }
         }

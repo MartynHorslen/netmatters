@@ -672,7 +672,7 @@ header {
 
 /* line 4, ../../../Desktop/Projects/netmatters/scss/_services.scss */
 #services {
-  padding-top: 10px; }
+  gap: 15px; }
 
 /* line 10, ../../../Desktop/Projects/netmatters/scss/_services.scss */
 .card-1 {
@@ -681,9 +681,8 @@ header {
   align-items: center;
   border: 1px solid lightgrey;
   border-radius: 3px;
-  margin-top: 30px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1); }
-  /* line 18, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 17, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-1 a.card-link {
     text-decoration: none;
     color: #333645;
@@ -697,7 +696,7 @@ header {
     justify-content: space-between;
     align-items: center;
     flex: 100%; }
-    /* line 31, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    /* line 30, ../../../Desktop/Projects/netmatters/scss/_services.scss */
     .card-1 a.card-link .service-icon {
       background-color: #67809f;
       color: white;
@@ -709,29 +708,29 @@ header {
       justify-content: center;
       align-items: center;
       margin: 0 auto 17px; }
-      /* line 42, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+      /* line 41, ../../../Desktop/Projects/netmatters/scss/_services.scss */
       .card-1 a.card-link .service-icon svg {
         width: 24px;
         height: 24px; }
-  /* line 48, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 47, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-1 h3 {
     font-size: 1.125rem;
     padding-bottom: 10px;
     font-weight: 400;
     color: #333645; }
-  /* line 54, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 53, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-1 hr {
     width: 28px;
     height: 3px;
     margin: 0 auto 11px;
     background-color: #333645; }
-  /* line 60, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 59, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-1 p {
     font-size: .8125rem;
     line-height: 1.375rem;
     margin-bottom: 13px;
     font-weight: 400; }
-  /* line 66, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 65, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-1 span.btn {
     background-color: #67809f;
     color: white;
@@ -741,48 +740,47 @@ header {
     font-size: 1.063rem;
     letter-spacing: .4px; }
 
-/* line 76, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+/* line 75, ../../../Desktop/Projects/netmatters/scss/_services.scss */
 .card-1:hover {
   background-color: #67809f; }
-  /* line 78, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 77, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-1:hover h3, .card-1:hover p {
     color: white; }
-  /* line 81, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 80, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-1:hover hr {
     border-color: white;
     background-color: white; }
-  /* line 85, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 84, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-1:hover span, .card-1:hover a.card-link .service-icon {
     background-color: white;
     color: #67809f; }
 
 @media (min-width: 768px) {
-  /* line 91, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 90, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   #services {
     width: 750px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 15px;
-    padding-right: 15px;
+    gap: 30px 15px;
     align-items: stretch; }
-    /* line 100, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    /* line 98, ../../../Desktop/Projects/netmatters/scss/_services.scss */
     #services .card-1 {
       flex-basis: 100%; }
-      /* line 102, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+      /* line 100, ../../../Desktop/Projects/netmatters/scss/_services.scss */
       #services .card-1 h3 {
         margin: 0 0 7px; } }
 
 @media (min-width: 992px) {
-  /* line 118, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 116, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   #services {
     width: 970px; }
-    /* line 121, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    /* line 119, ../../../Desktop/Projects/netmatters/scss/_services.scss */
     #services .card-1 {
       flex-basis: calc(33% - 15px); } }
 
 @media (min-width: 1260px) {
-  /* line 128, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 126, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   #services {
     width: 1200px; } }
 
@@ -793,9 +791,8 @@ header {
   align-items: center;
   border: 1px solid lightgrey;
   border-radius: 3px;
-  margin-top: 30px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1); }
-  /* line 18, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 17, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-2 a.card-link {
     text-decoration: none;
     color: #333645;
@@ -809,7 +806,7 @@ header {
     justify-content: space-between;
     align-items: center;
     flex: 100%; }
-    /* line 31, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    /* line 30, ../../../Desktop/Projects/netmatters/scss/_services.scss */
     .card-2 a.card-link .service-icon {
       background-color: #4183d7;
       color: white;
@@ -821,29 +818,29 @@ header {
       justify-content: center;
       align-items: center;
       margin: 0 auto 17px; }
-      /* line 42, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+      /* line 41, ../../../Desktop/Projects/netmatters/scss/_services.scss */
       .card-2 a.card-link .service-icon svg {
         width: 24px;
         height: 24px; }
-  /* line 48, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 47, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-2 h3 {
     font-size: 1.125rem;
     padding-bottom: 10px;
     font-weight: 400;
     color: #333645; }
-  /* line 54, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 53, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-2 hr {
     width: 28px;
     height: 3px;
     margin: 0 auto 11px;
     background-color: #333645; }
-  /* line 60, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 59, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-2 p {
     font-size: .8125rem;
     line-height: 1.375rem;
     margin-bottom: 13px;
     font-weight: 400; }
-  /* line 66, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 65, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-2 span.btn {
     background-color: #4183d7;
     color: white;
@@ -853,48 +850,47 @@ header {
     font-size: 1.063rem;
     letter-spacing: .4px; }
 
-/* line 76, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+/* line 75, ../../../Desktop/Projects/netmatters/scss/_services.scss */
 .card-2:hover {
   background-color: #4183d7; }
-  /* line 78, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 77, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-2:hover h3, .card-2:hover p {
     color: white; }
-  /* line 81, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 80, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-2:hover hr {
     border-color: white;
     background-color: white; }
-  /* line 85, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 84, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-2:hover span, .card-2:hover a.card-link .service-icon {
     background-color: white;
     color: #4183d7; }
 
 @media (min-width: 768px) {
-  /* line 91, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 90, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   #services {
     width: 750px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 15px;
-    padding-right: 15px;
+    gap: 30px 15px;
     align-items: stretch; }
-    /* line 100, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    /* line 98, ../../../Desktop/Projects/netmatters/scss/_services.scss */
     #services .card-2 {
       flex-basis: 100%; }
-      /* line 102, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+      /* line 100, ../../../Desktop/Projects/netmatters/scss/_services.scss */
       #services .card-2 h3 {
         margin: 0 0 7px; } }
 
 @media (min-width: 992px) {
-  /* line 118, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 116, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   #services {
     width: 970px; }
-    /* line 121, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    /* line 119, ../../../Desktop/Projects/netmatters/scss/_services.scss */
     #services .card-2 {
       flex-basis: calc(33% - 15px); } }
 
 @media (min-width: 1260px) {
-  /* line 128, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 126, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   #services {
     width: 1200px; } }
 
@@ -905,9 +901,8 @@ header {
   align-items: center;
   border: 1px solid lightgrey;
   border-radius: 3px;
-  margin-top: 30px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1); }
-  /* line 18, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 17, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-3 a.card-link {
     text-decoration: none;
     color: #333645;
@@ -921,7 +916,7 @@ header {
     justify-content: space-between;
     align-items: center;
     flex: 100%; }
-    /* line 31, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    /* line 30, ../../../Desktop/Projects/netmatters/scss/_services.scss */
     .card-3 a.card-link .service-icon {
       background-color: #2ecc71;
       color: white;
@@ -933,29 +928,29 @@ header {
       justify-content: center;
       align-items: center;
       margin: 0 auto 17px; }
-      /* line 42, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+      /* line 41, ../../../Desktop/Projects/netmatters/scss/_services.scss */
       .card-3 a.card-link .service-icon svg {
         width: 24px;
         height: 24px; }
-  /* line 48, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 47, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-3 h3 {
     font-size: 1.125rem;
     padding-bottom: 10px;
     font-weight: 400;
     color: #333645; }
-  /* line 54, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 53, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-3 hr {
     width: 28px;
     height: 3px;
     margin: 0 auto 11px;
     background-color: #333645; }
-  /* line 60, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 59, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-3 p {
     font-size: .8125rem;
     line-height: 1.375rem;
     margin-bottom: 13px;
     font-weight: 400; }
-  /* line 66, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 65, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-3 span.btn {
     background-color: #2ecc71;
     color: white;
@@ -965,48 +960,47 @@ header {
     font-size: 1.063rem;
     letter-spacing: .4px; }
 
-/* line 76, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+/* line 75, ../../../Desktop/Projects/netmatters/scss/_services.scss */
 .card-3:hover {
   background-color: #2ecc71; }
-  /* line 78, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 77, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-3:hover h3, .card-3:hover p {
     color: white; }
-  /* line 81, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 80, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-3:hover hr {
     border-color: white;
     background-color: white; }
-  /* line 85, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 84, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-3:hover span, .card-3:hover a.card-link .service-icon {
     background-color: white;
     color: #2ecc71; }
 
 @media (min-width: 768px) {
-  /* line 91, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 90, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   #services {
     width: 750px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 15px;
-    padding-right: 15px;
+    gap: 30px 15px;
     align-items: stretch; }
-    /* line 100, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    /* line 98, ../../../Desktop/Projects/netmatters/scss/_services.scss */
     #services .card-3 {
       flex-basis: 100%; }
-      /* line 102, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+      /* line 100, ../../../Desktop/Projects/netmatters/scss/_services.scss */
       #services .card-3 h3 {
         margin: 0 0 7px; } }
 
 @media (min-width: 992px) {
-  /* line 118, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 116, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   #services {
     width: 970px; }
-    /* line 121, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    /* line 119, ../../../Desktop/Projects/netmatters/scss/_services.scss */
     #services .card-3 {
       flex-basis: calc(33% - 15px); } }
 
 @media (min-width: 1260px) {
-  /* line 128, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 126, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   #services {
     width: 1200px; } }
 
@@ -1017,9 +1011,8 @@ header {
   align-items: center;
   border: 1px solid lightgrey;
   border-radius: 3px;
-  margin-top: 30px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1); }
-  /* line 18, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 17, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-4 a.card-link {
     text-decoration: none;
     color: #333645;
@@ -1033,7 +1026,7 @@ header {
     justify-content: space-between;
     align-items: center;
     flex: 100%; }
-    /* line 31, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    /* line 30, ../../../Desktop/Projects/netmatters/scss/_services.scss */
     .card-4 a.card-link .service-icon {
       background-color: #d64541;
       color: white;
@@ -1045,29 +1038,29 @@ header {
       justify-content: center;
       align-items: center;
       margin: 0 auto 17px; }
-      /* line 42, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+      /* line 41, ../../../Desktop/Projects/netmatters/scss/_services.scss */
       .card-4 a.card-link .service-icon svg {
         width: 24px;
         height: 24px; }
-  /* line 48, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 47, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-4 h3 {
     font-size: 1.125rem;
     padding-bottom: 10px;
     font-weight: 400;
     color: #333645; }
-  /* line 54, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 53, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-4 hr {
     width: 28px;
     height: 3px;
     margin: 0 auto 11px;
     background-color: #333645; }
-  /* line 60, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 59, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-4 p {
     font-size: .8125rem;
     line-height: 1.375rem;
     margin-bottom: 13px;
     font-weight: 400; }
-  /* line 66, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 65, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-4 span.btn {
     background-color: #d64541;
     color: white;
@@ -1077,50 +1070,49 @@ header {
     font-size: 1.063rem;
     letter-spacing: .4px; }
 
-/* line 76, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+/* line 75, ../../../Desktop/Projects/netmatters/scss/_services.scss */
 .card-4:hover {
   background-color: #d64541; }
-  /* line 78, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 77, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-4:hover h3, .card-4:hover p {
     color: white; }
-  /* line 81, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 80, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-4:hover hr {
     border-color: white;
     background-color: white; }
-  /* line 85, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 84, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-4:hover span, .card-4:hover a.card-link .service-icon {
     background-color: white;
     color: #d64541; }
 
 @media (min-width: 768px) {
-  /* line 91, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 90, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   #services {
     width: 750px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 15px;
-    padding-right: 15px;
+    gap: 30px 15px;
     align-items: stretch; }
-    /* line 107, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    /* line 105, ../../../Desktop/Projects/netmatters/scss/_services.scss */
     #services .card-4 {
       flex-basis: calc(50% - 15px); }
-      /* line 109, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+      /* line 107, ../../../Desktop/Projects/netmatters/scss/_services.scss */
       #services .card-4 h3 {
         margin: 0 0 7px; } }
 
 @media (min-width: 992px) {
-  /* line 118, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 116, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   #services {
     width: 970px; } }
 
 @media (min-width: 1260px) {
-  /* line 128, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 126, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   #services {
     width: 1200px; }
-    /* line 131, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    /* line 129, ../../../Desktop/Projects/netmatters/scss/_services.scss */
     #services .card-4 {
-      flex-basis: calc(25% - 15px); } }
+      flex-basis: calc(25% - 22.5px); } }
 
 /* line 10, ../../../Desktop/Projects/netmatters/scss/_services.scss */
 .card-5 {
@@ -1129,9 +1121,8 @@ header {
   align-items: center;
   border: 1px solid lightgrey;
   border-radius: 3px;
-  margin-top: 30px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1); }
-  /* line 18, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 17, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-5 a.card-link {
     text-decoration: none;
     color: #333645;
@@ -1145,7 +1136,7 @@ header {
     justify-content: space-between;
     align-items: center;
     flex: 100%; }
-    /* line 31, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    /* line 30, ../../../Desktop/Projects/netmatters/scss/_services.scss */
     .card-5 a.card-link .service-icon {
       background-color: #926fb1;
       color: white;
@@ -1157,29 +1148,29 @@ header {
       justify-content: center;
       align-items: center;
       margin: 0 auto 17px; }
-      /* line 42, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+      /* line 41, ../../../Desktop/Projects/netmatters/scss/_services.scss */
       .card-5 a.card-link .service-icon svg {
         width: 24px;
         height: 24px; }
-  /* line 48, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 47, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-5 h3 {
     font-size: 1.125rem;
     padding-bottom: 10px;
     font-weight: 400;
     color: #333645; }
-  /* line 54, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 53, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-5 hr {
     width: 28px;
     height: 3px;
     margin: 0 auto 11px;
     background-color: #333645; }
-  /* line 60, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 59, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-5 p {
     font-size: .8125rem;
     line-height: 1.375rem;
     margin-bottom: 13px;
     font-weight: 400; }
-  /* line 66, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 65, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-5 span.btn {
     background-color: #926fb1;
     color: white;
@@ -1189,50 +1180,49 @@ header {
     font-size: 1.063rem;
     letter-spacing: .4px; }
 
-/* line 76, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+/* line 75, ../../../Desktop/Projects/netmatters/scss/_services.scss */
 .card-5:hover {
   background-color: #926fb1; }
-  /* line 78, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 77, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-5:hover h3, .card-5:hover p {
     color: white; }
-  /* line 81, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 80, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-5:hover hr {
     border-color: white;
     background-color: white; }
-  /* line 85, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 84, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-5:hover span, .card-5:hover a.card-link .service-icon {
     background-color: white;
     color: #926fb1; }
 
 @media (min-width: 768px) {
-  /* line 91, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 90, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   #services {
     width: 750px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 15px;
-    padding-right: 15px;
+    gap: 30px 15px;
     align-items: stretch; }
-    /* line 107, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    /* line 105, ../../../Desktop/Projects/netmatters/scss/_services.scss */
     #services .card-5 {
       flex-basis: calc(50% - 15px); }
-      /* line 109, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+      /* line 107, ../../../Desktop/Projects/netmatters/scss/_services.scss */
       #services .card-5 h3 {
         margin: 0 0 7px; } }
 
 @media (min-width: 992px) {
-  /* line 118, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 116, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   #services {
     width: 970px; } }
 
 @media (min-width: 1260px) {
-  /* line 128, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 126, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   #services {
     width: 1200px; }
-    /* line 131, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    /* line 129, ../../../Desktop/Projects/netmatters/scss/_services.scss */
     #services .card-5 {
-      flex-basis: calc(25% - 15px); } }
+      flex-basis: calc(25% - 22.5px); } }
 
 /* line 10, ../../../Desktop/Projects/netmatters/scss/_services.scss */
 .card-6 {
@@ -1241,9 +1231,8 @@ header {
   align-items: center;
   border: 1px solid lightgrey;
   border-radius: 3px;
-  margin-top: 30px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1); }
-  /* line 18, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 17, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-6 a.card-link {
     text-decoration: none;
     color: #333645;
@@ -1257,7 +1246,7 @@ header {
     justify-content: space-between;
     align-items: center;
     flex: 100%; }
-    /* line 31, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    /* line 30, ../../../Desktop/Projects/netmatters/scss/_services.scss */
     .card-6 a.card-link .service-icon {
       background-color: #f62459;
       color: white;
@@ -1269,29 +1258,29 @@ header {
       justify-content: center;
       align-items: center;
       margin: 0 auto 17px; }
-      /* line 42, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+      /* line 41, ../../../Desktop/Projects/netmatters/scss/_services.scss */
       .card-6 a.card-link .service-icon svg {
         width: 24px;
         height: 24px; }
-  /* line 48, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 47, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-6 h3 {
     font-size: 1.125rem;
     padding-bottom: 10px;
     font-weight: 400;
     color: #333645; }
-  /* line 54, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 53, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-6 hr {
     width: 28px;
     height: 3px;
     margin: 0 auto 11px;
     background-color: #333645; }
-  /* line 60, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 59, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-6 p {
     font-size: .8125rem;
     line-height: 1.375rem;
     margin-bottom: 13px;
     font-weight: 400; }
-  /* line 66, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 65, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-6 span.btn {
     background-color: #f62459;
     color: white;
@@ -1301,50 +1290,49 @@ header {
     font-size: 1.063rem;
     letter-spacing: .4px; }
 
-/* line 76, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+/* line 75, ../../../Desktop/Projects/netmatters/scss/_services.scss */
 .card-6:hover {
   background-color: #f62459; }
-  /* line 78, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 77, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-6:hover h3, .card-6:hover p {
     color: white; }
-  /* line 81, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 80, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-6:hover hr {
     border-color: white;
     background-color: white; }
-  /* line 85, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 84, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-6:hover span, .card-6:hover a.card-link .service-icon {
     background-color: white;
     color: #f62459; }
 
 @media (min-width: 768px) {
-  /* line 91, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 90, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   #services {
     width: 750px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 15px;
-    padding-right: 15px;
+    gap: 30px 15px;
     align-items: stretch; }
-    /* line 107, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    /* line 105, ../../../Desktop/Projects/netmatters/scss/_services.scss */
     #services .card-6 {
       flex-basis: calc(50% - 15px); }
-      /* line 109, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+      /* line 107, ../../../Desktop/Projects/netmatters/scss/_services.scss */
       #services .card-6 h3 {
         margin: 0 0 7px; } }
 
 @media (min-width: 992px) {
-  /* line 118, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 116, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   #services {
     width: 970px; } }
 
 @media (min-width: 1260px) {
-  /* line 128, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 126, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   #services {
     width: 1200px; }
-    /* line 131, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    /* line 129, ../../../Desktop/Projects/netmatters/scss/_services.scss */
     #services .card-6 {
-      flex-basis: calc(25% - 15px); } }
+      flex-basis: calc(25% - 22.5px); } }
 
 /* line 10, ../../../Desktop/Projects/netmatters/scss/_services.scss */
 .card-7 {
@@ -1353,9 +1341,8 @@ header {
   align-items: center;
   border: 1px solid lightgrey;
   border-radius: 3px;
-  margin-top: 30px;
   box-shadow: 0 3px 35px rgba(0, 0, 0, 0.1); }
-  /* line 18, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 17, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-7 a.card-link {
     text-decoration: none;
     color: #333645;
@@ -1369,7 +1356,7 @@ header {
     justify-content: space-between;
     align-items: center;
     flex: 100%; }
-    /* line 31, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    /* line 30, ../../../Desktop/Projects/netmatters/scss/_services.scss */
     .card-7 a.card-link .service-icon {
       background-color: #926fb1;
       color: white;
@@ -1381,29 +1368,29 @@ header {
       justify-content: center;
       align-items: center;
       margin: 0 auto 17px; }
-      /* line 42, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+      /* line 41, ../../../Desktop/Projects/netmatters/scss/_services.scss */
       .card-7 a.card-link .service-icon svg {
         width: 24px;
         height: 24px; }
-  /* line 48, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 47, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-7 h3 {
     font-size: 1.125rem;
     padding-bottom: 10px;
     font-weight: 400;
     color: #333645; }
-  /* line 54, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 53, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-7 hr {
     width: 28px;
     height: 3px;
     margin: 0 auto 11px;
     background-color: #333645; }
-  /* line 60, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 59, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-7 p {
     font-size: .8125rem;
     line-height: 1.375rem;
     margin-bottom: 13px;
     font-weight: 400; }
-  /* line 66, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 65, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-7 span.btn {
     background-color: #926fb1;
     color: white;
@@ -1413,50 +1400,49 @@ header {
     font-size: 1.063rem;
     letter-spacing: .4px; }
 
-/* line 76, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+/* line 75, ../../../Desktop/Projects/netmatters/scss/_services.scss */
 .card-7:hover {
   background-color: #926fb1; }
-  /* line 78, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 77, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-7:hover h3, .card-7:hover p {
     color: white; }
-  /* line 81, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 80, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-7:hover hr {
     border-color: white;
     background-color: white; }
-  /* line 85, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 84, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   .card-7:hover span, .card-7:hover a.card-link .service-icon {
     background-color: white;
     color: #926fb1; }
 
 @media (min-width: 768px) {
-  /* line 91, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 90, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   #services {
     width: 750px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 15px;
-    padding-right: 15px;
+    gap: 30px 15px;
     align-items: stretch; }
-    /* line 107, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    /* line 105, ../../../Desktop/Projects/netmatters/scss/_services.scss */
     #services .card-7 {
       flex-basis: calc(50% - 15px); }
-      /* line 109, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+      /* line 107, ../../../Desktop/Projects/netmatters/scss/_services.scss */
       #services .card-7 h3 {
         margin: 0 0 7px; } }
 
 @media (min-width: 992px) {
-  /* line 118, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 116, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   #services {
     width: 970px; } }
 
 @media (min-width: 1260px) {
-  /* line 128, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+  /* line 126, ../../../Desktop/Projects/netmatters/scss/_services.scss */
   #services {
     width: 1200px; }
-    /* line 131, ../../../Desktop/Projects/netmatters/scss/_services.scss */
+    /* line 129, ../../../Desktop/Projects/netmatters/scss/_services.scss */
     #services .card-7 {
-      flex-basis: calc(25% - 15px); } }
+      flex-basis: calc(25% - 22.5px); } }
 
 /* line 1, ../../../Desktop/Projects/netmatters/scss/_culture.scss */
 #culture {
