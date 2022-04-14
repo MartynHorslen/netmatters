@@ -392,7 +392,7 @@ header {
           margin: 0 auto;
           min-width: 23px;
           min-height: 23px;
-          margin: 5px 0; }
+          margin: 4px 0; }
         /* line 269, ../../../Desktop/Projects/netmatters/scss/_header.scss */
         #nav-bar .flex-row > .flex-item small {
           display: block;
