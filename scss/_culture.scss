@@ -58,13 +58,10 @@
         background-image: url(../img/branded.png);
         background-repeat: no-repeat;
         background-position: 100%;
-        h2 {
-            font-size: 2.25rem;
-        }
-        p {
-            font-size: 0.7695rem;
-            line-height: 1.875rem;
-            margin-bottom: 25px;
+        .width {
+            h2 {
+                font-size: 2.25rem;
+            }
         }
     }
     .width {
@@ -76,7 +73,7 @@
     #culture {
         background-size: auto 100%;
         p {
-        font-size: 1rem;
+            font-size: 1rem;
         }
     }
     .width {
