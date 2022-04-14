@@ -245,11 +245,13 @@ header {
         text-align: center;
         text-transform: uppercase;
         .flex-row {
-            width: 970px;
+            width: 940px;
             margin: 0 auto;
             align-items: flex-start;
             height: auto;
             position: relative;
+            border-left: 1px solid hsla(0,0%,100%,.1);
+            border-right: 1px solid rgba(0,0,0,.25);
             > .flex-item {
                 border-right: 1px solid hsla(0,0%,100%,.1);
                 border-left: 1px solid rgba(0,0,0,.25);
@@ -260,8 +262,8 @@ header {
                 svg {
                     margin: 0 auto;
                     min-width: 23px;
-                    min-height: 23px;
-                    margin-bottom: 10px;
+                    min-height:23px;
+                    margin: 5px 0;
                 }
                 
                 small {
@@ -367,7 +369,7 @@ header {
     }
     #nav-bar {
         .flex-row {
-            width: 1200px;
+            width: 1170px;
         }
         .flex-row {
             > .flex-item {
