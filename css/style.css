@@ -2201,19 +2201,28 @@ header {
       display: block; }
     /* line 35, ../../../Desktop/Projects/netmatters/scss/_accreditations.scss */
     #accreditations .flex-row:nth-of-type(2) {
-      margin-top: 20px; } }
+      margin-top: 20px; }
+      /* line 37, ../../../Desktop/Projects/netmatters/scss/_accreditations.scss */
+      #accreditations .flex-row:nth-of-type(2) div:last-child {
+        height: 70px; } }
 
 @media (min-width: 992px) {
-  /* line 41, ../../../Desktop/Projects/netmatters/scss/_accreditations.scss */
+  /* line 44, ../../../Desktop/Projects/netmatters/scss/_accreditations.scss */
   #accreditations {
-    width: 970px; } }
+    width: 970px; }
+    /* line 47, ../../../Desktop/Projects/netmatters/scss/_accreditations.scss */
+    #accreditations .flex-row:nth-of-type(2) div:last-child {
+      height: 80px; } }
 
 @media (min-width: 1260px) {
-  /* line 46, ../../../Desktop/Projects/netmatters/scss/_accreditations.scss */
+  /* line 54, ../../../Desktop/Projects/netmatters/scss/_accreditations.scss */
   #accreditations {
     width: 1200px; }
-    /* line 48, ../../../Desktop/Projects/netmatters/scss/_accreditations.scss */
+    /* line 56, ../../../Desktop/Projects/netmatters/scss/_accreditations.scss */
     #accreditations .flex-item {
-      flex: 0 1 auto; } }
+      flex: 0 1 auto; }
+    /* line 60, ../../../Desktop/Projects/netmatters/scss/_accreditations.scss */
+    #accreditations .flex-row:nth-of-type(2) div:last-child {
+      height: 70px; } }
 
 /*# sourceMappingURL=style.css.map */
