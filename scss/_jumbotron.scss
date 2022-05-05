@@ -1,10 +1,38 @@
-#jumbo { 
+.slick-initialized .slick-slide {
+    display: flex;
+}
+.slick-dots {
+    bottom: 42px;
+    li.slick-active button:before {
+        width: 11px;
+        height: 11px;
+        background-color: #ffffff;
+        opacity: 1;
+        border-radius: 30px;
+        //margin: 0 15px;
+        font-size: 0px;
+        outline: 2px solid white;
+        outline-offset: 4px;
+    }
+    li button:before {
+        width: 11px;
+        height: 11px;
+        background-color: #ffffff;
+        opacity: 0.5;
+        border-radius: 30px;
+        //margin: 0 15px;
+        font-size: 0px;
+    }
+}
+
+#slider .jumbo { 
     position: relative;
     border-top: 1px solid rgba(51,54,69,.5);
-    min-height: 560px;
+    min-height: 490px;
     img {
         object-fit: cover;
         height: calc(100vh - 168px);
+        min-height: 490px;
     }
     .overlay {
         text-align: center;
@@ -33,8 +61,9 @@
                 margin-bottom: 35px;
                 letter-spacing: 0.4px;
             }
+            
             .btn {
-                background-color: #67809f;
+                //background-color: #67809f;
                 border-radius: 3px;
                 border: 1px solid transparent;
                 color: white;
@@ -50,7 +79,7 @@
                 height:auto;
                 font-size: 1.25rem;
                 &:hover {
-                    background-color: #566c88;
+                    //background-color: #566c88;
                 }
                 .fa-regular {
                     margin-left: 12px;
@@ -81,15 +110,27 @@
         }
     }
 }
+@each $service, $name in $services{
+    $i: index($services, $service $name);
+    .jumbo:nth-of-type(#{$i}) .overlay .jumbo-content .btn {
+        background-color:$name;
+        &:hover {
+            background-color: darken($name, 10%);
+        }
+    }
+}
 
 @media (min-width: 768px) {
-    #jumbo img {
+    #slider .jumbo img {
         height: calc(100vh - 100px);
+    }
+    .slick-dots {
+        bottom: 50px;
     }
 }
 
 @media (min-width: 992px) {
-    #jumbo {
+    #slider .jumbo {
         img {
             height: calc(100vh - 210px);
         }
@@ -105,13 +146,24 @@
             }
         }
     }
+    .slick-dots {
+        bottom: 42px;
+        li {
+            margin: 0 5px;
+        }
+    }
 }
 @media (min-width: 1260px) {
-    #jumbo {
+    #slider .jumbo {
         .overlay {
             .jumbo-content {
                 width: 1200px;
             }
+        }
+    }
+    .slick-dots {
+        li {
+            margin: 0 6px;
         }
     }
 }
