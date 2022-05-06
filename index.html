@@ -39,7 +39,7 @@
         <![endif]-->
         <!-- Header & jumbotron wrapper-->
         <div class="wrapper"><!-- 100% width -->
-            <section id="front-page" class="flex-col vh"> <!-- Column for header and carousel, 100 vh -->
+            <div id="sticky">
                 <header class="flex-col col-pad"> <!-- column for logo row and search bar row -->
                     <div class="flex-row top-row"><!-- row for logo, phone & menu --> 
                         <a class="flex-item" href="#">
@@ -177,6 +177,9 @@
                             </div></div>
                     </div>
                 </div>
+            </div>
+            <section id="front-page" class="flex-col"> <!-- Column for header and carousel, 100 vh -->
+                
                 <div id="slider">
                     <div class="jumbo flex-item">
                         <img src="img/jumbo/bespoke.jpg" alt="Bespoke Software">
@@ -630,5 +633,8 @@
 
         <!-- Carousel banner -->
         <script src="js/banner.js"></script>
+
+        <!-- Sticky Header -->
+        <script src="js/sticky.js"></script>
     </body>
 </html>

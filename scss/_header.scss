@@ -5,6 +5,35 @@ header {
         margin-top: 11px; 
      }
 }
+#sticky {
+    position: absolute;
+    width: 100%;
+    z-index:5;
+    background-color: white;
+    top: 0;
+}
+.slide-up {
+    animation: slideUp 0.5s;
+}
+.slide-down {
+    animation: slideDown 0.5s;
+}
+@keyframes slideUp {
+    from {top: 0px;}
+    to {top: -168px;}
+}
+@keyframes slideDown {
+    from {top: -168px;}
+    to {top: 0px;}
+}
+#front-page {
+    margin-top: 168px;
+}
+.sticky {
+    position: fixed !important;
+    top:0;
+    width: 100% !important;
+}
 
 .top-row {
     &:nth-child(1n) {
@@ -102,6 +131,17 @@ header {
 }
 
 @media (min-width: 768px) {
+    #front-page {
+        margin-top: 110px;
+    }
+    @keyframes slideUp {
+        from {top: 0px;}
+        to {top: -110px;}
+    }
+    @keyframes slideDown {
+        from {top: -110px;}
+        to {top: 0px;}
+    }
     header {
         height: 110px;
         width: 750px;
@@ -176,6 +216,17 @@ header {
 }
 
 @media (min-width: 992px) {
+    #front-page {
+        margin-top: 208px;
+    }
+    @keyframes slideUp {
+        from {top: 0px;}
+        to {top: -208px;}
+    }
+    @keyframes slideDown {
+        from {top: -208px;}
+        to {top: 0px;}
+    }
     header {
         width: 970px;
         .top-search {
