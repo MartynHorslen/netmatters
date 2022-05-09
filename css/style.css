@@ -2452,13 +2452,17 @@ header {
     width: 350px; }
   @keyframes s-left {
     from {
-      right: 0px; }
+      right: 0px;
+      filter: brightness(100%); }
     to {
-      right: 350px; } }
+      right: 350px;
+      filter: brightness(50%); } }
   @keyframes s-right {
     from {
-      right: 350px; }
+      right: 350px;
+      filter: brightness(50%); }
     to {
-      right: 0px; } } }
+      right: 0px;
+      filter: brightness(100%); } } }
 
 /*# sourceMappingURL=style.css.map */
