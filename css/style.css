@@ -99,31 +99,32 @@ a {
 /* line 128, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .wrapper {
   width: 100%;
-  z-index: 1; }
+  z-index: 1;
+  background-color: white; }
 
-/* line 132, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 133, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .flex-col {
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
 
-/* line 137, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 138, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .flex-row {
   display: flex;
   flex-direction: row;
   align-items: center; }
 
-/* line 143, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 144, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .flex-item {
   flex: 1;
   display: flex;
   flex-direction: column; }
 
-/* line 149, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 150, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .col-pad, .search-pad {
   padding: 20px 15px; }
 
-/* line 153, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 154, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .section-pad {
   padding: 50px 15px;
   margin: 0 auto; }
