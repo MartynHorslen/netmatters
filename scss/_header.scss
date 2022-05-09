@@ -6,7 +6,6 @@ header {
      }
 }
 #sticky {
-    position: absolute;
     width: 100%;
     z-index:5;
     background-color: white;
@@ -17,6 +16,7 @@ header {
 }
 .slide-down {
     animation: slideDown 0.5s;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.1);
 }
 @keyframes slideUp {
     from {top: 0px;}
@@ -25,9 +25,6 @@ header {
 @keyframes slideDown {
     from {top: -168px;}
     to {top: 0px;}
-}
-#front-page {
-    margin-top: 168px;
 }
 .sticky {
     position: fixed !important;
@@ -131,9 +128,6 @@ header {
 }
 
 @media (min-width: 768px) {
-    #front-page {
-        margin-top: 110px;
-    }
     @keyframes slideUp {
         from {top: 0px;}
         to {top: -110px;}
@@ -216,9 +210,6 @@ header {
 }
 
 @media (min-width: 992px) {
-    #front-page {
-        margin-top: 208px;
-    }
     @keyframes slideUp {
         from {top: 0px;}
         to {top: -208px;}

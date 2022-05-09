@@ -13,6 +13,10 @@
     line-height: 1.1;
 }
 
+body {
+    position: relative;
+}
+
 //***** Debugging Class *****//
 .debug {
     border: 2px solid red;
