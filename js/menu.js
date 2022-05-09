@@ -1,42 +1,36 @@
-let count = 0;
+let menuTime = Date.now();
 // On button click
-$(".menu").click(()=>{
-    count++;
-    console.log(count);
-    //if .spin-out, 
-    if (count % 2 === 0){
-        // add spin in.
-            $(".menu-line").eq(2).addClass("extra-unspin");
-            setTimeout(()=>{
-                $(".menu-line").eq(2).removeClass("extra-unspin extra-spin");
-                $(".menu-line").addClass('spin-in');
-            }, 111);  
-            setTimeout(()=>{
-                $(".menu-text").removeClass("abs-line");
-                $(".menu-line").removeClass("spin-out spin-in");
-            }, 400);
-            $(".wrapper").addClass("close");
-            setTimeout(()=>{
-                $(".wrapper").removeClass("left");
-            }, 1000)
-    } else {
-        // else add spin out.
+$(".menu").click((e)=>{
+    if (Date.now() > time){
         $(".menu-text").addClass("abs-line");
         $(".menu-line").removeClass('spin-in').addClass('spin-out');
         setTimeout(()=>{
             $(".menu-line").eq(2).addClass("extra-spin");
         }, 400);      
         $(".wrapper").addClass("left").removeClass('close');
+        $(".menu-overlay").show();
+        $('#sticky').css("top", $(".wrapper").scrollTop()).css("left", "17px");
     }
+    menuTime = Date.now() + 500;
+});
 
+$(".menu-overlay").click(()=>{
+    if (Date.now() > time){
+        $(".menu-overlay").hide();
+        $(".menu-line").eq(2).addClass("extra-unspin");
+        $(".wrapper").addClass("close");
+        setTimeout(()=>{
+            $(".menu-line").eq(2).removeClass("extra-unspin extra-spin");
+            $(".menu-line").addClass('spin-in');
+        }, 111);  
+        setTimeout(()=>{
+            $(".menu-text").removeClass("abs-line");
+            $(".menu-line").removeClass("spin-out spin-in");
+            $(".wrapper").removeClass("left close");
+            $('#sticky').removeAttr("style");
+        }, 400);
+    }
+    menuTime = Date.now() + 1000;
     
-
-    // Slide wrapper and sidebar left
-
-    // Grey overlay on wrapper.
-
-    // Slide back right on menu close
-
-    // Animate menu icon rotation
 });
 

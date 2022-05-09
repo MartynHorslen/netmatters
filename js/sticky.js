@@ -9,21 +9,18 @@ if (windowWidth < 768 ){
 } else {
     height = 208;
 }
-$(window).scroll(() => {
-    let st = $(window).scrollTop();
+$(".wrapper").scroll(() => {
+    let st = $(".wrapper").scrollTop();
     if (Date.now() > time){
-        
         if (st > lastScrollTop && st > height){
             $('#sticky').removeClass('slide-down').addClass('slide-up');
             setTimeout(() => {
                 $('#sticky').removeClass('sticky')
             }, 450);
-            
-            
         } else if (st < lastScrollTop && st > height) {
             // upscroll code
             $('#sticky').addClass('sticky slide-down').removeClass('slide-up');
-        }        
+        }  
         time = Date.now() + 500;
     }
     if (st === 0){

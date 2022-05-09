@@ -129,6 +129,8 @@ a {
     width: 100%;
     z-index: 1;
     background-color: white;
+    overflow-y: scroll;
+    height: 100vh;
 }
 .flex-col {
     display: flex;
