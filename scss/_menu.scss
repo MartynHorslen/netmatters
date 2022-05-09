@@ -1,7 +1,115 @@
 #sidebar {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     height: 100vh;
-    width: 200px;
+    width: 275px;
+    background: #333645;
+    z-index: -1;
+}
+.abs-line {
+    //justify-content: end !important;
+    top: 15px !important;
+}
+.spin-out {
+    position: absolute;
+    top: 45px;
+    animation: spin-out 0.4s linear forwards;
+}
+.spin-in {
+    animation: spin-in 0.4s linear backwards;
+}
+.extra-spin {
+    animation: extra 0.1s linear forwards;
+}
+.extra-unspin {
+    animation: unextra 0.1s linear forwards;
+}
+
+@keyframes spin-out { 
+    from { 
+        transform: rotate(0deg); 
+    } to { 
+        transform: rotate(405deg); 
+    }
+}
+@keyframes spin-in { 
+    from { 
+        transform: rotate(405deg); 
+    } to { 
+        transform: rotate(0deg); 
+    }
+}
+
+@keyframes extra {
+    from {
+        transform: rotate(405deg);
+    }
+    to {
+        transform: rotate(495deg);
+    }
+}
+
+@keyframes unextra {
+    from {
+        transform: rotate(495deg);
+    }
+    to {
+        transform: rotate(405deg);
+    }
+}
+
+.left {
+    position: absolute;
+    overflow-y: scroll;
+    height: 100vh;
+    animation: s-left 0.5s forwards;
+}
+.close {
+    animation: s-right 0.5s forwards;
+}
+
+@keyframes s-left {
+    from {
+        right: 0px;
+        filter: brightness(100%);
+    }
+    to {
+        right: 275px;
+        filter: brightness(50%);
+    }
+}
+
+@keyframes s-right {
+    from {
+        right: 275px;
+        filter: brightness(50%);
+    }
+    to {
+        right: 0px;
+        filter: brightness(100%);
+    }
+}
+
+@media (min-width: 992px) {
+    #sidebar {
+        width: 350px;
+    }
+    @keyframes s-left {
+        from {
+            right: 0px;
+        }
+        to {
+            right: 350px;
+        }
+    }
+    
+    @keyframes s-right {
+        from {
+            right: 350px;
+        }
+        to {
+            right: 0px;
+        }
+    }
 }

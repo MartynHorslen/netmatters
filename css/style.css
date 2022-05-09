@@ -11,62 +11,64 @@
 
 /* line 16, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 body {
-  position: relative; }
+  position: relative;
+  width: 100vw;
+  overflow-x: hidden; }
 
-/* line 21, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 23, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .debug {
   border: 2px solid red; }
 
-/* line 39, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 41, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 h1, h2, h3, h4 {
   font-weight: 400; }
 
-/* line 42, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 44, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 h2, h3, h4 {
   margin: 0 0 15px; }
 
-/* line 45, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 47, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 h1, h2, h4 {
   text-transform: uppercase; }
 
-/* line 48, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 50, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 h3 {
   text-transform: capitalize; }
 
-/* line 51, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 53, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 h1 {
   font-size: 2.25rem; }
 
-/* line 54, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 56, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 h2 {
   font-size: 2rem; }
 
-/* line 57, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 59, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 h3 {
   font-size: 1.25rem; }
 
-/* line 60, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 62, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 h4 {
   font-size: 1rem; }
 
-/* line 65, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 67, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 p {
   margin: 0 0 25px; }
 
-/* line 70, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 72, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 ul {
   list-style: none;
   margin-bottom: 10px; }
-  /* line 73, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+  /* line 75, ../../../Desktop/Projects/netmatters/scss/_general.scss */
   ul li {
     display: list-item; }
 
-/* line 79, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 81, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 a {
   text-decoration: none;
   color: inherit; }
 
-/* line 85, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 87, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .btn {
   text-transform: uppercase;
   padding: 5px 15px;
@@ -76,51 +78,52 @@ a {
   border-radius: 3px;
   font-size: 1.063rem; }
 
-/* line 100, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 102, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 #email input[type="text"]:focus, #email input[type="email"]:focus, #email input[type="search"]:focus, .top-search input[type="text"]:focus, .top-search input[type="email"]:focus, .top-search input[type="search"]:focus {
   border-color: #5bc0de;
   outline: 0;
   box-shadow: 0 0 8px #5bc0de; }
 
-/* line 110, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 112, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .btn, .button {
   cursor: pointer; }
 
-/* line 118, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 120, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .vh {
   min-height: 100vh; }
 
-/* line 122, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 124, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .hidden {
   display: none; }
 
-/* line 126, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 128, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .wrapper {
-  width: 100%; }
+  width: 100%;
+  z-index: 1; }
 
-/* line 129, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 132, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .flex-col {
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
 
-/* line 134, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 137, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .flex-row {
   display: flex;
   flex-direction: row;
   align-items: center; }
 
-/* line 140, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 143, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .flex-item {
   flex: 1;
   display: flex;
   flex-direction: column; }
 
-/* line 146, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 149, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .col-pad, .search-pad {
   padding: 20px 15px; }
 
-/* line 150, ../../../Desktop/Projects/netmatters/scss/_general.scss */
+/* line 153, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .section-pad {
   padding: 50px 15px;
   margin: 0 auto; }
@@ -2358,5 +2361,103 @@ header {
     /* line 60, ../../../Desktop/Projects/netmatters/scss/_accreditations.scss */
     #accreditations .flex-row:nth-of-type(2) div:last-child {
       height: 70px; } }
+
+/* line 1, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+#sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 275px;
+  background: #333645;
+  z-index: -1; }
+
+/* line 10, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+.abs-line {
+  top: 15px !important; }
+
+/* line 14, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+.spin-out {
+  position: absolute;
+  top: 45px;
+  animation: spin-out 0.4s linear forwards; }
+
+/* line 19, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+.spin-in {
+  animation: spin-in 0.4s linear backwards; }
+
+/* line 22, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+.extra-spin {
+  animation: extra 0.1s linear forwards; }
+
+/* line 25, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+.extra-unspin {
+  animation: unextra 0.1s linear forwards; }
+
+@keyframes spin-out {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(405deg); } }
+
+@keyframes spin-in {
+  from {
+    transform: rotate(405deg); }
+  to {
+    transform: rotate(0deg); } }
+
+@keyframes extra {
+  from {
+    transform: rotate(405deg); }
+  to {
+    transform: rotate(495deg); } }
+
+@keyframes unextra {
+  from {
+    transform: rotate(495deg); }
+  to {
+    transform: rotate(405deg); } }
+
+/* line 62, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+.left {
+  position: absolute;
+  overflow-y: scroll;
+  height: 100vh;
+  animation: s-left 0.5s forwards; }
+
+/* line 68, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+.close {
+  animation: s-right 0.5s forwards; }
+
+@keyframes s-left {
+  from {
+    right: 0px;
+    filter: brightness(100%); }
+  to {
+    right: 275px;
+    filter: brightness(50%); } }
+
+@keyframes s-right {
+  from {
+    right: 275px;
+    filter: brightness(50%); }
+  to {
+    right: 0px;
+    filter: brightness(100%); } }
+
+@media (min-width: 992px) {
+  /* line 95, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+  #sidebar {
+    width: 350px; }
+  @keyframes s-left {
+    from {
+      right: 0px; }
+    to {
+      right: 350px; } }
+  @keyframes s-right {
+    from {
+      right: 350px; }
+    to {
+      right: 0px; } } }
 
 /*# sourceMappingURL=style.css.map */
