@@ -2398,67 +2398,103 @@ header {
       /* line 24, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
       #sidebar #mobile-nav > li > a {
         font-size: 1.125rem;
+        line-height: 25.7143px;
         padding: 19px 0 18px;
         border-radius: 3px;
         outline: 1px solid rgba(0, 0, 0, 0.25);
         border: 1px solid rgba(255, 255, 255, 0.1);
         display: block; }
-        /* line 31, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+        /* line 32, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
         #sidebar #mobile-nav > li > a .iconify {
-          padding-bottom: 10px;
-          font-size: 2rem; }
-        /* line 35, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+          padding-bottom: 1px;
+          font-size: 1.45rem; }
+        /* line 36, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
         #sidebar #mobile-nav > li > a small {
           display: block;
           font-size: .625rem;
           padding-bottom: 1px; }
-      /* line 41, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+      /* line 42, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
       #sidebar #mobile-nav > li ul {
         margin-top: 20px;
         list-style: none;
         border-radius: 3px; }
-        /* line 45, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+        /* line 46, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
         #sidebar #mobile-nav > li ul li {
           background-color: rgba(0, 0, 0, 0.25); }
-          /* line 47, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+          /* line 48, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
           #sidebar #mobile-nav > li ul li a {
             border-top: 1px solid rgba(255, 255, 255, 0.05);
             display: block;
             padding: 10px;
             line-height: 1.4285rem; }
-          /* line 53, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+          /* line 54, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
           #sidebar #mobile-nav > li ul li:not(:first-child) {
             border-top: 1px solid rgba(0, 0, 0, 0.45); }
+  /* line 62, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+  #sidebar #sidebar-nav {
+    margin-bottom: 0px; }
+    /* line 64, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+    #sidebar #sidebar-nav .services {
+      display: none; }
+    /* line 67, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+    #sidebar #sidebar-nav > li {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.25); }
+      /* line 70, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+      #sidebar #sidebar-nav > li a {
+        padding: 20px;
+        display: block;
+        text-align: left;
+        line-height: 16px; }
+      /* line 76, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+      #sidebar #sidebar-nav > li ul {
+        margin-bottom: 0; }
+        /* line 78, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+        #sidebar #sidebar-nav > li ul li {
+          border-top: 1px solid rgba(0, 0, 0, 0.45);
+          display: block; }
+          /* line 81, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+          #sidebar #sidebar-nav > li ul li a {
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            display: block;
+            font-size: .875rem;
+            line-height: 20px;
+            padding: 15px 20px;
+            background-color: rgba(0, 0, 0, 0.25); }
+            /* line 88, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+            #sidebar #sidebar-nav > li ul li a::before {
+              content: "\BB";
+              padding-right: 18px; }
 
-/* line 68, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+/* line 101, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
 #sidebar #mobile-nav li:nth-of-type(2) a .iconify {
   color: #67809f; }
 
-/* line 68, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+/* line 101, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
 #sidebar #mobile-nav li:nth-of-type(3) a .iconify {
   color: #4183d7; }
 
-/* line 68, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+/* line 101, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
 #sidebar #mobile-nav li:nth-of-type(4) a .iconify {
   color: #2ecc71; }
 
-/* line 68, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+/* line 101, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
 #sidebar #mobile-nav li:nth-of-type(5) a .iconify {
   color: #d64541; }
 
-/* line 68, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+/* line 101, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
 #sidebar #mobile-nav li:nth-of-type(6) a .iconify {
   color: #926fb1; }
 
-/* line 68, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+/* line 101, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
 #sidebar #mobile-nav li:nth-of-type(7) a .iconify {
   color: #f62459; }
 
-/* line 68, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+/* line 101, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
 #sidebar #mobile-nav li:nth-of-type(8) a .iconify {
   color: #926fb1; }
 
-/* line 73, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+/* line 106, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
 .menu-overlay {
   position: fixed;
   left: 0;
@@ -2472,25 +2508,25 @@ header {
 /****************************************/
 /************** Animations **************/
 /****************************************/
-/* line 88, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+/* line 121, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
 .abs-line {
   top: 15px !important; }
 
-/* line 92, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+/* line 125, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
 .spin-out {
   position: absolute;
   top: 45px;
   animation: spin-out 0.4s linear forwards; }
 
-/* line 97, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+/* line 130, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
 .spin-in {
   animation: spin-in 0.4s linear backwards; }
 
-/* line 100, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+/* line 133, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
 .extra-spin {
   animation: extra 0.1s linear forwards; }
 
-/* line 103, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+/* line 136, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
 .extra-unspin {
   animation: unextra 0.1s linear forwards; }
 
@@ -2518,12 +2554,12 @@ header {
   to {
     transform: rotate(405deg); } }
 
-/* line 140, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+/* line 173, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
 .left {
   position: absolute;
   animation: s-left 0.5s forwards; }
 
-/* line 144, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+/* line 177, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
 .close {
   animation: s-right 0.5s forwards; }
 
@@ -2547,9 +2583,15 @@ header {
 /************ Media Queries  ************/
 /****************************************/
 @media (min-width: 992px) {
-  /* line 176, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+  /* line 209, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
   #sidebar {
     width: 350px; }
+    /* line 211, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+    #sidebar #mobile-nav {
+      display: none; }
+    /* line 214, ../../../Desktop/Projects/netmatters/scss/_menu.scss */
+    #sidebar #sidebar-nav .services {
+      display: block; }
   @keyframes s-left {
     from {
       right: 0px;

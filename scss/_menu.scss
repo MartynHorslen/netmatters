@@ -23,14 +23,15 @@
             padding: 0 20px;
             > a {
                 font-size: 1.125rem;
+                line-height: 25.7143px;
                 padding: 19px 0 18px;
                 border-radius: 3px;
                 outline: 1px solid rgba(0,0,0,.25);
                 border: 1px solid hsla(0,0%,100%,.1);
                 display: block;
                 .iconify {
-                    padding-bottom: 10px;
-                    font-size: 2rem;
+                    padding-bottom: 1px;
+                    font-size: 1.45rem;
                 }
                 small {
                     display: block;
@@ -58,9 +59,41 @@
         }
     }
 
-    // #sidebar-nav {
-
-    // }
+    #sidebar-nav {   
+        margin-bottom: 0px;
+        .services {
+            display: none;
+        }
+        > li {
+            border-top: 1px solid hsla(0,0%,100%,.1);
+            border-bottom: 1px solid rgba(0,0,0,.25);
+            a {
+                padding: 20px;
+                display: block;
+                text-align: left;
+                line-height: 16px;
+            }
+            ul {
+                margin-bottom: 0;
+                li {
+                    border-top: 1px solid rgba(0,0,0,.45);
+                    display: block;
+                    a {
+                        border-top: 1px solid hsla(0,0%,100%,.05);
+                        display: block;
+                        font-size: .875rem;
+                        line-height: 20px;
+                        padding: 15px 20px;
+                        background-color: rgba(0,0,0,.25);
+                        &::before {
+                            content: "\BB";
+                            padding-right: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @each  $service, $name in $services{
@@ -175,7 +208,14 @@
 @media (min-width: 992px) {
     #sidebar {
         width: 350px;
+        #mobile-nav {
+            display: none;
+        }
+        #sidebar-nav .services {
+            display: block;
+        }
     }
+    
     @keyframes s-left {
         from {
             right: 0px;
