@@ -21,6 +21,9 @@
         > li {
             margin-top: 20px;
             padding: 0 20px;
+            &:hover > a{
+                background-color: hsla(0,0%,100%,.05);
+            }
             > a {
                 font-size: 1.125rem;
                 line-height: 25.7143px;
@@ -67,6 +70,9 @@
         > li {
             border-top: 1px solid hsla(0,0%,100%,.1);
             border-bottom: 1px solid rgba(0,0,0,.25);
+            &:hover > a {
+                background-color: hsla(0,0%,100%,.05);
+            }
             a {
                 padding: 20px;
                 display: block;
