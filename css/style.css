@@ -2842,74 +2842,75 @@ header {
       .cookie-extended-overlay .cookie-extended .table table {
         border-spacing: 0px;
         border-collapse: collapse;
-        text-indent: initial; }
-        /* line 231, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
+        text-indent: initial;
+        width: 100%; }
+        /* line 232, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
         .cookie-extended-overlay .cookie-extended .table table thead {
           background-color: #aaa;
           color: #fff; }
-          /* line 234, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
+          /* line 235, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
           .cookie-extended-overlay .cookie-extended .table table thead th {
             min-height: 20px;
             text-align: left;
             font-weight: normal; }
-        /* line 240, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
+        /* line 241, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
         .cookie-extended-overlay .cookie-extended .table table tbody {
           background-color: #ddd;
           color: #666; }
-        /* line 244, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
+        /* line 245, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
         .cookie-extended-overlay .cookie-extended .table table td, .cookie-extended-overlay .cookie-extended .table table th {
           border: 1px solid white;
           padding: 15px;
           line-height: 1.42857143; }
-        /* line 249, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
+        /* line 250, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
         .cookie-extended-overlay .cookie-extended .table table tr:first-child th {
           border-top: 0; }
-        /* line 252, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
+        /* line 253, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
         .cookie-extended-overlay .cookie-extended .table table tr:last-child td {
           border-bottom: 0; }
-        /* line 255, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
+        /* line 256, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
         .cookie-extended-overlay .cookie-extended .table table tr td:first-child, .cookie-extended-overlay .cookie-extended .table table tr th:first-child {
           border-left: 0; }
-        /* line 258, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
+        /* line 259, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
         .cookie-extended-overlay .cookie-extended .table table tr td:last-child, .cookie-extended-overlay .cookie-extended .table table tr th:last-child {
           border-right: 0; }
-      /* line 262, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
+      /* line 263, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
       .cookie-extended-overlay .cookie-extended .table .btns {
         display: flex;
         gap: 5px; }
 
 @media (min-width: 768px) {
-  /* line 270, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
+  /* line 271, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
   .cookie-overlay .cookie {
     max-width: 600px; }
-    /* line 272, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
+    /* line 273, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
     .cookie-overlay .cookie .footer {
       flex-direction: row;
       gap: 30px; }
-      /* line 275, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
+      /* line 276, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
       .cookie-overlay .cookie .footer .left-btn, .cookie-overlay .cookie .footer .right-btn {
         flex: 1; }
-      /* line 278, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
+      /* line 279, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
       .cookie-overlay .cookie .footer .left-btn {
         margin-bottom: 0; }
-  /* line 283, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
+  /* line 284, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
   .cookie-extended-overlay .cookie-extended {
     max-width: 750px; } }
 
 @media (min-width: 992px) {
-  /* line 289, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
+  /* line 290, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
   .cookie-extended-overlay .cookie-extended {
     max-width: 970px; }
-  /* line 292, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
+  /* line 293, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
   .footer, .btns {
     display: flex;
     justify-content: flex-end; }
-  /* line 296, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
+  /* line 297, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
   .tbl-btns {
     justify-content: flex-start; } }
 
 @media (min-width: 1260px) {
-  /* line 303, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
+  /* line 304, ../../../Desktop/Projects/netmatters/scss/_cookie.scss */
   .cookie-extended-overlay .cookie-extended {
     max-width: 1200px; } }
 
