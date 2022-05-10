@@ -94,7 +94,7 @@ a {
 
 /* line 124, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .hidden {
-  display: none; }
+  display: none !important; }
 
 /* line 128, ../../../Desktop/Projects/netmatters/scss/_general.scss */
 .wrapper {

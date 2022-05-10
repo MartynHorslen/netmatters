@@ -8,4 +8,5 @@ $(document).ready(function(){
         autoplaySpeed: 4000,
         arrows: false
     });
+    $('.jumbo').removeClass("hidden");
   });
