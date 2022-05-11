@@ -16,7 +16,11 @@
 body {
     position: relative;
     width: 100vw;
-    overflow-x: hidden;
+}
+body, html {
+    overflow-x:auto;
+    overflow-x:initial;
+    width: 100%;
 }
 
 //***** Debugging Class *****//
@@ -131,6 +135,8 @@ a {
     background-color: white;
     overflow-y: scroll;
     height: 100vh;
+    overflow-x:auto;
+    overflow-x:initial;
 }
 .flex-col {
     display: flex;

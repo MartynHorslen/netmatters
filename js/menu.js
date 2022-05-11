@@ -9,7 +9,6 @@ $(".menu").click((e)=>{
         }, 400);      
         $(".wrapper").addClass("left").removeClass('close');
         $(".menu-overlay").show();
-        $('#sticky').css("top", $(".wrapper").scrollTop()).css("left", "17px");
     }
     menuTime = Date.now() + 500;
 });
