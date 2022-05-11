@@ -142,7 +142,7 @@
                 }
             }
         }
-        .btns {
+        .btns, .drop {
             button, a {
                 height: auto;
                 line-height: 35px;
@@ -174,7 +174,7 @@
                 background-color: #fff;
                 border-color: #f0f0f0;
             }
-            .table-btn {
+            .table-btn, .drop-btn {
                 color: #fff;
                 background-color: #999aa2;
                 border-color: #999aa2;
@@ -222,7 +222,7 @@
         .table {
             border: 1px solid #ddd;
             width: 100%;
-            overflow-x: scroll;
+            overflow-x: auto;
             margin-bottom: 20px;
             table {
                 border-spacing: 0px;
@@ -246,6 +246,13 @@
                     border: 1px solid white;
                     padding: 15px;
                     line-height: 1.42857143;
+                    .jc-s {
+                        justify-content: start;
+                        button {
+                            line-height: 1;
+                            margin: 0;
+                        }
+                    }
                 }
                 tr:first-child th {
                     border-top: 0;
@@ -259,8 +266,11 @@
                 tr td:last-child, tr th:last-child {
                     border-right: 0;
                 }
+                tr td:first-child {
+                    cursor: pointer;
+                }
             }
-            .btns {
+            .btns, .drop {
                 display: flex;
                 gap: 5px;
             }

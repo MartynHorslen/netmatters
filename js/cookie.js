@@ -48,3 +48,12 @@ $(".left-btn-ext").click((e)=>{
     e.preventDefault();
     $(".cookie-extended-overlay").addClass("hidden");
 });
+$(".more").click((e)=>{
+    if ($(e.target).parent().next().hasClass("hidden")){
+        $(e.target).parent().next().removeClass("hidden");
+        $(e.target).children().text("-");
+    } else {
+        $(e.target).parent().next().addClass("hidden");
+        $(e.target).children().text("+");
+    }
+});
