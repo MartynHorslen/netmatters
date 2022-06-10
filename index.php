@@ -3,12 +3,7 @@ require_once('inc/functions.php');
 require_once('templates/head.php');
 ?>
     
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        <!-- Header & jumbotron wrapper-->
-        <div class="wrapper"><!-- 100% width -->
+
             <?php require_once('templates/header.php'); ?>
             <section id="front-page" class="flex-col"> <!-- Column for header and carousel, 100 vh -->
                 
