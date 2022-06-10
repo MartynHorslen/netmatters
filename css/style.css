@@ -2925,4 +2925,142 @@ header {
   .cookie-extended-overlay .cookie-extended {
     max-width: 1200px; } }
 
+/* line 1, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+.mobile-header {
+  background-color: #333645;
+  margin-bottom: 50px; }
+  /* line 4, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  .mobile-header h1 {
+    color: white;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 24px 15px;
+    text-transform: none; }
+
+/* line 13, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+.bc-container {
+  display: none; }
+
+/* line 17, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+.offices-container {
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column; }
+  /* line 21, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  .offices-container .office-card {
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px; }
+    /* line 27, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+    .offices-container .office-card .office-img a img {
+      max-width: 100%; }
+    /* line 32, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+    .offices-container .office-card .office-info {
+      padding: 30px; }
+      /* line 34, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+      .offices-container .office-card .office-info h4 {
+        margin: 0 0 15px;
+        text-transform: none; }
+        /* line 37, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+        .offices-container .office-card .office-info h4 a {
+          color: #333645;
+          text-decoration: none;
+          font-weight: 400;
+          font-size: 1.125rem; }
+          /* line 42, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+          .offices-container .office-card .office-info h4 a:hover {
+            text-decoration: underline; }
+      /* line 47, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+      .offices-container .office-card .office-info p {
+        font-size: .8125rem;
+        line-height: 1.375rem;
+        font-weight: 400;
+        margin-bottom: 15px;
+        color: #666; }
+      /* line 55, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+      .offices-container .office-card .office-info .tel a {
+        font-weight: 700;
+        color: #926fb1;
+        font-size: 1.625rem; }
+        /* line 59, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+        .offices-container .office-card .office-info .tel a:hover {
+          text-decoration: underline; }
+      /* line 64, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+      .offices-container .office-card .office-info .btn {
+        margin-top: 15px;
+        padding: 5px 25px;
+        background-color: #926fb1;
+        border: 1px solid #926fb1;
+        height: 47px;
+        width: 144px; }
+        /* line 71, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+        .offices-container .office-card .office-info .btn a {
+          color: #fff;
+          line-height: 35px;
+          font-size: .9rem; }
+
+@media (min-width: 768px) {
+  /* line 82, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  .bc-container {
+    display: block;
+    margin: 0 auto;
+    border-top: 1px solid #333645; }
+    /* line 86, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+    .bc-container .breadcrumbs {
+      padding: 14px 15px 13px;
+      max-width: 750px;
+      margin: 0 auto;
+      color: #333645;
+      font-size: .8125rem;
+      line-height: 1.42857143; }
+      /* line 93, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+      .bc-container .breadcrumbs a {
+        color: #333645;
+        font-size: .8125rem;
+        line-height: 1.42857143;
+        font-weight: 700; }
+        /* line 98, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+        .bc-container .breadcrumbs a:hover {
+          text-decoration: underline; }
+  /* line 104, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  .offices-container {
+    width: 750px;
+    margin: 0 auto; } }
+
+@media (min-width: 992px) {
+  /* line 110, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  .mobile-header {
+    background-color: #fff;
+    margin-bottom: 5px; }
+    /* line 113, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+    .mobile-header h1 {
+      color: #333645;
+      max-width: 970px; }
+  /* line 118, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  .bc-container {
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px; }
+    /* line 121, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+    .bc-container .breadcrumbs {
+      max-width: 970px; }
+  /* line 126, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  .offices-container {
+    width: 970px;
+    flex-direction: row;
+    gap: 30px; }
+    /* line 130, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+    .offices-container .office-card {
+      width: 33%; } }
+
+@media (min-width: 1260px) {
+  /* line 137, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  .mobile-header h1 {
+    max-width: 1200px; }
+  /* line 142, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  .bc-container .breadcrumbs {
+    max-width: 1200px; }
+  /* line 146, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  .offices-container {
+    width: 1200px; } }
+
 /*# sourceMappingURL=style.css.map */

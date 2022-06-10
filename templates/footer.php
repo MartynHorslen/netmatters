@@ -139,7 +139,7 @@
         </div>
         <div id="sidebar">
             <ul id="mobile-nav">
-                <li><a href="">Contact Us</a></li>
+                <li><a href="contact.php">Contact Us</a></li>
                 <li>
                     <a href=""><span class="iconify" data-icon="ci:grid"></span>
                         <small>Bespoke</small>Software</a>
@@ -271,7 +271,7 @@
                     <a href="">Covid Risk Assessments</a>
                 </li>
                 <li>
-                    <a href="">Contact Us</a>
+                    <a href="contact.php">Contact Us</a>
                     <ul>
                         <li><a href="">Cambridge Office</a></li>
                         <li><a href="">Wymondham Office</a></li>

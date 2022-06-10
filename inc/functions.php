@@ -13,4 +13,15 @@
         $results = $stmt->fetchAll(PDO::FETCH_ASSOC);
         return $results;
     }
+
+    function getBreadcrumbs(){
+        $uri = $_SERVER['REQUEST_URI'];
+        if(substr($uri, 12) == "contact.php"){
+            return '<a href="index.php">Home</a>&nbsp;&nbsp;/&nbsp;&nbsp;Our Offices';
+        }
+
+        $breadcrumb = str_replace("/netmatters/", '<a href="index.php">Home</a>  /  ', $uri);
+        $breadcrumb = str_replace(".php", "", $breadcrumb);
+        return ucwords($breadcrumb);
+    }
 ?>

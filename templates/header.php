@@ -15,7 +15,7 @@
                     </a>
                     <div class="flex-row">
                         <a class="support-btn btn" href="#"><i class="fa-solid fa-computer-mouse"></i>support</a>
-                        <a class="contact-btn btn" href="#"><i class="fa-regular fa-paper-plane"></i>contact</a>
+                        <a class="contact-btn btn" href="contact.php"><i class="fa-regular fa-paper-plane"></i>contact</a>
                         
                         <div class="top-search">
                             <form class="flex-row"> <!-- Row for search bar -->
