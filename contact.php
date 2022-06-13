@@ -2,6 +2,7 @@
 require_once('inc/functions.php');
 require_once('templates/head.php');
 require_once('templates/header.php');
+require_once('inc/contact-form.php');
 ?>
 
 <!-- Breadcrumbs -->
@@ -135,7 +136,7 @@ require_once('templates/header.php');
             </fieldset>
 
             <fieldset>
-                <button id="submit" value="submit" class="btn">Send Enquiry</button>
+                <button id="submit" name="contact-btn" value="submit" class="btn">Send Enquiry</button>
             </fieldset>
         </form>
         
