@@ -33,7 +33,7 @@ require_once('templates/header.php');
             <p class="tel"><a href="tel:01223375772">01223 37 57 72</a></p>
             <div class="btn"><a href="#">View More</a></div>
         </div>
-        <div class="office-map"></div>
+        <div id="c-map" class="office-map"></div>
     </div>
     
     <div class="office-card">
@@ -54,7 +54,7 @@ require_once('templates/header.php');
             <p class="tel"><a href="tel:01603704020">01603 70 40 20</a></p>
             <div class="btn"><a href="#">View More</a></div>
         </div>
-        <div class="office-map"></div>
+        <div id="w-map" class="office-map"></div>
     </div>
     
     <div class="office-card">
@@ -75,7 +75,7 @@ require_once('templates/header.php');
             <p class="tel"><a href="tel:01493603204">01493 60 32 04</a></p>
             <div class="btn"><a href="#">View More</a></div>
         </div>
-        <div class="office-map"></div>
+        <div id="y-map" class="office-map"></div>
     </div>
 </div>
 <!-- Contact Form -->

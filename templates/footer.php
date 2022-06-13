@@ -495,5 +495,8 @@
         
         <!-- Cookie Pop Up -->
         <script src="js/cookie.js"></script>
+
+        <!-- Leaflet Map -->
+        <script src="js/map.js"></script>
     </body>
 </html>
