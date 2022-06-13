@@ -18,6 +18,7 @@
     padding: 0 15px;
     display: flex;
     flex-direction: column;
+    margin-bottom: 15px;
     .office-card {
         margin-bottom: 30px;
         border: 1px solid #ccc;
@@ -77,6 +78,43 @@
         }
         .office-map {
             height: 300px;
+        }
+    }
+}
+
+.contact-text {
+    padding:0 15px;
+    p {
+        font-weight: 600;
+        color: #333645;
+        margin: 0px 0 35px;
+    }
+    .contact-email {
+        color: #926fb1;
+        font-size: 1.625rem;
+    }
+}
+
+.ooh {
+    padding:0 15px;
+    p {
+        margin: 0px 0 25px;
+    }
+    .ooh-link {
+        font-weight: 600;
+        color: #333645;
+        margin-bottom: 30px;
+    }
+    .ooh-dropdown {
+        p {
+            line-height: 1.875rem;
+            margin-bottom: 25px;
+            color: #666;
+            padding: 0 1px;
+        }
+        .ooh-bold {
+            font-weight: 600;
+            color: #333645;
         }
     }
 }

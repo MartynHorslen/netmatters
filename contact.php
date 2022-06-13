@@ -78,6 +78,25 @@ require_once('templates/header.php');
         <div id="y-map" class="office-map"></div>
     </div>
 </div>
+
 <!-- Contact Form -->
+<div class="contact-text">
+    <p>Email us on:</p>
+    <p><a href="mailto:sales@netmatters.com" class="contact-email">sales@netmatters.com</a></p>
+    <p>Business hours:</p>
+    <p>Monday - Friday 07:00 - 18:00 </p>
+</div>
+<div class="ooh">
+    <div class="ooh-link">
+        <a href="#">
+            <p>Out of Hours IT Support</p>
+        </a>
+    </div>
+    <div class="ooh-dropdown">
+        <p>Netmatters IT are offering an Out of Hours service for Emergency and Critical tasks.</p>
+        <p class="ooh-bold">Monday - Friday 18:00 - 22:00 Saturday 08:00 - 16:00<br />Sunday 10:00 - 18:00</p>
+        <p>To log a critical task, you will need to call our main line number and select Option 2 to leave an Out of Hours  voicemail. A technician will contact you on the number provided within 45 minutes of your call. </p>
+    </div>
+</div>
 
 <?php require_once('templates/footer.php'); ?>
