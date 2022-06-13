@@ -16,9 +16,7 @@
 
     function getBreadcrumbs(){
         $uri = $_SERVER['REQUEST_URI'];
-
-        $pos = strpos($uri, "?");
-        $uri = substr($uri, 12, $pos - 12);
+        $uri = substr($uri, 12);
         if($uri == "contact.php"){
             return '<a href="index.php">Home</a>&nbsp;&nbsp;/&nbsp;&nbsp;Our Offices';
         }

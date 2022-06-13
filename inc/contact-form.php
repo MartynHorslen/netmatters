@@ -24,7 +24,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
         if(!isset($_POST['message']) || $_POST['message'] == ""){
             $errors['message'] = "The message field is required.";
         }
-
         //filter the inputs and validate with regex.
         $name = trim(htmlspecialchars($_POST['full_name']));
         $email = trim(filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL));
@@ -36,8 +35,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
         } else {
             $marketing = 0;
         }
-
-        
         //Regex Validation
         if(!preg_match("/^[a-zA-Z- ]{2,35}$/", $name) && !isset($errors['name'])){
             $errors[] = "Name does meet required format.";
@@ -66,7 +63,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
             $stmt = $db->prepare($query);
             $stmt->bindParam(1, $name, PDO::PARAM_STR);
             $stmt->bindParam(2, $email, PDO::PARAM_STR);
-            $stmt->bindParam(3, $telephone, PDO::PARAM_INT);
+            $stmt->bindParam(3, $telephone, PDO::PARAM_STR);
             $stmt->bindParam(4, $subject, PDO::PARAM_STR);
             $stmt->bindParam(5, $message, PDO::PARAM_STR);
             $stmt->bindParam(6, $marketing, PDO::PARAM_INT);
