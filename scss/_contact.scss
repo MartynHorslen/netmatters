@@ -104,6 +104,9 @@
         font-weight: 600;
         color: #333645;
         margin-bottom: 30px;
+        &:hover, &:focus {
+            text-decoration: underline;
+        }
     }
     .ooh-dropdown {
         display: none;
@@ -121,17 +124,16 @@
 }
 
 .contact-form {
-    background-color: #e6e7e9;
-    border-radius: 10px;
-    padding: 30px 30px 5px;
-    margin: 0 15px 50px;
-
     form {
+        background-color: #e6e7e9;
+        border-radius: 10px;
+        padding: 30px 30px 5px;
+        margin: 0 15px 50px;
         &:nth-child(1) {
             display:flex;
             flex-direction: column;
         }
-        label {
+        fieldset label {
             font-weight: 600;
             color: #333645;
             margin: 5px 0;
@@ -187,14 +189,12 @@
         }
         fieldset {
             display: flex;
+            flex-direction: column;
             margin: 5px 0 25px;
             label:nth-of-type(1){
                 line-height: 32px;
                 margin: 0px 0;
                 cursor: pointer;
-                &:after {
-                    content: "";
-                }
 
                 a {
                     text-decoration: underline;
@@ -264,6 +264,11 @@
         width: 750px;
         margin: 0 auto;
     }
+    .contact-form, .contact-text, .ooh {
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 @media (min-width: 992px) {
     .mobile-header {
@@ -290,6 +295,37 @@
             width: 33%;
         }
     }
+    .contact-form, .contact-text, .ooh {
+        width: 970px;
+    }
+    .contact-form {
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            column-gap: 30px;
+            .checkbox {
+                flex-direction: row;
+                margin-bottom: 35px;
+            }
+            fieldset {
+                margin: 0px;
+                &:last-of-type {
+                    margin-bottom: 30px;
+                }
+            }
+            
+        }
+        form:nth-child(1) {
+            flex-direction: row;
+            justify-content: space-between;
+            .top {
+                width: 48%;
+            }
+            .bottom {
+                width: 100%;
+            }
+        }
+    }
 }
 @media (min-width: 1260px) {
     .mobile-header {
@@ -303,6 +339,9 @@
         }
     }
     .offices-container {
+        width: 1200px;
+    }
+    .contact-form, .contact-text, .ooh {
         width: 1200px;
     }
 }
