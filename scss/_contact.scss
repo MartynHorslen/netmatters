@@ -106,6 +106,7 @@
         margin-bottom: 30px;
     }
     .ooh-dropdown {
+        display: none;
         p {
             line-height: 1.875rem;
             margin-bottom: 25px;
@@ -115,6 +116,123 @@
         .ooh-bold {
             font-weight: 600;
             color: #333645;
+        }
+    }
+}
+
+.contact-form {
+    background-color: #e6e7e9;
+    border-radius: 10px;
+    padding: 30px 30px 5px;
+    margin: 0 15px 50px;
+
+    form {
+        &:nth-child(1) {
+            display:flex;
+            flex-direction: column;
+        }
+        label {
+            font-weight: 600;
+            color: #333645;
+            margin: 5px 0;
+            line-height: 1.42857143;
+
+            &::after {
+                content: " *";
+                color: #d24d57;
+            }
+        }
+
+        input, textarea {
+            height: 47px;
+            padding: 5px 15px;
+            border-color: #ccc;
+            background-color: #fff;
+            border: 1px solid #e5e5e5;
+            border-radius: 2px;
+            box-shadow: inset 0 0px 2px rgba(0, 0, 0, 8%);
+            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+            font-size: 14px;
+            line-height: 1.42857143;
+            color: #555;
+            margin-bottom: 10px;
+
+            &:focus {
+                border-color: #5bc0de;
+                outline: 0;
+                box-shadow: inset 0 0px 2px rgba(0, 0, 0, 8%), 0 0 8px rgba(91, 192, 222, 60%);
+            }
+        }
+        
+        textarea {
+            min-height: 100px;
+            height: 100px;
+        }
+
+        input, textarea {
+            &:required:valid {
+                border-color: none;
+            }
+            &:required:invalid:not(:placeholder-shown) {
+                border-color: #c00000;
+            }
+            &:valid {
+                border-color: none;
+            }
+        }
+
+        fieldset, input[type=checkbox] {
+            border: none;
+            box-shadow: none;
+        }
+        fieldset {
+            display: flex;
+            margin: 5px 0 25px;
+            label:nth-of-type(1){
+                line-height: 32px;
+                margin: 0px 0;
+                cursor: pointer;
+                &:after {
+                    content: "";
+                }
+
+                a {
+                    text-decoration: underline;
+                    color: #333645;
+                    &:hover {
+                        color: #121419;
+                    }
+                }
+            }
+            input[type=checkbox] {
+                flex: 1 0 auto;
+                -moz-appearance:none;
+                -webkit-appearance:none;
+                -o-appearance:none;
+                border-radius: 3px;
+                border: 3px solid $secondary;
+                height: 32px;
+                width: 32px;
+                position: relative;
+                float: left;
+                margin-right: 20px;
+                background-color: inherit;
+                &:checked {
+                    background-color: $secondary;
+                    &:before {
+                        content: url('https://api.iconify.design/charm/tick.svg?color=white&width=25&height=25');
+                        position: absolute;
+                        left: 3px;
+                        top: 0;
+                    }
+                }
+            }
+
+            #submit {
+                color: #fff;
+                background-color: #926fb1;
+                border: 1px solid #926fb1;
+            }
         }
     }
 }

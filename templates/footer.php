@@ -498,5 +498,8 @@
 
         <!-- Leaflet Map -->
         <script src="js/map.js"></script>
+
+        <!-- Contact Form -->
+        <script src="js/contact-form.js"></script>
     </body>
 </html>
