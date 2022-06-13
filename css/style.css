@@ -3116,38 +3116,46 @@ header {
   /* line 203, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
   .contact-form form textarea {
     min-height: 100px;
-    height: 100px; }
-  /* line 209, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+    height: 100px;
+    width: 100%; }
+  /* line 210, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
   .contact-form form input:required:valid, .contact-form form textarea:required:valid {
     border-color: none; }
-  /* line 212, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  /* line 213, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
   .contact-form form input:required:invalid:not(:placeholder-shown), .contact-form form textarea:required:invalid:not(:placeholder-shown) {
     border-color: #c00000; }
-  /* line 215, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  /* line 216, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
   .contact-form form input:valid, .contact-form form textarea:valid {
     border-color: none; }
-  /* line 220, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  /* line 221, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
   .contact-form form fieldset, .contact-form form input[type=checkbox] {
     border: none;
     box-shadow: none; }
-  /* line 224, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  /* line 226, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  .contact-form form .checkbox {
+    flex-direction: row;
+    margin-bottom: 35px; }
+  /* line 230, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  .contact-form form .button {
+    flex-direction: row;
+    margin-bottom: 30px; }
+  /* line 235, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
   .contact-form form fieldset {
     display: flex;
-    flex-direction: column;
-    margin: 5px 0 25px; }
-    /* line 228, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+    flex-direction: column; }
+    /* line 238, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
     .contact-form form fieldset label:nth-of-type(1) {
       line-height: 32px;
       margin: 0px 0;
       cursor: pointer; }
-      /* line 233, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+      /* line 243, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
       .contact-form form fieldset label:nth-of-type(1) a {
         text-decoration: underline;
         color: #333645; }
-        /* line 236, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+        /* line 246, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
         .contact-form form fieldset label:nth-of-type(1) a:hover {
           color: #121419; }
-    /* line 241, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+    /* line 251, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
     .contact-form form fieldset input[type=checkbox] {
       flex: 1 0 auto;
       -moz-appearance: none;
@@ -3161,28 +3169,28 @@ header {
       float: left;
       margin-right: 20px;
       background-color: inherit; }
-      /* line 254, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+      /* line 264, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
       .contact-form form fieldset input[type=checkbox]:checked {
         background-color: #333645; }
-        /* line 256, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+        /* line 266, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
         .contact-form form fieldset input[type=checkbox]:checked:before {
           content: url("https://api.iconify.design/charm/tick.svg?color=white&width=25&height=25");
           position: absolute;
           left: 3px;
           top: 0; }
-    /* line 265, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+    /* line 275, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
     .contact-form form fieldset #submit {
       color: #fff;
       background-color: #926fb1;
       border: 1px solid #926fb1; }
 
 @media (min-width: 768px) {
-  /* line 275, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  /* line 285, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
   .bc-container {
     display: block;
     margin: 0 auto;
     border-top: 1px solid #333645; }
-    /* line 279, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+    /* line 289, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
     .bc-container .breadcrumbs {
       padding: 14px 15px 13px;
       max-width: 750px;
@@ -3190,103 +3198,99 @@ header {
       color: #333645;
       font-size: .8125rem;
       line-height: 1.42857143; }
-      /* line 286, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+      /* line 296, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
       .bc-container .breadcrumbs a {
         color: #333645;
         font-size: .8125rem;
         line-height: 1.42857143;
         font-weight: 700; }
-        /* line 291, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+        /* line 301, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
         .bc-container .breadcrumbs a:hover {
           text-decoration: underline; }
-  /* line 297, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  /* line 307, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
   .offices-container {
     width: 750px;
     margin: 0 auto; }
-  /* line 301, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  /* line 311, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
   .contact-row {
     width: 750px;
     margin-left: auto;
     margin-right: auto; } }
 
 @media (min-width: 992px) {
-  /* line 308, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  /* line 318, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
   .mobile-header {
     background-color: #fff;
     margin-bottom: 5px; }
-    /* line 311, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+    /* line 321, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
     .mobile-header h1 {
       color: #333645;
       max-width: 970px; }
-  /* line 316, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  /* line 326, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
   .bc-container {
     box-shadow: 0 5px 35px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px; }
-    /* line 319, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+    /* line 329, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
     .bc-container .breadcrumbs {
       max-width: 970px; }
-  /* line 324, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  /* line 334, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
   .offices-container {
     width: 970px;
     flex-direction: row;
     gap: 30px; }
-    /* line 328, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+    /* line 338, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
     .offices-container .office-card {
       width: 33%; }
-  /* line 332, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  /* line 342, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
   .contact-row {
     width: 970px; }
-  /* line 336, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  /* line 346, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
   .contact-form form {
     display: flex;
     flex-wrap: wrap;
     column-gap: 30px; }
-    /* line 340, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
-    .contact-form form .checkbox {
-      flex-direction: row;
-      margin-bottom: 35px; }
-    /* line 344, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+    /* line 350, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
     .contact-form form fieldset {
       margin: 0px; }
-      /* line 346, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+      /* line 352, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
       .contact-form form fieldset:last-of-type {
         margin-bottom: 30px; }
-    /* line 350, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+    /* line 356, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
     .contact-form form .errors {
       width: 100%; }
-  /* line 354, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  /* line 360, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
   .contact-form form:nth-child(1) {
     flex-direction: row;
     justify-content: space-between; }
-    /* line 357, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+    /* line 363, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
     .contact-form form:nth-child(1) .top {
       width: 47%; }
-    /* line 360, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+    /* line 366, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
     .contact-form form:nth-child(1) .bottom {
       width: 100%; } }
 
 @media (min-width: 1260px) {
-  /* line 368, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  /* line 374, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
   .mobile-header h1 {
     max-width: 1200px; }
-  /* line 373, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  /* line 379, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
   .bc-container .breadcrumbs {
     max-width: 1200px; }
-  /* line 377, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  /* line 383, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
   .offices-container {
     width: 1200px; }
-  /* line 380, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  /* line 386, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
   .contact-row {
     width: 1200px; }
-  /* line 383, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+  /* line 389, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
   .contact-row {
     display: flex;
     flex-direction: row-reverse;
     row-gap: 30px; }
-    /* line 387, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+    /* line 393, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
     .contact-row .contact-form {
       width: 67%; }
-    /* line 390, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
+    /* line 396, ../../../Desktop/Projects/netmatters/scss/_contact.scss */
     .contact-row .contact-col {
       width: 33%; } }
 

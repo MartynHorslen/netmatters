@@ -152,7 +152,7 @@ require_once('inc/contact-form.php');
                     Please see our <a href="#">Privacy Policy</a> for more information on how we use your data.</label>
             </fieldset>
 
-            <fieldset>
+            <fieldset class="button">
                 <button id="submit" name="contact-btn" value="submit" class="btn">Send Enquiry</button>
             </fieldset>
         </form>
