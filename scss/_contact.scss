@@ -74,6 +74,9 @@
                     line-height: 35px;
                     font-size: .9rem;
                 }
+                &:hover {
+                    background-color: darken(#926fb1, 10%);
+                }
             }
         }
         .office-map {
@@ -231,6 +234,11 @@
             flex-direction: row;
             
             margin-bottom: 30px;
+            #submit {
+                &:hover {
+                    background-color: darken(#926fb1, 10%);
+                }
+            }
         }
         fieldset {
             display: flex;
