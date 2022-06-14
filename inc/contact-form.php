@@ -27,7 +27,13 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
         //filter the inputs and validate with regex.
         $name = trim(filter_input(INPUT_POST, 'full_name', FILTER_SANITIZE_FULL_SPECIAL_CHARS));
         $email = trim(filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL));
-        $telephone = trim(filter_input(INPUT_POST, 'telephone', FILTER_SANITIZE_FULL_SPECIAL_CHARS));
+        $telephone = trim(filter_input(INPUT_POST, 'telephone', 
+        FILTER_SANITIZE_FULL_SPECIAL_CHARS));
+        $dbtelephone = str_replace(' ', '', $telephone);
+        $dbtelephone = str_replace('-', '', $dbtelephone);
+        $dbtelephone = str_replace('(', '', $dbtelephone);
+        $dbtelephone = str_replace(')', '', $dbtelephone);
+
         $subject = trim(filter_input(INPUT_POST, 'subject', FILTER_SANITIZE_FULL_SPECIAL_CHARS));
         $message = trim(filter_input(INPUT_POST, 'message', FILTER_SANITIZE_FULL_SPECIAL_CHARS));
         if(!empty($_POST['marketing-info'])){
@@ -44,7 +50,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
             $errors[] = "Email does meet required format.";
         }
         
-        if(!preg_match("/^(?:0|\+?44)(?:\d\s?){9,10}$/", $telephone) && !isset($errors['telephone'])){
+        if(!preg_match("/^(?:0|\+?44)(?:\d\s?){9,10}$/", $dbtelephone) && !isset($errors['telephone'])){
             $errors[] = "Telephone does meet required format.";
         }
         
@@ -63,7 +69,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
             $stmt = $db->prepare($query);
             $stmt->bindParam(1, $name, PDO::PARAM_STR);
             $stmt->bindParam(2, $email, PDO::PARAM_STR);
-            $stmt->bindParam(3, $telephone, PDO::PARAM_STR);
+            $stmt->bindParam(3, $dbtelephone, PDO::PARAM_STR);
             $stmt->bindParam(4, $subject, PDO::PARAM_STR);
             $stmt->bindParam(5, $message, PDO::PARAM_STR);
             $stmt->bindParam(6, $marketing, PDO::PARAM_INT);
