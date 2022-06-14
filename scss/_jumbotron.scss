@@ -107,7 +107,7 @@
     }
 }
 @each $service, $name in $services{
-    $i: index($services, $service $name);
+    $i: index($services, $service $name) + 1;
     .jumbo:nth-of-type(#{$i}) .overlay .jumbo-content .btn {
         background-color:$name;
         &:hover {

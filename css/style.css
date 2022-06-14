@@ -733,52 +733,52 @@ header {
         opacity: 1; }
 
 /* line 111, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
-.jumbo:nth-of-type(1) .overlay .jumbo-content .btn {
+.jumbo:nth-of-type(2) .overlay .jumbo-content .btn {
   background-color: #67809f; }
   /* line 113, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
-  .jumbo:nth-of-type(1) .overlay .jumbo-content .btn:hover {
+  .jumbo:nth-of-type(2) .overlay .jumbo-content .btn:hover {
     background-color: #526781; }
 
 /* line 111, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
-.jumbo:nth-of-type(2) .overlay .jumbo-content .btn {
+.jumbo:nth-of-type(3) .overlay .jumbo-content .btn {
   background-color: #4183d7; }
   /* line 113, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
-  .jumbo:nth-of-type(2) .overlay .jumbo-content .btn:hover {
+  .jumbo:nth-of-type(3) .overlay .jumbo-content .btn:hover {
     background-color: #286abd; }
 
 /* line 111, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
-.jumbo:nth-of-type(3) .overlay .jumbo-content .btn {
+.jumbo:nth-of-type(4) .overlay .jumbo-content .btn {
   background-color: #2ecc71; }
   /* line 113, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
-  .jumbo:nth-of-type(3) .overlay .jumbo-content .btn:hover {
+  .jumbo:nth-of-type(4) .overlay .jumbo-content .btn:hover {
     background-color: #25a25a; }
 
 /* line 111, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
-.jumbo:nth-of-type(4) .overlay .jumbo-content .btn {
+.jumbo:nth-of-type(5) .overlay .jumbo-content .btn {
   background-color: #d64541; }
   /* line 113, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
-  .jumbo:nth-of-type(4) .overlay .jumbo-content .btn:hover {
+  .jumbo:nth-of-type(5) .overlay .jumbo-content .btn:hover {
     background-color: #bc2c28; }
 
 /* line 111, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
-.jumbo:nth-of-type(5) .overlay .jumbo-content .btn {
+.jumbo:nth-of-type(6) .overlay .jumbo-content .btn {
   background-color: #926fb1; }
   /* line 113, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
-  .jumbo:nth-of-type(5) .overlay .jumbo-content .btn:hover {
+  .jumbo:nth-of-type(6) .overlay .jumbo-content .btn:hover {
     background-color: #79539a; }
 
 /* line 111, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
-.jumbo:nth-of-type(6) .overlay .jumbo-content .btn {
+.jumbo:nth-of-type(7) .overlay .jumbo-content .btn {
   background-color: #f62459; }
   /* line 113, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
-  .jumbo:nth-of-type(6) .overlay .jumbo-content .btn:hover {
+  .jumbo:nth-of-type(7) .overlay .jumbo-content .btn:hover {
     background-color: #de093f; }
 
 /* line 111, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
-.jumbo:nth-of-type(7) .overlay .jumbo-content .btn {
+.jumbo:nth-of-type(8) .overlay .jumbo-content .btn {
   background-color: #926fb1; }
   /* line 113, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
-  .jumbo:nth-of-type(7) .overlay .jumbo-content .btn:hover {
+  .jumbo:nth-of-type(8) .overlay .jumbo-content .btn:hover {
     background-color: #79539a; }
 
 @media (min-width: 768px) {
