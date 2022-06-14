@@ -1,7 +1,7 @@
 <section id="email"><!-- for background -->
                 <div class="section-pad"><!-- for padding -->
                     <h2>Email Newsletter Sign-Up</h2>
-                    <form>
+                    <form method="POST">
                         <div class="form-left">
                             <label for="name">Your Name</label>
                             <input type="text" id="name" name="name" />
