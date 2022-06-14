@@ -148,7 +148,7 @@ require_once('inc/contact-form.php');
             </fieldset>
 
             <fieldset class="checkbox">
-                <input type="checkbox" name="marketing-info" id="marketing-info" class="" <?php if($marketing){ echo "checked"; }; ?> ><label for="marketing-info" class="privacy">Please tick this box if you wish to receive marketing information from us.
+                <input type="checkbox" name="marketing-info" <?php if($marketing){ echo "checked"; }; ?> ><label for="marketing-info" class="privacy">Please tick this box if you wish to receive marketing information from us.
                     Please see our <a href="#">Privacy Policy</a> for more information on how we use your data.</label>
             </fieldset>
 
