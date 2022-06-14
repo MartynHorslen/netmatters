@@ -431,14 +431,14 @@ header {
     background-color: #333645;
     color: white;
     text-align: center;
-    text-transform: uppercase; }
-    /* line 290, ../../../Desktop/Projects/netmatters/scss/_header.scss */
+    text-transform: uppercase;
+    position: relative; }
+    /* line 291, ../../../Desktop/Projects/netmatters/scss/_header.scss */
     #nav-bar .flex-row {
       width: 940px;
       margin: 0 auto;
       align-items: flex-start;
       height: auto;
-      position: relative;
       border-left: 1px solid rgba(255, 255, 255, 0.1);
       border-right: 1px solid rgba(0, 0, 0, 0.25); }
       /* line 298, ../../../Desktop/Projects/netmatters/scss/_header.scss */
@@ -482,7 +482,7 @@ header {
           /* line 335, ../../../Desktop/Projects/netmatters/scss/_header.scss */
           #nav-bar .flex-row > .flex-item .mini-bar::after {
             content: "";
-            left: -10px;
+            left: -17px;
             min-width: 100vw;
             max-width: 100vw;
             height: 40px;
@@ -618,10 +618,7 @@ header {
     width: 1170px; }
   /* line 421, ../../../Desktop/Projects/netmatters/scss/_header.scss */
   #nav-bar .flex-row > .flex-item .mini-bar ul li a {
-    font-size: 1rem; }
-  /* line 425, ../../../Desktop/Projects/netmatters/scss/_header.scss */
-  #nav-bar .flex-row > .flex-item .mini-bar::after {
-    left: -30px; } }
+    font-size: 1rem; } }
 
 /* line 1, ../../../Desktop/Projects/netmatters/scss/_jumbotron.scss */
 .slick-initialized .slick-slide {

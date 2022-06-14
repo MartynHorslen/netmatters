@@ -287,12 +287,12 @@ header {
         color: white;
         text-align: center;
         text-transform: uppercase;
+        position: relative;
         .flex-row {
             width: 940px;
             margin: 0 auto;
             align-items: flex-start;
             height: auto;
-            position: relative;
             border-left: 1px solid hsla(0,0%,100%,.1);
             border-right: 1px solid rgba(0,0,0,.25);
             > .flex-item {
@@ -334,7 +334,7 @@ header {
                     }
                     &::after {
                         content: "";
-                        left: -10px;
+                        left: -17px;
                         min-width: 100vw;
                         max-width: 100vw;
                         height: 40px;
@@ -421,9 +421,6 @@ header {
                         li a {
                             font-size: 1rem;
                         }
-                    }
-                    &::after {
-                        left: -30px;
                     }
                 }
                 
