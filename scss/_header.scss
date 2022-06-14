@@ -317,6 +317,7 @@ header {
                     display: none;
                     position: absolute;
                     top: 100%;
+                    width: 100%;
                     left: 0;
                     color: white;
                     z-index: 1;
@@ -346,7 +347,9 @@ header {
                     }
                     
                     ul {
-                        margin-left: 20px;
+                        margin: 0 auto;
+                        width: 940px;
+                        text-align: left;
                         li {
                             display: inline-block;
                             a {
@@ -418,6 +421,7 @@ header {
             > .flex-item {
                 .mini-bar {
                     ul {
+                        width: 1170px;
                         li a {
                             font-size: 1rem;
                         }

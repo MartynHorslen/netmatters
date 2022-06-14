@@ -13,10 +13,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
             $errors['name'] = "The name field is required.";
         }
         if(!isset($_POST['email']) || $_POST['email'] == ""){
-            $errors['email'] = "The telephone field is required.";
+            $errors['email'] = "The email field is required.";
         }
         if(!isset($_POST['telephone']) || $_POST['telephone'] == ""){
-            $errors['telephone'] = "The email field is required.";
+            $errors['telephone'] = "The telephone field is required.";
         }
         if(!isset($_POST['subject']) || $_POST['subject'] == ""){
             $errors['subject'] = "The subject field is required.";
