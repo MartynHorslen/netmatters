@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 13, 2022 at 06:24 PM
+-- Generation Time: Jun 14, 2022 at 10:01 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -53,7 +53,7 @@ CREATE TABLE `contact` (
   `id` int(11) NOT NULL,
   `name` varchar(40) NOT NULL,
   `email` varchar(100) NOT NULL,
-  `telephone` varchar(10) NOT NULL,
+  `telephone` varchar(11) NOT NULL,
   `subject` varchar(100) NOT NULL,
   `message` varchar(500) NOT NULL,
   `marketing` int(1) NOT NULL
@@ -65,7 +65,9 @@ CREATE TABLE `contact` (
 
 INSERT INTO `contact` (`id`, `name`, `email`, `telephone`, `subject`, `message`, `marketing`) VALUES
 (23, 'Martyn Horslen', 'martynhorslen@gmail.com', '0798424521', 'test', 'This is a test message.', 0),
-(24, 'Testy McTestalot', 'tester@te.st', '01234 5687', 'test', 'This is a test message.', 1);
+(24, 'Testy McTestalot', 'tester@te.st', '01234 5687', 'test', 'This is a test message.', 1),
+(25, 'Martyn Horslen', 'martynhorslen@gmail.com', '0798424521', 'sdghhfda', 'Robert&#039;); DROP TABLE STUDENTS; --', 1),
+(26, 'Martyn Horslen', 'martynhorslen@gmail.com', '0798424521', 'sdghhfda', 'Robert&#039;); DROP TABLE STUDENTS; --', 1);
 
 -- --------------------------------------------------------
 
@@ -79,8 +81,8 @@ CREATE TABLE `posts` (
   `description` varchar(103) NOT NULL,
   `link` varchar(100) NOT NULL,
   `tag_id` int(6) NOT NULL,
-  `post_img` varchar(100) NOT NULL DEFAULT current_timestamp(),
-  `date` datetime(6) NOT NULL,
+  `post_img` varchar(100) NOT NULL,
+  `date` datetime(6) NOT NULL DEFAULT current_timestamp(6),
   `author_id` int(6) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -157,7 +159,7 @@ ALTER TABLE `authors`
 -- AUTO_INCREMENT for table `contact`
 --
 ALTER TABLE `contact`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
 
 --
 -- AUTO_INCREMENT for table `posts`

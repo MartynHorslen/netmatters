@@ -25,11 +25,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
             $errors['message'] = "The message field is required.";
         }
         //filter the inputs and validate with regex.
-        $name = trim(htmlspecialchars($_POST['full_name']));
+        $name = trim(filter_input(INPUT_POST, 'full_name', FILTER_SANITIZE_FULL_SPECIAL_CHARS));
         $email = trim(filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL));
-        $telephone = trim(htmlspecialchars($_POST['telephone']));
-        $subject = trim(htmlspecialchars($_POST['subject']));
-        $message = trim(htmlspecialchars($_POST['message']));
+        $telephone = trim(filter_input(INPUT_POST, 'telephone', FILTER_SANITIZE_FULL_SPECIAL_CHARS));
+        $subject = trim(filter_input(INPUT_POST, 'subject', FILTER_SANITIZE_FULL_SPECIAL_CHARS));
+        $message = trim(filter_input(INPUT_POST, 'message', FILTER_SANITIZE_FULL_SPECIAL_CHARS));
         if(!empty($_POST['marketing-info'])){
             $marketing = 1;
         } else {

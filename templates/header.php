@@ -7,7 +7,7 @@
         <div id="sticky">
             <header class="flex-col col-pad"> <!-- column for logo row and search bar row -->
                 <div class="flex-row top-row"><!-- row for logo, phone & menu --> 
-                    <a class="flex-item" href="#">
+                    <a class="flex-item" href="index.php">
                         <img src="img/logo.png" alt="Netmatters">
                     </a>
                     <a class="phone" href="tel:01603704020">
