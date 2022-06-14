@@ -103,8 +103,8 @@ require_once('inc/contact-form.php');
         </div>
     </div>
 
-    <div class="contact-form">
-        <form method="POST">
+    <div id="contact-form" class="contact-form">
+        <form method="POST" action="#contact-form">
             <div class="errors">
                 <?php
                 if(!empty($errors)){

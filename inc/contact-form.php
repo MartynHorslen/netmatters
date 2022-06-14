@@ -80,6 +80,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
                 $errors[] = "There was an error sending your messages. Please try again.";
             } else {
                 $success = "Your message has been sent.";
+                $name = $email = $telephone = $subject = $message = "";
+                $marketing = 0;
             }
         }
     }
