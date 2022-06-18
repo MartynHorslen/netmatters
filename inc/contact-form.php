@@ -6,10 +6,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
 {
     $errors = [];
     
-
     //Check if contact-form was the form that was submitted and all fields were set.
     if (isset($_POST['contact-btn'])){
         if(!isset($_POST['full_name']) || $_POST['full_name'] == ""){
+            //If empty/not set, add error to the array.
             $errors['name'] = "The name field is required.";
         }
         if(!isset($_POST['email']) || $_POST['email'] == ""){
@@ -24,7 +24,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
         if(!isset($_POST['message']) || $_POST['message'] == ""){
             $errors['message'] = "The message field is required.";
         }
-        //filter the inputs and validate with regex.
+        
+        //Filter the inputs and validate with regex.
         $name = trim(filter_input(INPUT_POST, 'full_name', FILTER_SANITIZE_FULL_SPECIAL_CHARS));
         $email = trim(filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL));
         $telephone = trim(filter_input(INPUT_POST, 'telephone', 
@@ -42,11 +43,13 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
             $marketing = 0;
         }
         //Regex Validation
-        if(!preg_match("/^[a-zA-Z- ]{2,35}$/", $name) && !isset($errors['name'])){
+        //If input doesn't pass regex test and there isn't already an error for this field...
+        if(!preg_match("/^[a-zA-Z0-9- ]{2,35}$/", $name) && !isset($errors['name'])){
+            //Add error to array.
             $errors[] = "Name does meet required format.";
         }
 
-        if(!preg_match("/[a-z0-9!#$%&'*+\/=?^_`\"{|}~-]+(?:\.[a-z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9]{2}(?:[a-z0-9-]*[a-z0-9])?/", $email) && !isset($errors['email'])){
+        if(!preg_match("/^[a-z0-9!#$%&'*+\/=?^_`\"{|}~-]+(?:\.[a-z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-z0-9\[](?:[a-z0-9-]*[a-z0-9])?(?:\.){0,1})+[a-z]{2}(?:[a-z0-9-]*[a-z0-9])?$/", $email) && !isset($errors['email'])){
             $errors[] = "Email does meet required format.";
         }
         
@@ -61,7 +64,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
         if(!preg_match("/^[A-Za-z0-9\W]+/", $message) && !isset($errors['message'])){
             $errors[] = "Message does meet required format.";
         }
-            
+        //If no errors    
         if(empty($errors)){
             //Add to database
             include 'connection.php';
@@ -76,10 +79,14 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
 
             $result = $stmt->execute();
 
+            //If query doesn't get successfully executed
             if ($db->lastInsertId() == 0){
+                //Add to errors array
                 $errors[] = "There was an error sending your messages. Please try again.";
             } else {
+                //Add a success message
                 $success = "Your message has been sent.";
+                //Clear field variables so that form empties user's input.
                 $name = $email = $telephone = $subject = $message = "";
                 $marketing = 0;
             }
