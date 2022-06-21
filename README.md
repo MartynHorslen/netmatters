@@ -1,6 +1,6 @@
 # Recreating the Netmatters homepage.
-Live site [_here_]([http://](https://netmatters.martyn-horslen.netmatters-scs.co.uk/)).
-<br />
+Live site: [https://netmatters.martyn-horslen.netmatters-scs.co.uk/](https://netmatters.martyn-horslen.netmatters-scs.co.uk/).
+<br /><br />
 Original project: <strong>HTML & Sass</strong> - Completed: 07/04/22<br />
 First Update: <strong>JavaScript & jQuery</strong> - Completed: 11/05/22<br />
 Second Update: <strong>PHP & MySQL</strong> - Completed: 17/06/22<br />
