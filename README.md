@@ -5,9 +5,11 @@ Original project: <strong>HTML & Sass</strong> - Completed: 07/04/22<br />
 First Update: <strong>JavaScript & jQuery</strong> - Completed: 11/05/22<br />
 Second Update: <strong>PHP & MySQL</strong> - Completed: 17/06/22<br />
 <br />
+
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
+
 <!-- * [Features](#current-features)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
