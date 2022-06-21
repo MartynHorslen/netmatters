@@ -1,6 +1,9 @@
-# Creating the Netmatters homepage.
-Recreating the Netmatters homepage in HTML and Sass.
+# Recreating the Netmatters homepage.
 <!-- - Live demo [_here_](http://mch123.x10host.com). -->
+
+Original project: HTML & Sass - Completed 07/04/22
+First Update: JavaScript & jQuery - Completed 11/05/22
+Second Update: PHP & MySQL - 17/06/22
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -23,6 +26,9 @@ For my first project on the Netmatters Scion Coalition Scheme I will be building
 ## Technologies Used
 - HTML5
 - Sass (Scss)
+- JavaScript & jQuery (Cookies pop up, Sticky Navigation, Image Carousel/Slider & Sidebar menu).
+- Leaflet (JavaScript Library for interactive maps).
+- PHP & MySQL (Contact page form)
 
 
 <!-- ## Current Features
