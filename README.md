@@ -1,10 +1,10 @@
 # Recreating the Netmatters homepage.
 <!-- - Live demo [_here_](http://mch123.x10host.com). -->
-
-Original project: HTML & Sass - Completed 07/04/22
-First Update: JavaScript & jQuery - Completed 11/05/22
-Second Update: PHP & MySQL - 17/06/22
-
+<br />
+Original project: HTML & Sass - Completed 07/04/22<br />
+First Update: JavaScript & jQuery - Completed 11/05/22<br />
+Second Update: PHP & MySQL - 17/06/22<br />
+<br />
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
